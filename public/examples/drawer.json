@@ -1,0 +1,162 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": [
+      "../examples/drawer.js"
+    ]
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "button",
+            "description": "Button show",
+            "text": "",
+            "style": {
+              "attributes-input": "onclick=\"setDrawer(\"drawer0\", true)\"",
+              "-attributes-input": "onclick=\"setDrawer(\"drawer0\", true)\""
+            },
+            "phone": {},
+            "attributes": {
+              "onclick": "setDrawer(\"drawer0\", true)"
+            },
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "text",
+                "description": "",
+                "text": "Show",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": []
+              }
+            ]
+          },
+          {
+            "appId": 4,
+            "tag": "div",
+            "description": "Left drawer",
+            "text": "",
+            "style": {
+              "position": "fixed",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "background-color": "rgba(0, 0, 0, 0.15)",
+              "z-index": "999",
+              "attributes-input": "data-drawer=\"drawer0\"",
+              "-ts-transition": "opacity",
+              "-ts-duration": "250",
+              "-ts-delay": "0",
+              "-ts-ease": "linear",
+              "transition": "opacity 250ms 0ms linear",
+              "opacity": "0",
+              "display": "none",
+              "-attributes-input": "data-drawer=\"drawer0\":;onclick=\"hideDrawerFromLit(event)\""
+            },
+            "phone": {},
+            "attributes": {
+              "data-drawer": "drawer0",
+              "onclick": "hideDrawerFromLit(event)"
+            },
+            "childs": [
+              {
+                "appId": 5,
+                "tag": "div",
+                "description": "Drawer contents",
+                "text": "",
+                "style": {
+                  "position": "absolute",
+                  "top": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "width": "80%",
+                  "max-width": "300px",
+                  "background-color": "white",
+                  "-ts-blur": 10,
+                  "-ts-color": "rgba(0,0,0,0.20)",
+                  "box-shadow": "4px 0px 10px 0px rgba(0,0,0,0.20)",
+                  "-ts-horizontal": 4,
+                  "-ts-tr": "translate3d",
+                  "-ts-trans-x": "calc(-100-10px",
+                  "transform": "translate3d(calc(-100% - 10px), 0, 0)",
+                  "-ts-transition": "transform",
+                  "-ts-duration": "250",
+                  "-ts-delay": "0",
+                  "-ts-ease": "ease",
+                  "transition": "transform 250ms 0ms ease"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 6,
+                    "tag": "button",
+                    "description": "Button hide",
+                    "text": "",
+                    "style": {
+                      "attributes-input": "onclick=\"setDrawer(\"drawer0\", false)\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "onclick": "setDrawer(\"drawer0\", false)"
+                    },
+                    "childs": [
+                      {
+                        "appId": 7,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Hide",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

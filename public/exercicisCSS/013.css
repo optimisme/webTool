@@ -1,0 +1,12 @@
+.filtreGris {
+    filter: brightness(50%);
+}
+.filtreSepia {
+    filter: brightness(75%);
+}
+.filtreVibrant {
+    filter: brightness(100%);
+}
+.filtreDifuminat {
+    filter: brightness(125%);
+}

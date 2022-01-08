@@ -1,0 +1,15 @@
+@import url("./common-popup.css");
+.popupPointer {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    top: 0;
+    height: 0px;
+    position: absolute;
+    transform: rotateZ(270deg);
+    width: 0px;
+}
+.popupCss {
+    padding: 8px;
+    user-select: text;
+}

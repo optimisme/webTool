@@ -1,0 +1,24 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/shadows.svg"></div>
+    <div class="sectionTitle">Shadows</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-text class="hidden"  data-attr="box-shadow"         data-ref="box-shadow"   data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"></sdw-input-text>
+        <div class="boxed">
+            <sdw-list data-ref="shadows-list"           data-subtitle="Shadows" data-add="Add Shadow"   data-default="0 5px 10px 0 rgba(0,0,0,0.20)"></sdw-list>
+            <sdw-input-range data-attr="-ts-horizontal" data-ref="-ts-horizontal"                       data-update='false' data-img="./icons/shadowHorizontal.svg"        data-min="-25" data-max="25" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-vertical"   data-ref="-ts-vertical"                         data-update='false' data-img="./icons/shadowVertical.svg"          data-min="-25" data-max="25" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-blur"       data-ref="-ts-blur"                             data-update='false' data-img="./icons/shadowBlur.svg"              data-min="-25" data-max="25" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-spread"     data-ref="-ts-spread"                           data-update='false' data-img="./icons/shadowSpread.svg"            data-min="-25" data-max="25" data-step="1"></sdw-input-range>
+            <sdw-input-color data-attr="-ts-color"      data-ref="-ts-color"                            data-update='false' data-img="./icons/shadowColor.svg"></sdw-input-color>
+            <sdw-input-icons data-attr="-ts-set"        data-ref="-ts-set" data-update='false' >
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="outset"               data-img="./icons/shadowOutset.svg"             data-tooltip="Outet, shadow sets outside the box"></item>
+                <item data-value="inset"                data-img="./icons/shadowInset.svg"              data-tooltip="Inset, shadow sets inside the box"></item>
+            </sdw-input-icons>
+        </div>
+    </div>
+</div>

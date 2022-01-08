@@ -1,0 +1,153 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/019.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 5,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 6,
+                "tag": "h1",
+                "description": "Header 1",
+                "text": "",
+                "style": {
+                  "margin": "0"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 7,
+                    "tag": "text",
+                    "description": "",
+                    "text": "Dachshunds",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 11,
+                "tag": "div",
+                "description": "Block container direccio",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"direccio\"",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "direccio"
+                },
+                "childs": [
+                  {
+                    "appId": 10,
+                    "tag": "img",
+                    "description": "Image",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "src=\"/exercicisCSS/019.png\":;alt=\"Alternate text\"",
+                      "box-sizing": "border-box",
+                      "max-width": "200px"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "src": "/exercicisCSS/019.png",
+                      "alt": "Alternate text"
+                    },
+                    "childs": []
+                  },
+                  {
+                    "appId": 8,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 9,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Dachshunds are the most badass little dogs and they have a big dog complex. Here is  Martin insisting on the biggest stick he can find. He always had to match his ego.",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

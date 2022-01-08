@@ -1,0 +1,131 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/012.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "max-height": "200px",
+              "justify-content": "space-between"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 11,
+                "tag": "div",
+                "description": "Block container fotoCobreix",
+                "text": "",
+                "style": {
+                  "padding-right": "16px",
+                  "padding-left": "16px",
+                  "-attributes-input": "class=\"fotoCobreix\"",
+                  "min-width": "33%",
+                  "min-height": "150px",
+                  "box-sizing": "border-box"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "fotoCobreix"
+                },
+                "childs": []
+              },
+              {
+                "appId": 14,
+                "tag": "div",
+                "description": "Block container fotoContinguda",
+                "text": "",
+                "style": {
+                  "padding-right": "16px",
+                  "padding-left": "16px",
+                  "-attributes-input": "class=\"fotoContinguda\"",
+                  "min-width": "33%",
+                  "min-height": "150px",
+                  "box-sizing": "border-box"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "fotoContinguda"
+                },
+                "childs": []
+              },
+              {
+                "appId": 15,
+                "tag": "div",
+                "description": "Block container gradient",
+                "text": "",
+                "style": {
+                  "padding-right": "16px",
+                  "padding-left": "16px",
+                  "-attributes-input": "class=\"gradient\"",
+                  "min-width": "33%",
+                  "min-height": "150px",
+                  "box-sizing": "border-box"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "gradient"
+                },
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

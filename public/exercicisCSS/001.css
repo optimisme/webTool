@@ -1,0 +1,16 @@
+.vermell {
+    background-color:red;
+    height:50px;
+    left:25px;
+    position:absolute;
+    top:25px;
+    width:50px;
+}
+.verd {
+    background-color:green;
+    height:50px;
+    left:15px;
+    position:absolute;
+    top:15px;
+    width:50px;
+}

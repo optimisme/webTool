@@ -1,0 +1,71 @@
+:host {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: top 0.20s ease;
+}
+
+.main {
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    height: 24px;
+    padding: 0 8px;
+    width: 100%;
+    /* transition: height 0.20s ease; */
+}
+.empty {
+    background-color: white;
+    height: 24px;
+    width: 100%;
+}
+.selected {
+    background-color: rgba(194, 222, 248);
+}
+.main > div[data-ref="ident"] {
+    width: var(--itemLeft);
+    transition: width 0.20s ease;
+}
+.main > div[data-ref="empty"] {
+    display: block;
+    width: 16px;
+}
+.main > div[data-ref="arrow"] {
+    display: none;
+    height: 16px;
+    transform: rotateZ(0deg);
+    transition: transform 0.25s ease;
+    width: 16px;
+}
+.expanded {
+    transform: rotateZ(90deg) !important;
+}
+.main > div[data-ref="box"] {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    overflow: hidden; 
+    max-width: calc(100% - var(--itemMax));
+    transition: max-width 0.20s ease;
+}
+.main > div[data-ref="box"] > div[data-ref="text"] {
+    color: gray;
+    font-size: 0.65em;
+    margin-right: 4px;
+}
+.main > div[data-ref="box"] > div[data-ref="tag"] {
+    color: green;
+    font-size: 0.65em;
+    margin-right: 4px;
+}
+.main > div[data-ref="box"] > div[data-ref="description"] {
+    font-size: 0.75em;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    max-width: 100%;
+}

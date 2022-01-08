@@ -1,0 +1,689 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/006.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 11,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "500px",
+              "padding-right": "32px",
+              "padding-left": "32px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "div",
+                "description": "Block container centrat",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"centrat\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "centrat"
+                },
+                "childs": [
+                  {
+                    "appId": 6,
+                    "tag": "div",
+                    "description": "Block container 1",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 7,
+                    "tag": "div",
+                    "description": "Block container 2",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 8,
+                    "tag": "div",
+                    "description": "Block container 3",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 9,
+                    "tag": "div",
+                    "description": "Block container 4",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 10,
+                    "tag": "div",
+                    "description": "Block container 5",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 12,
+                "tag": "div",
+                "description": "Block container espaiat",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"espaiat\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "espaiat"
+                },
+                "childs": [
+                  {
+                    "appId": 13,
+                    "tag": "div",
+                    "description": "Block container 1",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 14,
+                    "tag": "div",
+                    "description": "Block container 2",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 15,
+                    "tag": "div",
+                    "description": "Block container 3",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 16,
+                    "tag": "div",
+                    "description": "Block container 4",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 17,
+                    "tag": "div",
+                    "description": "Block container 5",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 18,
+                "tag": "div",
+                "description": "Block container voltant",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"voltant\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "voltant"
+                },
+                "childs": [
+                  {
+                    "appId": 19,
+                    "tag": "div",
+                    "description": "Block container 1",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 20,
+                    "tag": "div",
+                    "description": "Block container 2",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 21,
+                    "tag": "div",
+                    "description": "Block container 3",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 22,
+                    "tag": "div",
+                    "description": "Block container 4",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 23,
+                    "tag": "div",
+                    "description": "Block container 5",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 24,
+                "tag": "div",
+                "description": "Block container uniforme",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"uniforme\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "uniforme"
+                },
+                "childs": [
+                  {
+                    "appId": 25,
+                    "tag": "div",
+                    "description": "Block container 1",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 26,
+                    "tag": "div",
+                    "description": "Block container 2",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 27,
+                    "tag": "div",
+                    "description": "Block container 3",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 28,
+                    "tag": "div",
+                    "description": "Block container 4",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 29,
+                    "tag": "div",
+                    "description": "Block container 5",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 30,
+                "tag": "div",
+                "description": "Block container principi",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"principi\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "principi"
+                },
+                "childs": [
+                  {
+                    "appId": 31,
+                    "tag": "div",
+                    "description": "Block container 1",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 32,
+                    "tag": "div",
+                    "description": "Block container 2",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 33,
+                    "tag": "div",
+                    "description": "Block container 3",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 34,
+                    "tag": "div",
+                    "description": "Block container 4",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 35,
+                    "tag": "div",
+                    "description": "Block container 5",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 36,
+                "tag": "div",
+                "description": "Block container final",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"final\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "final"
+                },
+                "childs": [
+                  {
+                    "appId": 37,
+                    "tag": "div",
+                    "description": "Block container 1",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 38,
+                    "tag": "div",
+                    "description": "Block container 2",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 39,
+                    "tag": "div",
+                    "description": "Block container 3",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 40,
+                    "tag": "div",
+                    "description": "Block container 4",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  },
+                  {
+                    "appId": 41,
+                    "tag": "div",
+                    "description": "Block container 5",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "height": "50px",
+                      "background-color": "grey",
+                      "border-radius": "16px",
+                      "margin-right": "10px",
+                      "margin-left": "10px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/018.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 6,
+                "tag": "img",
+                "description": "Image",
+                "text": "",
+                "style": {
+                  "-attributes-input": "src=\"/exercicisCSS/018.jpeg\":;alt=\"Alternate text\"",
+                  "box-sizing": "border-box",
+                  "max-width": "200px",
+                  "margin": "25px"
+                },
+                "phone": {},
+                "attributes": {
+                  "src": "/exercicisCSS/018.jpeg",
+                  "alt": "Alternate text"
+                },
+                "childs": []
+              },
+              {
+                "appId": 4,
+                "tag": "p",
+                "description": "Paragraph of text",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"paragraf\"",
+                  "margin": "0"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "paragraf"
+                },
+                "childs": [
+                  {
+                    "appId": 5,
+                    "tag": "text",
+                    "description": "",
+                    "text": "Una de les races més polivalents per a la caça, sigui major o menor, és el Teckel o Dachshund. La seva petita grandària, unida al seu temperament equilibrat i al seu extraordinari olfacte el converteixen en un animal molt apreciat pels caçadors. Va ser creat per a la caça en qualsevol de les seves tres varietats de grandària (estàndard, miniatura i kaninchen) i de pèl (curt, llarg i dur). El Teckel reuneix les qualitats de gairebé tots els gossos de caça. En mans d'un bon caçador, que sàpiga ensenyar-lo i ensinistrar-lo, pot donar excel·lents resultats. En la Caça Menor, el Teckel es mostra incansable amb els conills entre el bosc, recorrent metòdicament cada racó i cada mata amb el seu fi olfacte. És extraordinari el treball que fa entre esbarzers, joncs i rierols amb vegetació espessa. També sorprèn d'aquesta raça la seva facilitat per a la collida (fins i tot a l'aigua) de coloms, perdius, ànecs, conills, llebres, i un sens fi d'espècies.",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

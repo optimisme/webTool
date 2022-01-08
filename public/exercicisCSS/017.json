@@ -1,0 +1,96 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/017.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 4,
+                "tag": "p",
+                "description": "Paragraph of text",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"paragraf\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "paragraf"
+                },
+                "childs": [
+                  {
+                    "appId": 5,
+                    "tag": "text",
+                    "description": "",
+                    "text": "The exploration of space will go ahead, whether we join in it or not, and it is one of the great adventures of all time, and no nation which expects to be the leader of other nations can expect to stay behind in the race for space.",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

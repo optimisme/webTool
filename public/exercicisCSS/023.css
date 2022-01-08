@@ -1,0 +1,11 @@
+:root {
+    --color-principal: orange;
+}
+
+H1 {
+    color: var(--color-principal);
+}
+
+ion-icon {
+    color: green;
+}

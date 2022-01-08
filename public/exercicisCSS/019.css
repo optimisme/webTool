@@ -1,0 +1,16 @@
+body {
+    background-color: grey;
+}
+@media only screen and (max-width: 768px) {
+    body { 
+      background-color: green;
+    }
+}
+.direccio {
+    flex-direction: row;
+}
+@media only screen and (max-width: 768px) {
+    .direccio {
+        flex-direction: row-reverse;
+    }
+}

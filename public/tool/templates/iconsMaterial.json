@@ -1,0 +1,356 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "div",
+            "description": "Examples",
+            "text": "",
+            "style": {},
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "span",
+                "description": "Home outlined",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons-outlined"
+                },
+                "childs": [
+                  {
+                    "appId": 4,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "home",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 5,
+                "tag": "span",
+                "description": "Account outlined",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons-outlined"
+                },
+                "childs": [
+                  {
+                    "appId": 6,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "account_circle",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 7,
+                "tag": "span",
+                "description": "Search outlined",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons-outlined"
+                },
+                "childs": [
+                  {
+                    "appId": 8,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "search",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 9,
+                "tag": "span",
+                "description": "Done outlined",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons-outlined"
+                },
+                "childs": [
+                  {
+                    "appId": 10,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 11,
+                "tag": "span",
+                "description": "Info",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons"
+                },
+                "childs": [
+                  {
+                    "appId": 12,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 13,
+                "tag": "span",
+                "description": "Delete",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons"
+                },
+                "childs": [
+                  {
+                    "appId": 14,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "delete",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 15,
+                "tag": "span",
+                "description": "Shopping cart",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons"
+                },
+                "childs": [
+                  {
+                    "appId": 16,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "shopping_cart",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 17,
+                "tag": "span",
+                "description": "Fingerprint",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons-round"
+                },
+                "childs": [
+                  {
+                    "appId": 18,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "fingerprint",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 19,
+                "tag": "span",
+                "description": "Favorite border",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"material-icons\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons"
+                },
+                "childs": [
+                  {
+                    "appId": 20,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "favorite_border",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 21,
+                "tag": "span",
+                "description": "Favorite",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"material-icons\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "material-icons"
+                },
+                "childs": [
+                  {
+                    "appId": 22,
+                    "tag": "text",
+                    "description": "Text",
+                    "text": "favorite",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 23,
+                "tag": "div",
+                "description": "Block container",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 24,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "display": "inline-block"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 25,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Get more icons from: ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 28,
+                    "tag": "a",
+                    "description": "Link",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "href=\"https://fonts.google.com/icons?selected=Material+Icons+Outlined\":;target=\"_blank\"",
+                      "display": "inline",
+                      "margin-left": "8px"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "href": "https://fonts.google.com/icons?selected=Material+Icons+Outlined",
+                      "target": "_blank"
+                    },
+                    "childs": [
+                      {
+                        "appId": 29,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Google fonts",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

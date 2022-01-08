@@ -1,0 +1,42 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/typography.svg"></div>
+    <div class="sectionTitle">Typography</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-select data-attr="font-family"   data-ref="font-family"  data-options='["initial"]' data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family"></sdw-input-select>
+        <sdw-input-select data-attr="font-weight"   data-ref="font-weight"  data-options='["initial", "100", "200", "300", "normal", "500", "600", "bold", "800", "900"]' data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight"></sdw-input-select>
+        <sdw-input-size   data-attr="font-size"     data-ref="font-size"    data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size"></sdw-input-size>
+        <sdw-input-color  data-attr="color"         data-ref="color"        data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/color"></sdw-input-color>
+        <sdw-input-icons  data-attr="text-align"    data-ref="text-align"   data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">
+            <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+            <item data-value="left"                 data-img="./icons/textLeft.svg"                 data-tooltip="Left"></item>
+            <item data-value="center"               data-img="./icons/textCenter.svg"               data-tooltip="Center"></item>
+            <item data-value="right"                data-img="./icons/textRight.svg"                data-tooltip="Right"></item>
+            <item data-value="justify"              data-img="./icons/textJustify.svg"              data-tooltip="Justify"></item>
+        </sdw-input-icons>
+        <sdw-input-icons data-attr="font-style"     data-ref="font-style"   data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style">
+            <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+            <item data-value="normal"               data-img="./icons/fontStyleNormal.svg"          data-tooltip="Normal"></item>
+            <item data-value="italic"               data-img="./icons/fontStyleItalic.svg"          data-tooltip="Italic"></item>
+            <item data-value="oblique"              data-img="./icons/fontStyleOblique.svg"         data-tooltip="Oblique"></item>
+        </sdw-input-icons>
+        <sdw-input-icons data-attr="text-transform" data-ref="text-tranform" data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform">
+            <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+            <item data-value="none"                 data-img="./icons/textTransformNone.svg"        data-tooltip="None"></item>
+            <item data-value="uppercase"            data-img="./icons/textTransformUppercase.svg"   data-tooltip="Uppercase"></item>
+            <item data-value="lowercase"            data-img="./icons/textTransformLowercase.svg"   data-tooltip="Lowercase"></item>
+            <item data-value="capitalize"           data-img="./icons/textTransformCapitalize.svg"  data-tooltip="Capitalize, all words with first letter capitalized"></item>
+            <item data-value="full-width"           data-img="./icons/textTransformFullWidth.svg"   data-tooltip="Full-width, similar to monospace"></item>
+        </sdw-input-icons>
+        <sdw-input-icons data-attr="text-decoration" data-ref="text-decoration" data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration">
+            <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+            <item data-value="none"                 data-img="./icons/textDecorationNone.svg"       data-tooltip="None"></item>
+            <item data-value="underline"            data-img="./icons/textDecorationUnderline.svg"  data-tooltip="Underline"></item>
+            <item data-value="overline"             data-img="./icons/textDecorationOverline.svg"   data-tooltip="Overline"></item>
+            <item data-value="line-through"         data-img="./icons/textDecorationThrough.svg"    data-tooltip="Line-through"></item>
+        </sdw-input-icons>
+    </div>
+</div>

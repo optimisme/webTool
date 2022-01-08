@@ -1,0 +1,201 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    ],
+    "scripts": [
+      "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ]
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 6,
+            "tag": "div",
+            "description": "Examples",
+            "text": "",
+            "style": {},
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 2,
+                "tag": "ion-icon",
+                "description": "Ion icon bug",
+                "text": "",
+                "style": {
+                  "-attributes-input": "name=\"bug-outline\""
+                },
+                "phone": {},
+                "attributes": {
+                  "name": "bug-outline"
+                },
+                "childs": []
+              },
+              {
+                "appId": 3,
+                "tag": "ion-icon",
+                "description": "Ion icon heart",
+                "text": "",
+                "style": {
+                  "-attributes-input": "name=\"logo-facebook\""
+                },
+                "phone": {},
+                "attributes": {
+                  "name": "logo-facebook"
+                },
+                "childs": []
+              },
+              {
+                "appId": 4,
+                "tag": "ion-icon",
+                "description": "Ion icon heart",
+                "text": "",
+                "style": {
+                  "-attributes-input": "name=\"bowling-ball-outline\""
+                },
+                "phone": {},
+                "attributes": {
+                  "name": "bowling-ball-outline"
+                },
+                "childs": []
+              },
+              {
+                "appId": 5,
+                "tag": "ion-icon",
+                "description": "Ion icon heart",
+                "text": "",
+                "style": {
+                  "-attributes-input": "name=\"beer-outline\""
+                },
+                "phone": {},
+                "attributes": {
+                  "name": "beer-outline"
+                },
+                "childs": []
+              },
+              {
+                "appId": 27,
+                "tag": "div",
+                "description": "Block container",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 28,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "display": "inline-block"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 29,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Get more icons from: ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 30,
+                    "tag": "a",
+                    "description": "Link",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "href=\"https://ionic.io/ionicons\":;target=\"_blank\"",
+                      "display": "inline",
+                      "margin-left": "8px"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "href": "https://ionic.io/ionicons",
+                      "target": "_blank"
+                    },
+                    "childs": [
+                      {
+                        "appId": 31,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Ion icons",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "appId": 12,
+            "tag": "table",
+            "description": "Table",
+            "text": "",
+            "style": {},
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 13,
+                "tag": "tr",
+                "description": "Table row",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

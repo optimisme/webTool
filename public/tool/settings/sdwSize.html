@@ -1,0 +1,24 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/size.svg"></div>
+    <div class="sectionTitle">Size</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-icons data-attr="box-sizing"     data-ref="box-sizing"                   data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing">
+            <item data-value="initial"              data-img="./icons/initial.svg"          data-tooltip="Initial, removes this property"></item>
+            <item data-value="content-box"          data-img="./icons/sizingContent.svg"    data-tooltip="content-box, size does not include border or padding"></item>
+            <item data-value="border-box"           data-img="./icons/sizingBorder.svg"     data-tooltip="border-box, size includes border and padding"></item>
+        </sdw-input-icons>
+        <sdw-input-size data-attr="width"           data-ref="width"                        data-img="./icons/sizingWidth.svg" data-auto="true"     data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/width"></sdw-input-size>
+        <sdw-input-size data-attr="min-width"       data-ref="min-width"                    data-auto="true"                                        data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/min-width"></sdw-input-size>
+        <sdw-input-size data-attr="max-width"       data-ref="max-width"                    data-auto="true"                                        data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/max-width"></sdw-input-size>
+        <sdw-input-size data-attr="height"          data-ref="height"                       data-img="./icons/sizingHeight.svg" data-auto="true"    data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/height"></sdw-input-size>
+        <sdw-input-size data-attr="min-height"      data-ref="min-height"                   data-auto="true"                                        data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/min-height"></sdw-input-size>
+        <sdw-input-size data-attr="max-height"      data-ref="max-height"                   data-auto="true"                                        data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/max-height"></sdw-input-size>
+        <div class="help">
+            Examples:<br/>12px<br/>calc(50% - 16px)
+        </div>
+    </div>
+</div>

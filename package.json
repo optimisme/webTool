@@ -1,0 +1,22 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "Servidor simple",
+  "keywords": [],
+  "author": {
+    "name": "Nom de l'autor",
+    "email": "autor@exemple.com"
+  },
+  "bundleDependencies": [],
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "watch": "npm run app",
+    "app": "supervisor --extensions node,js,html,css --ignore .git,node_modules --ignore-symlinks node -- ./server.js",
+    "postinstall": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "supervisor": "^0.12.0"
+  }
+}

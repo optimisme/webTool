@@ -1,0 +1,162 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "margin-top": "16px",
+              "margin-bottom": "16px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "div",
+                "description": "Rounded background",
+                "text": "",
+                "style": {
+                  "display": "flex",
+                  "box-sizing": "border-box",
+                  "width": "100%",
+                  "background-color": "#c9c9c9",
+                  "border-radius": "16px",
+                  "overflow": "hidden"
+                },
+                "phone": {
+                  "flex-direction": "column"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "div",
+                    "description": "Text container",
+                    "text": "",
+                    "style": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "box-sizing": "border-box",
+                      "width": "50%",
+                      "padding": "32px"
+                    },
+                    "phone": {
+                      "padding": "16px",
+                      "width": "100%"
+                    },
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "h1",
+                        "description": "Header 1",
+                        "text": "",
+                        "style": {
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "What makes it great",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "The one thing that has shaped our world to the one we know today is happiness. I believe that happiness is available to anyone at any moment at any place. I believe that we're not the only ones experiencing it. Everybody experiences it differently, but in the end, it is the same.",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "description": "Picture container",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "width": "50%",
+                      "background": "center / cover url(\"./images/image7.jpg\")",
+                      "min-height": "250px"
+                    },
+                    "phone": {
+                      "min-height": "200px",
+                      "min-width": "100%"
+                    },
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

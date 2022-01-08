@@ -1,0 +1,401 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/004.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 5,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 6,
+                "tag": "img",
+                "description": "Image",
+                "text": "",
+                "style": {
+                  "-attributes-input": "src=\"/exercicisCSS/004.jpeg\":;alt=\"Teckel\"",
+                  "box-sizing": "border-box",
+                  "max-width": "200px"
+                },
+                "phone": {},
+                "attributes": {
+                  "src": "/exercicisCSS/004.jpeg",
+                  "alt": "Teckel"
+                },
+                "childs": []
+              },
+              {
+                "appId": 7,
+                "tag": "h1",
+                "description": "Header 1",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 8,
+                    "tag": "text",
+                    "description": "",
+                    "text": "Teckel",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 15,
+                "tag": "div",
+                "description": "Block container",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 9,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 10,
+                        "tag": "text",
+                        "description": "",
+                        "text": "El ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 11,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\"",
+                      "font-weight": "bold"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 12,
+                        "tag": "text",
+                        "description": "",
+                        "text": "dachshund ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 13,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 14,
+                        "tag": "text",
+                        "description": "",
+                        "text": "(\"gos teixó\" en ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 16,
+                    "tag": "a",
+                    "description": "Link",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "href=\"https://ca.wikipedia.org/wiki/Alemany\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "href": "https://ca.wikipedia.org/wiki/Alemany"
+                    },
+                    "childs": [
+                      {
+                        "appId": 17,
+                        "tag": "text",
+                        "description": "",
+                        "text": "alemany",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 18,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 19,
+                        "tag": "text",
+                        "description": "",
+                        "text": "), també dit ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 20,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\"",
+                      "font-weight": "bold"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 21,
+                        "tag": "text",
+                        "description": "",
+                        "text": "teckel",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 24,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 25,
+                        "tag": "text",
+                        "description": "",
+                        "text": ", o ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 22,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\"",
+                      "font-weight": "bold"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 23,
+                        "tag": "text",
+                        "description": "",
+                        "text": "gos salsitxa",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 26,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 27,
+                        "tag": "text",
+                        "description": "",
+                        "text": ", és una raça de ",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 28,
+                    "tag": "a",
+                    "description": "Link",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "href=\"https://ca.wikipedia.org/wiki/Gos\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "href": "https://ca.wikipedia.org/wiki/Gos"
+                    },
+                    "childs": [
+                      {
+                        "appId": 29,
+                        "tag": "text",
+                        "description": "",
+                        "text": "gos",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 30,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "class=\"enlinia\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "class": "enlinia"
+                    },
+                    "childs": [
+                      {
+                        "appId": 31,
+                        "tag": "text",
+                        "description": "",
+                        "text": ". Té tres varietats: de pèl curt, de pèl dur i de pèl llarg.",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

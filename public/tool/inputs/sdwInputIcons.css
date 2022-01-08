@@ -1,0 +1,15 @@
+@import url("./inputs/common-input.css");
+.icon {
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 2px;
+}
+.icon > img {
+    align-items: center;
+    display: flex;
+    padding: 0 2px;
+    height: 16px;
+    width: 16px;
+}

@@ -1,0 +1,42 @@
+.previewSelect0 {
+    border: solid 1px rgb(0, 91, 187);
+    position: absolute;
+    top: 0px;
+    height: 0px;
+    left: 0px;
+    width: 0px;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1000000;
+}
+.previewSelect1 {
+    border: dashed 1px white;
+    position: absolute;
+    top: 0px;
+    height: 0px;
+    left: 0px;
+    width: 0px;
+    user-select: none;
+    pointer-events: none;
+    z-index: 1000001;
+}
+.margin {
+    background-color: rgba(255, 174, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    height: 0px;
+    left: 0px;
+    width: 0px;
+    user-select: none;
+    pointer-events: none;
+}
+.padding {
+    background-color: rgba(147, 196, 98, 0.5);
+    position: absolute;
+    top: 0px;
+    height: 0px;
+    left: 0px;
+    width: 0px;
+    user-select: none;
+    pointer-events: none;
+}

@@ -1,0 +1,18 @@
+.quadre0 {
+    background-color: lightskyblue;
+    height: 50px;
+    margin-top: 50px;
+    width: 100px;
+}
+
+.quadre0:hover {
+    background-color: black;
+    width: 200px;
+}
+
+.quadre1 {
+    background-color: lightseagreen;
+    height: 50px;
+    margin-top: 50px;
+    width: 100px;
+}

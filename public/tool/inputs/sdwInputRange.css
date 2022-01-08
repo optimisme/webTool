@@ -1,0 +1,11 @@
+@import url("./inputs/common-input.css");
+input {
+    height: 21px;
+}
+.text {
+    align-items: center;
+    display: flex;
+    font-size: 0.75em;
+    justify-content: center;
+    width: 25px;
+}

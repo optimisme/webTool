@@ -1,0 +1,373 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans",
+      "Lobster"
+    ],
+    "stylesheets": [],
+    "scripts": [
+      "../examples/carouselArrows.js"
+    ]
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "div",
+            "description": "Carousel",
+            "text": "",
+            "style": {
+              "position": "relative"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "div",
+                "description": "Carousel frame",
+                "text": "",
+                "style": {
+                  "overflow": "hidden"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 4,
+                    "tag": "div",
+                    "description": "Carousel images",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "height": "300px",
+                      "display": "flex",
+                      "-ts-tr": "translate3d",
+                      "transform": "translate3d(0, 0, 0)",
+                      "-ts-trans-x": "0",
+                      "-ts-trans-y": "0",
+                      "-ts-trans-z": "0",
+                      "-ts-transition": "transform",
+                      "transition": "transform 250ms 0ms ease",
+                      "-ts-duration": "250",
+                      "-ts-delay": "0",
+                      "-ts-ease": "ease",
+                      "attributes-input": "data-carousel=\"images\"",
+                      "-attributes-input": "data-carousel=\"images\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "data-carousel": "images"
+                    },
+                    "childs": [
+                      {
+                        "appId": 5,
+                        "tag": "div",
+                        "description": "Background Image",
+                        "text": "",
+                        "style": {
+                          "background-color": "lightgrey",
+                          "background": "center / cover url(\"./images/image0.jpg\")",
+                          "box-sizing": "border-box",
+                          "height": "100%",
+                          "min-width": "100%",
+                          "display": "flex",
+                          "flex-direction": "column",
+                          "align-items": "center",
+                          "justify-content": "center"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "appId": 6,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "font-family": "Lobster",
+                              "font-size": "2em",
+                              "color": "#ffffff",
+                              "margin": "0",
+                              "box-sizing": "border-box"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 7,
+                                "tag": "text",
+                                "description": "",
+                                "text": "Change the world from home",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "appId": 8,
+                        "tag": "div",
+                        "description": "Background Image",
+                        "text": "",
+                        "style": {
+                          "background-color": "lightgrey",
+                          "background": "center / cover url(\"./images/image5.jpg\")",
+                          "box-sizing": "border-box",
+                          "height": "100%",
+                          "min-width": "100%",
+                          "display": "flex",
+                          "flex-direction": "column",
+                          "align-items": "center",
+                          "justify-content": "center"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "appId": 9,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "font-family": "Lobster",
+                              "font-size": "2em",
+                              "color": "#ffffff",
+                              "margin": "0",
+                              "box-sizing": "border-box"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 10,
+                                "tag": "text",
+                                "description": "",
+                                "text": "Small improvements that makes it great",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "appId": 11,
+                        "tag": "div",
+                        "description": "Background Image",
+                        "text": "",
+                        "style": {
+                          "background-color": "lightgrey",
+                          "background": "center / cover url(\"./images/image7.jpg\")",
+                          "box-sizing": "border-box",
+                          "height": "100%",
+                          "min-width": "100%",
+                          "display": "flex",
+                          "flex-direction": "column",
+                          "align-items": "center",
+                          "justify-content": "center"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "appId": 12,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "font-family": "Lobster",
+                              "font-size": "2em",
+                              "color": "#ffffff",
+                              "margin": "0",
+                              "box-sizing": "border-box"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 13,
+                                "tag": "text",
+                                "description": "",
+                                "text": "Success stories from real world",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 14,
+                    "tag": "div",
+                    "description": "Left arrow box",
+                    "text": "",
+                    "style": {
+                      "position": "absolute",
+                      "top": "0",
+                      "left": "0",
+                      "bottom": "0",
+                      "box-sizing": "border-box",
+                      "width": "50px",
+                      "display": "flex",
+                      "attributes-input": "data-carousel=\"leftArrow\"",
+                      "-ts-transition": "opacity",
+                      "-ts-duration": "250",
+                      "-ts-delay": "0",
+                      "-ts-ease": "ease",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "-ts-tr": "scale3d",
+                      "-ts-trans-x": "0",
+                      "-ts-trans-y": "0",
+                      "-ts-trans-z": "0",
+                      "transform": "scale3d(0, 0, 1)",
+                      "-ts-scale-x": "0",
+                      "-ts-scale-y": "0",
+                      "-ts-scale-z": "1",
+                      "pointer-events": "none",
+                      "opacity": "0",
+                      "transition": "transform 250ms 0ms ease, opacity 250ms 0ms ease"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "data-carousel": "leftArrow"
+                    },
+                    "childs": [
+                      {
+                        "appId": 15,
+                        "tag": "div",
+                        "description": "Left arrow",
+                        "text": "",
+                        "style": {
+                          "border-top": "solid 8px white",
+                          "border-right": "solid 8px white",
+                          "width": "16px",
+                          "height": "16px",
+                          "-ts-tr": "rotate3d",
+                          "transform": "rotate3d(0, 0, 1, 225deg)",
+                          "-ts-trans-x": "0",
+                          "-ts-trans-y": "0",
+                          "-ts-trans-z": "0",
+                          "-ts-rotate-z": "1",
+                          "-ts-rotate-a": "225",
+                          "cursor": "pointer",
+                          "-ts-rotate-x": "0",
+                          "-ts-rotate-y": "0"
+                        },
+                        "phone": {},
+                        "attributes": {
+                          "onclick": "setCarouselArrows(this, \"left\")"
+                        },
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 16,
+                    "tag": "div",
+                    "description": "Right arrow box",
+                    "text": "",
+                    "style": {
+                      "position": "absolute",
+                      "top": "0",
+                      "bottom": "0",
+                      "box-sizing": "border-box",
+                      "width": "50px",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "right": "0",
+                      "attributes-input": "data-carousel=\"rightArrow\"",
+                      "-ts-transition": "opacity",
+                      "-ts-duration": "250",
+                      "-ts-delay": "0",
+                      "-ts-ease": "ease",
+                      "transition": "transform 250ms 0ms ease, opacity 250ms 0ms ease"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "data-carousel": "rightArrow"
+                    },
+                    "childs": [
+                      {
+                        "appId": 17,
+                        "tag": "div",
+                        "description": "Right arrow",
+                        "text": "",
+                        "style": {
+                          "border-top": "solid 8px white",
+                          "border-right": "solid 8px white",
+                          "width": "16px",
+                          "height": "16px",
+                          "-ts-tr": "rotate3d",
+                          "transform": "rotate3d(0, 0, 1, 45deg)",
+                          "-ts-trans-x": "0",
+                          "-ts-trans-y": "0",
+                          "-ts-trans-z": "0",
+                          "-ts-rotate-z": "1",
+                          "-ts-rotate-a": "45",
+                          "cursor": "pointer",
+                          "-ts-rotate-x": "0",
+                          "-ts-rotate-y": "0"
+                        },
+                        "phone": {},
+                        "attributes": {
+                          "onclick": "setCarouselArrows(this, \"right\")"
+                        },
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/filter.svg"></div>
+    <div class="sectionTitle">Filters</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-text class="hidden" data-attr="filter"  data-ref="filter"></sdw-input-text>
+        <div class="boxed">
+            <sdw-list data-ref="filter-list"                data-subtitle="Filters"     data-add="Add Filter"  data-default="blur(5px)"></sdw-list>
+            <sdw-input-select   data-attr="-ts-f"           data-ref="-ts-f"            data-options='["initial", "blur", "brightness", "contrast", "grayscale", "hue-rotate", "invert", "opacity", "saturate", "sepia"]'></sdw-input-select>
+            <sdw-input-size     data-attr="-ts-f-size"      data-ref="-ts-f-size"></sdw-input-size>
+            <sdw-input-range    data-attr="-ts-f-angle"     data-ref="-ts-f-angle"      data-img="./icons/filterAngle.svg" data-min="0" data-max="359"></sdw-input-range>
+            <sdw-input-range    data-attr="-ts-f-percent"   data-ref="-ts-f-percent"    data-min="0" data-max="100" data-step="1"></sdw-input-range>
+            <sdw-input-range    data-attr="-ts-f-percent2"  data-ref="-ts-f-percent2"   data-min="0" data-max="500" data-step="1"></sdw-input-range>
+            <sdw-input-float    data-attr="-ts-f-amount"    data-ref="-ts-f-amount"></sdw-input-float>
+            </div>
+        </div>
+    </div>
+</div>

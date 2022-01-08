@@ -1,0 +1,23 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/paragraphColumns.svg"></div>
+    <div class="sectionTitle">Paragraph columns</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-integer  data-attr="column-count"    data-ref="column-count" placeholder="Ex: 2, 3 ..."  data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/column-count"></sdw-input-integer>
+        <sdw-input-size     data-attr="column-width"    data-ref="column-width"                             data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/column-width"></sdw-input-size>
+        <sdw-input-size     data-attr="column-gap"      data-ref="column-gap"                               data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap"></sdw-input-size>
+        <sdw-input-icons data-attr="column-rule-style"  data-ref="border-left-style"                        data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-style">
+            <item data-value="initial"                  data-img="./icons/initial.svg"                      data-tooltip="Initial, removes this property"></item>
+            <item data-value="solid"                    data-img="./icons/borderStyleSolid.svg"             data-tooltip="solid, border is a line"></item>
+            <item data-value="dotted"                   data-img="./icons/borderStyleDotted.svg"            data-tooltip="dotted, border is a line of dots"></item>
+            <item data-value="dashed"                   data-img="./icons/borderStyleDashed.svg"            data-tooltip="dashed, border is dashed"></item>
+            <item data-value="double"                   data-img="./icons/borderStyleDouble.svg"            data-tooltip="double, border is two lines"></item>
+        </sdw-input-icons>
+        <sdw-input-size     data-attr="column-rule-width"   data-ref="column-rule-width"                    data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-width"></sdw-input-size>
+        <sdw-input-color    data-attr="column-rule-color"   data-ref="column-rule-color"                    data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-color"></sdw-input-color>
+        <sdw-input-select   data-attr="column-span"         data-ref="column-span"     data-options='["initial", "none", "all"]'    data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/column-span"></sdw-input-select>
+    </div>
+</div>

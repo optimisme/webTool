@@ -1,0 +1,497 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>siteTitle</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="/examples/formStyled.css" rel="stylesheet" />
+  <link href="/examples/scrollMovement.css" rel="stylesheet" />
+  <link href="/examples/scrollAction.css" rel="stylesheet" />
+  <script src="/examples/carouselArrows.js"></script>
+  <script src="/examples/drawer.js"></script>
+  <script src="/examples/actionSheet.js"></script>
+  <script src="/examples/scrollMovement.js"></script>
+  <script src="/examples/scrollAction.js"></script>
+  <style>
+*[data-css="elm1"] { 
+  font-family:Open Sans;
+  margin:0;
+  padding:0;
+}
+*[data-css="elm2"] { 
+  position:relative;
+}
+*[data-css="elm3"] { 
+  overflow:hidden;
+}
+*[data-css="elm4"] { 
+  attributes-input:data-carousel="images";
+  box-sizing:border-box;
+  display:flex;
+  height:300px;
+  transform:translate3d(0, 0, 0);
+  transition:transform 250ms 0ms ease;
+}
+*[data-css="elm5"] { 
+  background:center / cover url("/tool/images/image0.jpg");
+  background-color:lightgrey;
+  box-sizing:border-box;
+  height:100%;
+  min-width:100%;
+}
+*[data-css="elm6"] { 
+  background:center / cover url("/tool/images/image5.jpg");
+  background-color:lightgrey;
+  box-sizing:border-box;
+  height:100%;
+  min-width:100%;
+}
+*[data-css="elm7"] { 
+  background:center / cover url("/tool/images/image7.jpg");
+  background-color:lightgrey;
+  box-sizing:border-box;
+  height:100%;
+  min-width:100%;
+}
+*[data-css="elm8"] { 
+  align-items:center;
+  attributes-input:data-carousel="leftArrow";
+  bottom:0;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  position:absolute;
+  top:0;
+  transform:scale3d(0, 0, 1);
+  transition:transform 250ms 0ms ease, opacity 250ms 0ms ease;
+  width:50px;
+}
+*[data-css="elm9"] { 
+  border-right:solid 8px white;
+  border-top:solid 8px white;
+  cursor:pointer;
+  height:16px;
+  transform:rotate3d(0, 0, 1, 225deg);
+  width:16px;
+}
+*[data-css="elm10"] { 
+  align-items:center;
+  attributes-input:data-carousel="rightArrow";
+  bottom:0;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  position:absolute;
+  right:0;
+  top:0;
+  transition:transform 250ms 0ms ease, opacity 250ms 0ms ease;
+  width:50px;
+}
+*[data-css="elm11"] { 
+  border-right:solid 8px white;
+  border-top:solid 8px white;
+  cursor:pointer;
+  height:16px;
+  transform:rotate3d(0, 0, 1, 45deg);
+  width:16px;
+}
+*[data-css="elm12"] { 
+  attributes-input:onclick="setDrawer("drawer0", true)";
+}
+*[data-css="elm14"] { 
+  attributes-input:data-drawer="drawer0";
+  background-color:rgba(0, 0, 0, 0.15);
+  bottom:0;
+  display:none;
+  left:0;
+  opacity:0;
+  position:fixed;
+  right:0;
+  top:0;
+  transition:opacity 250ms 0ms linear;
+  z-index:999;
+}
+*[data-css="elm15"] { 
+  background-color:white;
+  bottom:0;
+  box-shadow:4px 0px 10px 0px rgba(0,0,0,0.20);
+  left:0;
+  max-width:300px;
+  position:absolute;
+  top:0;
+  transform:translate3d(calc(-100% - 10px), 0, 0);
+  transition:transform 250ms 0ms ease;
+  width:80%;
+}
+*[data-css="elm16"] { 
+  attributes-input:onclick="setDrawer("drawer0", false)";
+}
+*[data-css="elm18"] { 
+  attributes-input:onclick="setDrawer("drawer0", true)";
+}
+*[data-css="elm20"] { 
+  attributes-input:data-drawer="drawer0";
+  backdrop-filter:blur(10px) saturate(180%);
+  background-color:rgba(255,255,255,0.7);
+  bottom:0;
+  display:none;
+  left:0;
+  opacity:0;
+  overflow:hidden;
+  position:fixed;
+  right:0;
+  top:0;
+  transition:opacity 250ms 0ms linear;
+  z-index:999;
+}
+*[data-css="elm21"] { 
+  background-color:white;
+  border:solid 1px #e7e7e7;
+  border-radius:10px;
+  bottom:15px;
+  box-sizing:border-box;
+  margin-left:10%;
+  margin-right:10%;
+  max-width:80%;
+  min-width:80%;
+  padding:8px;
+  position:absolute;
+  transform:translate3d(0, calc(100% + 25px), 0);
+  transition:transform 250ms 0ms ease;
+}
+*[data-css="elm22"] { 
+  attributes-input:onclick="setDrawer("drawer0", false)";
+}
+*[data-css="elm24"] { 
+  align-items:center;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:500px;
+  padding-left:32px;
+  padding-right:32px;
+  width:100%;
+}
+@media only screen and (max-width: 768px) {
+  *[data-css="elm24"] { 
+    padding-left:16px;
+    padding-right:16px;
+  }
+}
+*[data-css="elm25"] { 
+  box-sizing:border-box;
+  padding:8px;
+}
+*[data-css="elm32"] { 
+  box-sizing:border-box;
+  padding:8px;
+}*[data-css="elm37"] { 
+  box-sizing:border-box;
+  padding:8px;
+}
+*[data-css="elm46"] { 
+  box-sizing:border-box;
+  padding:8px;
+}*[data-css="elm51"] { 
+  box-sizing:border-box;
+  padding:8px;
+}
+*[data-css="elm58"] { 
+  box-sizing:border-box;
+  padding:8px;
+}
+*[data-css="elm65"] { 
+  box-sizing:border-box;
+  padding:8px;
+}
+*[data-css="elm78"] { 
+  box-sizing:border-box;
+  padding:8px;
+}*[data-css="elm83"] { 
+  box-sizing:border-box;
+  padding:8px;
+}*[data-css="elm86"] { 
+  align-items:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+*[data-css="elm87"] { 
+  align-items:center;
+  border:dashed 5px gray;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  justify-content:center;
+  padding:100px;
+}
+*[data-css="elm88"] { 
+  font-size:5em;
+}
+*[data-css="elm90"] { 
+  align-items:center;
+  background-color:#eaad2a;
+  border-radius:25px;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  height:100px;
+  justify-content:center;
+  margin:15px;
+  padding:25px;
+  width:100px;
+}
+*[data-css="elm91"] { 
+  margin:0;
+}
+*[data-css="elm93"] { 
+  align-items:center;
+  border:dashed 5px gray;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  justify-content:center;
+  padding:100px;
+}
+*[data-css="elm94"] { 
+  font-size:5em;
+}
+*[data-css="elm96"] { 
+  align-items:center;
+  border:dashed 5px gray;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  justify-content:center;
+  padding:100px;
+}
+*[data-css="elm97"] { 
+  font-size:5em;
+}
+*[data-css="elm99"] { 
+  box-sizing:border-box;
+  display:flex;
+  justify-content:space-evenly;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:1264px;
+  padding-left:32px;
+  padding-right:32px;
+  width:100%;
+}
+@media only screen and (max-width: 768px) {
+  *[data-css="elm99"] { 
+    padding-left:16px;
+    padding-right:16px;
+  }
+}
+*[data-css="elm100"] { 
+  align-items:center;
+  background-color:#24b6ff;
+  border-radius:25px;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  height:300px;
+  justify-content:center;
+  width:300px;
+}*[data-css="elm103"] { 
+  align-items:center;
+  background-color:#6ac71f;
+  border-radius:25px;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  height:300px;
+  justify-content:center;
+  margin-top:100px;
+  width:300px;
+}
+
+  </style>
+</head>
+<!-- 
+ Prevent unauthorized spaces and line jumps inside body:
+ 🤦‍♂️ https://css-tricks.com/fighting-the-space-between-inline-block-elements/ 
+
+<body data-css="elm1" data-description="Body">
+  <div data-css="elm2" data-description="Carousel">
+    <div data-css="elm3" data-description="Carousel frame">
+      <div data-css="elm4" data-carousel="images" data-description="Carousel images">
+        <div data-css="elm5" data-description="Background Image"></div>
+        <div data-css="elm6" data-description="Background Image"></div>
+        <div data-css="elm7" data-description="Background Image"></div>
+      </div>
+      <div data-css="elm8" data-carousel="leftArrow" data-description="Left arrow box">
+        <div data-css="elm9" onclick="setCarouselArrows(this, &quot;left&quot;)" data-description="Left arrow"></div>
+      </div>
+      <div data-css="elm10" data-carousel="rightArrow" data-description="Right arrow box">
+        <div data-css="elm11" onclick="setCarouselArrows(this, &quot;right&quot;)" data-description="Right arrow"></div>
+      </div>
+    </div>
+  </div>
+  <button data-css="elm12" onclick="setDrawer(&quot;drawer0&quot;, true)" data-description="Button show">
+    Show
+  </button>
+  <div data-css="elm14" data-drawer="drawer0" onclick="hideDrawerFromLit(event)" data-description="Left drawer">
+    <div data-css="elm15" data-description="Drawer contents">
+      <button data-css="elm16" onclick="setDrawer(&quot;drawer0&quot;, false)" data-description="Button hide">
+        Hide
+      </button>
+    </div>
+  </div>
+  <button data-css="elm18" onclick="setActionSheet(&quot;as0&quot;, true)" data-description="Button show">
+    Show
+  </button>
+  <div data-css="elm20" data-actionsheet="as0" onclick="hideActionSheetFromLit(event)" data-description="Action sheet">
+    <div data-css="elm21" data-description="Action sheet contents">
+      <button data-css="elm22" onclick="setActionSheet(&quot;as0&quot;, false)" data-description="Button hide">
+        Hide
+      </button>
+    </div>
+  </div>
+  <div data-css="elm24" data-description="Form elements">
+    <div data-css="elm25" data-description="Separator"></div>
+    <div class="formInputText" data-description="Input Text">
+      <input placeholder="yes" pattern="[^0-9]*" autocomplete="off" type="text" data-description="Form input"></input>
+      <label data-description="Label">
+        Name
+      </label>
+      <span data-description="Span container">
+        Numbers not allowed
+      </span>
+    </div>
+    <div data-css="elm32" data-description="Separator"></div>
+    <label class="formCheckbox" data-description="Checkbox">
+      <input type="checkbox" value="v0" data-description="Form input"></input>
+      <span data-description="Span container">
+        Checkbox text
+      </span>
+    </label>
+    <div data-css="elm37" data-description="Separator"></div>
+    <label class="formRadio" data-description="Radio 0">
+      <input type="radio" name="group" value="r0" data-description="Form input"></input>
+      <span data-description="Span container">
+        Radio 0 text
+      </span>
+    </label>
+    <label class="formRadio" data-description="Radio 1">
+      <input type="radio" name="group" value="r1" data-description="Form input"></input>
+      <span data-description="Span container">
+        Radio 1 text
+      </span>
+    </label>
+    <div data-css="elm46" data-description="Separator"></div>
+    <label class="formRange" data-description="Range slider">
+      <input type="range" min="0" max="10" step="0.5" oninput="console.log(this.value)" data-description="Form input"></input>
+      <span data-description="Span container">
+        Range slider text
+      </span>
+    </label>
+    <div data-css="elm51" data-description="Separator"></div>
+    <div class="formInputText" data-description="Input Date">
+      <input placeholder="yes" type="date" data-description="Form input"></input>
+      <label data-description="Label">
+        Date
+      </label>
+      <span data-description="Span container">
+        Numbers not allowed
+      </span>
+    </div>
+    <div data-css="elm58" data-description="Separator"></div>
+    <div class="formInputText" data-description="Input Color">
+      <input placeholder="yes" type="color" data-description="Form input"></input>
+      <label data-description="Label">
+        Color
+
+      </label>
+      <span data-description="Span container">
+        Numbers not allowed
+      </span>
+    </div>
+    <div data-css="elm65" data-description="Separator"></div>
+    <div class="formSelect" data-description="Select">
+      <select required="false" data-description="Form select">
+        <option data-description="Select option">
+          
+        </option>
+        <option data-description="Select option">
+          Mountain
+        </option>
+        <option data-description="Select option">
+          Sea
+        </option>
+      </select>
+      <span data-description="Select highlight"></span>
+      <span data-description="Select bar"></span>
+      <label data-description="Label">
+        What's your favorite
+      </label>
+    </div>
+    <div data-css="elm78" data-description="Separator"></div>
+    <div class="formTextarea" data-description="Textarea">
+      <textarea placeholder="yes" data-description="Form text area"></textarea>
+      <label data-description="Label">
+        Description
+      </label>
+    </div>
+    <div data-css="elm83" data-description="Separator"></div>
+    <button class="formButton" data-description="Button">
+      Button
+    </button>
+  </div>
+  <div data-css="elm86" data-description="Block container">
+    <div data-css="elm87" data-description="Top spacer">
+      <p data-css="elm88" data-description="Paragraph of text">
+        Scroll Down ⬇️
+      </p>
+    </div>
+    <div data-css="elm90" class="scrollMovement" data-safeY="100" data-description="Scroll animated">
+      <h1 data-css="elm91" data-description="Header 1">
+        H1
+      </h1>
+    </div>
+    <div data-css="elm93" data-description="Bottom spacer">
+      <p data-css="elm94" data-description="Paragraph of text">
+        Scroll up ⬆️
+      </p>
+    </div>
+  </div>
+  <div data-css="elm96" data-description="Top spacer">
+    <p data-css="elm97" data-description="Paragraph of text">
+      Scroll Down ⬇️
+    </p>
+  </div>
+  <div data-css="elm99" data-description="Autocenter">
+    <div data-css="elm100" class="scrollAction" data-description="Block container left">
+      <h2 data-description="Header 2">
+        Left
+
+      </h2>
+    </div>
+    <div data-css="elm103" class="scrollAction" data-description="Block container right">
+      <h2 data-description="Header 2">
+        right
+
+      </h2>
+    </div>
+  </div>
+</body>
+-->
+<body data-css="elm1"><div data-css="elm2"><div data-css="elm3"><div data-css="elm4" data-carousel="images"><div data-css="elm5"></div><div data-css="elm6"></div><div data-css="elm7"></div></div><div data-css="elm8" data-carousel="leftArrow"><div data-css="elm9" onclick="setCarouselArrows(this, &quot;left&quot;)"></div></div><div data-css="elm10" data-carousel="rightArrow"><div data-css="elm11" onclick="setCarouselArrows(this, &quot;right&quot;)"></div></div></div></div><button data-css="elm12" onclick="setDrawer(&quot;drawer0&quot;, true)">Show</button><div data-css="elm14" data-drawer="drawer0" onclick="hideDrawerFromLit(event)"><div data-css="elm15"><button data-css="elm16" onclick="setDrawer(&quot;drawer0&quot;, false)">Hide</button></div></div><button data-css="elm18" onclick="setActionSheet(&quot;as0&quot;, true)">Show</button><div data-css="elm20" data-actionsheet="as0" onclick="hideActionSheetFromLit(event)"><div data-css="elm21"><button data-css="elm22" onclick="setActionSheet(&quot;as0&quot;, false)">Hide</button></div></div><div data-css="elm24"><div data-css="elm25"></div><div class="formInputText"><input placeholder="yes" pattern="[^0-9]*" autocomplete="off" type="text"></input><label>Name</label><span>Numbers not allowed</span></div><div data-css="elm32"></div><label class="formCheckbox"><input type="checkbox" value="v0"></input><span>Checkbox text</span></label><div data-css="elm37"></div><label class="formRadio"><input type="radio" name="group" value="r0"></input><span>Radio 0 text</span></label><label class="formRadio"><input type="radio" name="group" value="r1"></input><span>Radio 1 text</span></label><div data-css="elm46"></div><label class="formRange"><input type="range" min="0" max="10" step="0.5" oninput="console.log(this.value)"></input><span>Range slider text</span></label><div data-css="elm51"></div><div class="formInputText"><input placeholder="yes" type="date"></input><label>Date</label><span>Numbers not allowed</span></div><div data-css="elm58"></div><div class="formInputText"><input placeholder="yes" type="color"></input><label>Color
+</label><span>Numbers not allowed</span></div><div data-css="elm65"></div><div class="formSelect"><select required="false"><option></option><option>Mountain</option><option>Sea</option></select><span></span><span></span><label>What's your favorite</label></div><div data-css="elm78"></div><div class="formTextarea"><textarea placeholder="yes"></textarea><label>Description</label></div><div data-css="elm83"></div><button class="formButton">Button</button></div><div data-css="elm86"><div data-css="elm87"><p data-css="elm88">Scroll Down ⬇️</p></div><div data-css="elm90" class="scrollMovement" data-safeY="100"><h1 data-css="elm91">H1</h1></div><div data-css="elm93"><p data-css="elm94">Scroll up ⬆️</p></div></div><div data-css="elm96"><p data-css="elm97">Scroll Down ⬇️</p></div><div data-css="elm99"><div data-css="elm100" class="scrollAction"><h2>Left
+</h2></div><div data-css="elm103" class="scrollAction"><h2>right
+</h2></div></div></body>
+</html>

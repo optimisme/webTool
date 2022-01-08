@@ -1,0 +1,76 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "tag": "div",
+            "description": "Colored back",
+            "text": "",
+            "style": {
+              "background-color": "#000000",
+              "color": "#ffffff"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "div",
+                "description": "Autocenter",
+                "text": "",
+                "style": {
+                  "margin-right": "auto",
+                  "margin-left": "auto",
+                  "box-sizing": "border-box",
+                  "width": "100%",
+                  "max-width": "1264px",
+                  "padding-right": "32px",
+                  "padding-left": "32px"
+                },
+                "phone": {
+                  "padding-right": "16px",
+                  "padding-left": "16px"
+                },
+                "attributes": {},
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

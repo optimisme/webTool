@@ -1,0 +1,70 @@
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.row > div:first-child {
+    max-width: 75px;
+    min-width: 75px;
+    overflow: hidden;
+    text-align: right;
+    direction: rtl;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.row > div:first-child > a { color: black; }
+.name {
+    font-size: 0.75em;
+    margin-right: 4px;
+}
+.button {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px;
+}
+.button > img {
+    align-items: center;
+    display: flex;
+    padding: 0 2px;
+    height: 16px;
+    width: 16px;
+}
+.buttonSelected {
+    background-color: rgba(0, 125, 255, 0.2);
+}
+.buttonInherited {
+    background-color: lightgray;
+}
+input {
+    flex-grow: 1;
+    margin-left: 4px;
+    width: 45px;
+}
+select {
+    margin-left: 4px;
+    flex-grow: 1;
+}
+.icon {
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon > img {
+    align-items: center;
+    display: flex;
+    padding: 0 2px;
+    height: 16px;
+    width: 16px;
+}
+
+.inheritedInput {
+    color: gray;
+    font-style: italic;
+}
+.inheritedRange {
+    filter: grayscale(1)
+}

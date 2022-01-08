@@ -1,0 +1,9 @@
+.fotoCobreix {
+    background: left / cover url("/tool/images/image0.jpg")
+}
+.fotoContinguda {
+    background: right / contain url("/tool/images/image4.jpg");
+}
+.gradient {
+    background: linear-gradient(green, skyblue);
+}

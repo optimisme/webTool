@@ -1,0 +1,55 @@
+@import url("./common-popup.css");
+.popupPointer {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    top: 0;
+    height: 0px;
+    position: absolute;
+    transform: rotateZ(0deg);
+    width: 0px;
+}
+.item {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding: 2px 0;
+}
+.item:hover {
+    background-color: aliceblue;
+}
+.item > img {
+    border: solid 1px lightgrey;
+    margin-left: 4px;
+    margin-right: 8px;
+    height: 48px;
+}
+.text {
+    color: gray;
+    min-width: 100px;
+    text-align: center;
+
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    max-width: 100px;
+}
+.tag {
+    color: green;
+    min-width: 100px;
+    text-align: center;
+
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    max-width: 100px;
+}
+.description {
+    min-width: 100px;
+
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    max-width: 100%;
+}

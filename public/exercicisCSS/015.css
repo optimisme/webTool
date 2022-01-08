@@ -1,0 +1,12 @@
+.trRotar {
+    transform: rotate3d(0, 0, 1, 25deg)
+}
+.trPetit {
+    transform: scale3d(0.5, 0.5, 1);
+}
+.trAllargar {
+    transform: scale3d(0.75, 2, 1);
+}
+.trMoure {
+    transform: translate3d(50px, 50px, 0);
+}

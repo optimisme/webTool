@@ -1,0 +1,35 @@
+.quadre0 {
+    background-color: lightskyblue;
+    height: 50px;
+    margin-top: 50px;
+    transition: width 0.5s ease, background-color 1s linear 0.5s;
+    width: 100px;
+}
+
+.quadre0:hover ~ .quadre1 {
+    background-color: red;
+    width: 200px;
+}
+
+.quadre0:hover ~ .quadre2 {
+    background-color: purple;
+    width: 200px;
+}
+
+.quadre1 {
+    background-color: lightseagreen;
+    border-radius: 0;
+    height: 50px;
+    margin-top: 50px;
+    transition: background-color 1s ease, border-radius 0.5s ease, height 0.5s ease;
+    width: 100px;
+}
+
+.quadre2 {
+    background-color: lightsalmon;
+    border-radius: 0;
+    height: 50px;
+    margin-top: 50px;
+    transition: background-color 1s ease, border-radius 0.5s ease, height 0.5s ease;
+    width: 100px;
+}

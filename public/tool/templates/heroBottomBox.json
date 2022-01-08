@@ -1,0 +1,146 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "div",
+            "description": "Background image",
+            "text": "",
+            "style": {
+              "box-sizing": "border-box",
+              "min-height": "400px",
+              "background": "center / cover url(\"./images/image6.jpg\")",
+              "position": "relative",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "div",
+                "description": "Semitransparent container",
+                "text": "",
+                "style": {
+                  "position": "absolute",
+                  "box-sizing": "border-box",
+                  "background-color": "rgba(0, 0, 0, 0.5)",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "color": "#ffffff",
+                  "padding": "16px",
+                  "-ts-f": "blur",
+                  "-ts-f-size": "5px",
+                  "backdrop-filter": "blur(5px)",
+                  "bottom": "25px",
+                  "max-width": "80%"
+                },
+                "phone": {
+                  "left": "unset"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 4,
+                    "tag": "h1",
+                    "description": "Header 1",
+                    "text": "",
+                    "style": {
+                      "margin": "0",
+                      "color": "#ffffff",
+                      "text-align": "center",
+                      "font-size": "1.5em"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 5,
+                        "tag": "text",
+                        "description": "",
+                        "text": "This is our hope",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 6,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "text-align": "justify",
+                      "margin": "0",
+                      "margin-top": "16px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 7,
+                        "tag": "text",
+                        "description": "",
+                        "text": "You know, when you get old, in life, things get taken from you. I mean, that’s… that’s… that’s a part of life. But, you only learn that when you start losing stuff.",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

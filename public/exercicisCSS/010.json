@@ -1,0 +1,441 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/010.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 11,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "500px",
+              "padding-right": "32px",
+              "padding-left": "32px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 12,
+                "tag": "div",
+                "description": "Block container contingut",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"contingut\"",
+                  "height": "75px",
+                  "display": "flex"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "contingut"
+                },
+                "childs": [
+                  {
+                    "appId": 42,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 43,
+                        "tag": "text",
+                        "description": "",
+                        "text": "1",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 44,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 45,
+                        "tag": "text",
+                        "description": "",
+                        "text": "2",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 46,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "65px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 47,
+                        "tag": "text",
+                        "description": "",
+                        "text": "3",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 48,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 49,
+                        "tag": "text",
+                        "description": "",
+                        "text": "4",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 50,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 51,
+                        "tag": "text",
+                        "description": "",
+                        "text": "5",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "appId": 86,
+                "tag": "div",
+                "description": "Block container estirat",
+                "text": "",
+                "style": {
+                  "margin": "5px",
+                  "padding": "5px",
+                  "border": "dashed 1px grey",
+                  "-attributes-input": "class=\"estirat\"",
+                  "height": "75px",
+                  "display": "flex"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "estirat"
+                },
+                "childs": [
+                  {
+                    "appId": 87,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 88,
+                        "tag": "text",
+                        "description": "",
+                        "text": "1",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 89,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 90,
+                        "tag": "text",
+                        "description": "",
+                        "text": "2",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 91,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "65px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 92,
+                        "tag": "text",
+                        "description": "",
+                        "text": "3",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 93,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 94,
+                        "tag": "text",
+                        "description": "",
+                        "text": "4",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 95,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "width": "50px",
+                      "margin-right": "10px",
+                      "margin-left": "10px",
+                      "margin": "0",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "center",
+                      "background-color": "lightgray",
+                      "border-radius": "16px",
+                      "min-height": "50px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 96,
+                        "tag": "text",
+                        "description": "",
+                        "text": "5",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

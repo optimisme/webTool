@@ -1,0 +1,15 @@
+@import url("./settings/common-section.css");
+.root {
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
+.grow {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+}

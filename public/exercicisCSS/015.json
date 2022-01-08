@@ -1,0 +1,204 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/015.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 4,
+                "tag": "div",
+                "description": "Block container normal",
+                "text": "",
+                "style": {
+                  "min-height": "150px",
+                  "box-sizing": "border-box",
+                  "background": "center / cover url(\"./images/image0.jpg\")",
+                  "-ts-f": "saturate",
+                  "-ts-f-size": "5px",
+                  "-ts-f-percent": "80",
+                  "-ts-f-percent2": "500",
+                  "width": "20%"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": []
+              },
+              {
+                "appId": 5,
+                "tag": "div",
+                "description": "Block container trRotar",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"trRotar\"",
+                  "min-height": "150px",
+                  "box-sizing": "border-box",
+                  "background": "center / cover url(\"./images/image0.jpg\")",
+                  "-ts-f": "saturate",
+                  "-ts-f-size": "5px",
+                  "-ts-f-percent": "80",
+                  "-ts-f-percent2": "500",
+                  "width": "20%",
+                  "-ts-tr": "scale3d",
+                  "-ts-trans-x": "0",
+                  "-ts-trans-y": "0",
+                  "-ts-trans-z": "0",
+                  "transform": "scale3d(0.5, 0.5, 1)",
+                  "-ts-rotate-z": "1",
+                  "-ts-rotate-y": "0",
+                  "-ts-rotate-a": "29",
+                  "-ts-rotate-x": "0",
+                  "-ts-scale-x": "0.5",
+                  "-ts-scale-y": "0.5",
+                  "-ts-scale-z": "1"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "trRotar"
+                },
+                "childs": []
+              },
+              {
+                "appId": 6,
+                "tag": "div",
+                "description": "Block container trPetit",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"trPetit\"",
+                  "min-height": "150px",
+                  "box-sizing": "border-box",
+                  "background": "center / cover url(\"./images/image0.jpg\")",
+                  "-ts-f": "saturate",
+                  "-ts-f-size": "5px",
+                  "-ts-f-percent": "80",
+                  "-ts-f-percent2": "500",
+                  "width": "20%",
+                  "-ts-tr": "scale3d",
+                  "-ts-trans-x": "0",
+                  "-ts-trans-y": "0",
+                  "-ts-trans-z": "0",
+                  "transform": "scale3d(0.75, 2, 1)",
+                  "-ts-scale-x": "0.75",
+                  "-ts-scale-y": "2",
+                  "-ts-scale-z": "1"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "trPetit"
+                },
+                "childs": []
+              },
+              {
+                "appId": 7,
+                "tag": "div",
+                "description": "Block container trAllargar",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"trAllargar\"",
+                  "min-height": "150px",
+                  "box-sizing": "border-box",
+                  "background": "center / cover url(\"./images/image0.jpg\")",
+                  "-ts-f": "saturate",
+                  "-ts-f-size": "5px",
+                  "-ts-f-percent": "80",
+                  "-ts-f-percent2": "500",
+                  "width": "20%"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "trAllargar"
+                },
+                "childs": []
+              },
+              {
+                "appId": 8,
+                "tag": "div",
+                "description": "Block container trMoure",
+                "text": "",
+                "style": {
+                  "-attributes-input": "class=\"trMoure\"",
+                  "min-height": "150px",
+                  "box-sizing": "border-box",
+                  "background": "center / cover url(\"./images/image0.jpg\")",
+                  "-ts-f": "saturate",
+                  "-ts-f-size": "5px",
+                  "-ts-f-percent": "80",
+                  "-ts-f-percent2": "500",
+                  "width": "20%",
+                  "-ts-tr": "translate3d",
+                  "-ts-trans-x": "50px",
+                  "-ts-trans-y": "50px",
+                  "-ts-trans-z": "0",
+                  "transform": "translate3d(50px, 50px, 0)"
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "trMoure"
+                },
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

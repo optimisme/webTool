@@ -1,0 +1,325 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/016.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 11,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "800px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "justify-content": "center"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 42,
+                "tag": "p",
+                "description": "Paragraph of text cursorAuto",
+                "text": "",
+                "style": {
+                  "height": "50px",
+                  "width": "75px",
+                  "margin-right": "10px",
+                  "margin-left": "10px",
+                  "margin": "0",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "lightgray",
+                  "border-radius": "16px",
+                  "-attributes-input": "class=\"cursorAuto\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "cursorAuto"
+                },
+                "childs": [
+                  {
+                    "appId": 43,
+                    "tag": "text",
+                    "description": "",
+                    "text": "auto",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 44,
+                "tag": "p",
+                "description": "Paragraph of text cursorPointer",
+                "text": "",
+                "style": {
+                  "height": "50px",
+                  "width": "75px",
+                  "margin-right": "10px",
+                  "margin-left": "10px",
+                  "margin": "0",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "lightgray",
+                  "border-radius": "16px",
+                  "-attributes-input": "class=\"cursorPointer\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "cursorPointer"
+                },
+                "childs": [
+                  {
+                    "appId": 45,
+                    "tag": "text",
+                    "description": "",
+                    "text": "pointer",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 46,
+                "tag": "p",
+                "description": "Paragraph of text cursorHelp",
+                "text": "",
+                "style": {
+                  "height": "50px",
+                  "width": "75px",
+                  "margin-right": "10px",
+                  "margin-left": "10px",
+                  "margin": "0",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "lightgray",
+                  "border-radius": "16px",
+                  "-attributes-input": "class=\"cursorHelp\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "cursorHelp"
+                },
+                "childs": [
+                  {
+                    "appId": 47,
+                    "tag": "text",
+                    "description": "",
+                    "text": "help",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 48,
+                "tag": "p",
+                "description": "Paragraph of text cursorWait",
+                "text": "",
+                "style": {
+                  "height": "50px",
+                  "width": "75px",
+                  "margin-right": "10px",
+                  "margin-left": "10px",
+                  "margin": "0",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "lightgray",
+                  "border-radius": "16px",
+                  "-attributes-input": "class=\"cursorWait\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "cursorWait"
+                },
+                "childs": [
+                  {
+                    "appId": 49,
+                    "tag": "text",
+                    "description": "",
+                    "text": "wait",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 59,
+                "tag": "p",
+                "description": "Paragraph of text cursorGrab",
+                "text": "",
+                "style": {
+                  "height": "50px",
+                  "width": "75px",
+                  "margin-right": "10px",
+                  "margin-left": "10px",
+                  "margin": "0",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "lightgray",
+                  "border-radius": "16px",
+                  "-attributes-input": "class=\"cursorGrab\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "cursorGrab"
+                },
+                "childs": [
+                  {
+                    "appId": 60,
+                    "tag": "text",
+                    "description": "",
+                    "text": "grab",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 61,
+                "tag": "p",
+                "description": "Paragraph of text cursorNW",
+                "text": "",
+                "style": {
+                  "height": "50px",
+                  "width": "75px",
+                  "margin-right": "10px",
+                  "margin-left": "10px",
+                  "margin": "0",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "lightgray",
+                  "border-radius": "16px",
+                  "-attributes-input": "class=\"cursorNW\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "cursorNW"
+                },
+                "childs": [
+                  {
+                    "appId": 62,
+                    "tag": "text",
+                    "description": "",
+                    "text": "nw-resize",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 63,
+                "tag": "p",
+                "description": "Paragraph of text cursorZoom",
+                "text": "",
+                "style": {
+                  "height": "50px",
+                  "width": "75px",
+                  "margin-right": "10px",
+                  "margin-left": "10px",
+                  "margin": "0",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "background-color": "lightgray",
+                  "border-radius": "16px",
+                  "-attributes-input": "class=\"cursorZoom\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "cursorZoom"
+                },
+                "childs": [
+                  {
+                    "appId": 64,
+                    "tag": "text",
+                    "description": "",
+                    "text": "zoom-in",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

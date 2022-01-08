@@ -1,0 +1,77 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisCSS/001.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Block container vermell",
+            "text": "",
+            "style": {
+              "-attributes-input": "class=\"vermell\""
+            },
+            "phone": {},
+            "attributes": {
+              "class": "vermell"
+            },
+            "childs": []
+          },
+          {
+            "appId": 4,
+            "tag": "div",
+            "description": "Block container",
+            "text": "",
+            "style": {
+              "-attributes-input": "class=\"verd\""
+            },
+            "phone": {},
+            "attributes": {
+              "class": "verd"
+            },
+            "childs": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+:host {
+    pointer-events: none;
+}
+.root {
+    left: 100px;
+    position: absolute;
+    top: 100px;
+    z-index: 999999;
+}
+
+div[data-ref="text"] {
+    background-color: #555;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: lighter;
+    opacity: 0;
+    padding: 4px 8px;
+    position: absolute;
+    text-align: center;
+    transition: opacity 0.25s;
+    visibility: hidden;
+    width: max-content;
+}

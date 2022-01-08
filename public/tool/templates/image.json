@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "img",
+            "description": "Image",
+            "text": "",
+            "style": {
+              "-attributes-input": "src=\"./images/image1.jpg\":;alt=\"Alternate text\"",
+              "box-sizing": "border-box",
+              "max-width": "200px"
+            },
+            "phone": {},
+            "attributes": {
+              "src": "./images/image1.jpg",
+              "alt": "Alternate text"
+            },
+            "childs": []
+          }
+        ]
+      }
+    ]
+  }
+}
