@@ -1,0 +1,32 @@
+.elm2 { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+.elm5 { 
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .elm5 { 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.caixa {
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 50px;
+    transition: all 0.25s ease;
+    width: 50px;
+}
+.gran {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
