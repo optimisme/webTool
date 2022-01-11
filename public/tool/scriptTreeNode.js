@@ -399,7 +399,7 @@ export class treeNode {
             }
         }
         if (styleStrPhone.length > 0) {
-            styleStrPhone = `\n@media only screen and (max-width: 768px) {\n  *[data-css="${cssName}"] { ${styleStrPhone}\n  }\n}`
+            styleStrPhone = `\n@media only screen and (max-width: 768px) {\n  *[data-css="${cssName}"] { ${styleStrPhone}\n  }\n}\n`
         }
 
         return styleStr + styleStrPhone
