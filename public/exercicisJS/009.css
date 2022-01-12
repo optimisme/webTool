@@ -1,0 +1,39 @@
+body { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+.autocenter { 
+    align-items: center;
+    border: solid 2px red;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1264px;
+    min-height: 100vh;
+    padding-left: 32px;
+    padding-right: 32px;
+    position: relative;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .autocenter { 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+#caixa {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.25s ease;
+    width: 200px;
+}
