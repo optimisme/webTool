@@ -1,9 +1,9 @@
-.elm2 { 
+body { 
     font-family: "Open Sans";
     margin: 0;
     padding: 0;
 }
-.elm5 { 
+.autocenter { 
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -13,7 +13,7 @@
     width: 100%;
 }
 @media only screen and (max-width: 768px) {
-    .elm5 { 
+    .autocenter { 
         padding-left: 16px;
         padding-right: 16px;
     }
