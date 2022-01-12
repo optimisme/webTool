@@ -1,6 +1,9 @@
 :root {
     --color-primari: 'black';
 }
+body {
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
 .elm2 { 
     font-family: "Open Sans";
     margin: 0;
