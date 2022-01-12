@@ -1,0 +1,17 @@
+.quadre {
+    animation-name: framesQuadre;
+    animation-duration: 4s;
+    background-color: lightskyblue;
+    left: 0;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    width: 100px;
+}
+
+@keyframes framesQuadre {
+    0%      { background-color: lightskyblue;   top: 0;     left: 0; }
+    33%     { background-color: lightsalmon;    top: 50px;  left: 50px; }
+    66%     { background-color: lightgreen;     top: 0px;   left: 100px; }
+    100%    { background-color: lightskyblue;   top: 0;     left: 0; }
+}
