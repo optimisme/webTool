@@ -1,3 +1,9 @@
+window.addEventListener('resize', () => { redimensiona() })
+
+function redimensiona () {
+    console.log("S'ha redimensionat la pantalla")
+}
+
 function posiciona(vertical, horizontal) {
     let x = 0
     let y = 0
