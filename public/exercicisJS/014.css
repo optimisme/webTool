@@ -1,0 +1,46 @@
+body { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+.autocenter { 
+    background: center / cover url("./014-background.jpeg");
+    border: solid 2px red;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1264px;
+    min-height: 100vh;
+    padding-left: 32px;
+    padding-right: 32px;
+    position: relative;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .autocenter { 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+#bob {
+    background: center / contain no-repeat url("./014-bob.png");
+    height: 150px;
+    position: absolute;
+    width: 150px;
+}
+
+#patricio {
+    background: center / contain no-repeat url("./014-patricio.png");
+    height: 200px;
+    left: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+#calamardo {
+    background: center / contain no-repeat url("./014-calamardo.png");
+    height: 200px;
+    left: 500px;
+    position: absolute;
+    width: 100px;
+}
