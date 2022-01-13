@@ -1,49 +1,70 @@
 window.addEventListener('load', () => { init() })
 
+let arrossegableBob = undefined
+
 function init () {
+    
     let refBob = document.querySelector('#bob')
 
-    fesArrossegable(refBob)
+    arrossegableBob = new Arrossegable(refBob)
 }
 
-function fesArrossegable(ref) {
-    let lastX = 0, lastY = 0;
+function recoloca (ref) {
 
-    ref.onmousedown = dragMouseDown;
+    let refBob = document.querySelector('#bob')
 
-    function dragMouseDown(e) {
-        e = e || window.event;
-        e.preventDefault();
+    if (ref == refBob) {
+        refBob.style.zIndex = 1
+    } else {
+        refBob.style.zIndex = 0
+    }
+}
 
-        lastX = e.clientX;
-        lastY = e.clientY;
-        document.onmouseup = closeDragElement;
-        document.onmousemove = elementDrag;
+class Arrossegable {
 
-        let refBob = document.querySelector('#bob')
+    constructor (ref) {
 
-        if (e.srcElement == refBob) {
-            refBob.style.zIndex = 1
-        } else {
-            refBob.style.zIndex = 0
-        }
+        this.ref = ref
+        this.lastX = 0
+        this.lastY = 0
+
+        this.listenerDown   = (e) => { this.mouseDown(e) } 
+        this.listenerUp     = (e) => { this.mouseUp(e) }
+        this.listenerDrag   = (e) => { this.elementDrag(e) }
+        
+        ref.addEventListener('mousedown', this.listenerDown)
     }
 
-    function elementDrag(e) {
-        e = e || window.event;
-        e.preventDefault();
+    mouseDown(evt) {
 
-        let x = lastX - e.clientX;
-        let y = lastY - e.clientY;
-        lastX = e.clientX;
-        lastY = e.clientY;
+        evt.preventDefault();
 
-        ref.style.top = (ref.offsetTop - y) + "px";
-        ref.style.left = (ref.offsetLeft - x) + "px";
+        this.lastX = evt.clientX;
+        this.lastY = evt.clientY;
+
+        document.addEventListener('mousemove', this.listenerDrag)
+        document.addEventListener('mouseup', this.listenerUp)
+
+        recoloca(this.ref)
     }
 
-    function closeDragElement(e) {
-        document.onmouseup = null;
-        document.onmousemove = null;
+    elementDrag(evt) {
+
+        evt.preventDefault();
+
+        let x = this.lastX - evt.clientX;
+        let y = this.lastY - evt.clientY;
+
+        this.lastX = evt.clientX;
+        this.lastY = evt.clientY;
+
+        this.ref.style.top = (this.ref.offsetTop - y) + "px";
+        this.ref.style.left = (this.ref.offsetLeft - x) + "px";
+    }
+
+    mouseUp() {
+
+        document.removeEventListener('mouseup', this.listenerUp)
+        document.removeEventListener('mousemove', this.listenerDrag)
     }
 }
