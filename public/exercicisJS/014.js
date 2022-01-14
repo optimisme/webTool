@@ -1,12 +1,11 @@
 window.addEventListener('load', () => { init() })
 
-let arrossegableBob = undefined
 
 function init () {
     
     let refBob = document.querySelector('#bob')
 
-    arrossegableBob = new Arrossegable(refBob)
+    Arrossegable.fesArrossegable(refBob)
 }
 
 function recoloca (ref) {
@@ -33,6 +32,10 @@ class Arrossegable {
         this.listenerDrag   = (e) => { this.elementDrag(e) }
         
         ref.addEventListener('mousedown', this.listenerDown)
+    }
+
+    static fesArrossegable (ref) {
+        new Arrossegable(ref)
     }
 
     mouseDown(evt) {
