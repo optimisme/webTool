@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>017</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="./017.css" rel="stylesheet" />
+  <script src="./017.js"></script>
+</head>
+<body>
+  <div class="autocenter">
+    <div>
+      <button onclick="setModal('#modal0', true)">
+        Obrir modal 0
+      </button>
+    </div>
+    <div id="modal0" class="modalBack" onclick="hideModalFromBack(event)">
+      <div class="modalWindow">
+        Continguts de la finestra 0
+        <button onclick="setModal('#modal0', false)">
+          Amagar
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
