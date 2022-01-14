@@ -24,6 +24,7 @@ body {
 }
 #bob {
     background: center / contain no-repeat url("./014-bob.png");
+    border: solid 1px darkgoldenrod;
     height: 150px;
     position: absolute;
     top: 150px;
@@ -32,6 +33,7 @@ body {
 
 #patricio {
     background: center / contain no-repeat url("./014-patricio.png");
+    border: solid 1px palevioletred;
     height: 200px;
     left: 200px;
     position: absolute;
