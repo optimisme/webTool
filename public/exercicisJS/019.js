@@ -37,6 +37,7 @@ function canviaSeccio (id, fromNavigation) {
     for (let cnt = 0; cnt < refSeccions.length; cnt = cnt + 1) {
         let refMenuItem = refMenuItems[cnt]
         let refSeccio = refSeccions[cnt]
+        console.log(refSeccio.getAttribute('id'))
         if (refSeccio.getAttribute('id') == id) {
             refMenuItem.classList.add('selected')
             refSeccio.style.display = 'unset'
@@ -48,7 +49,9 @@ function canviaSeccio (id, fromNavigation) {
 
     // Si no s'ha cridat 'canviaSeccio' des dels botons de navegacio
     if (!fromNavigation) {
+        if (id == seccioDefault) id = ''
         let hash = (id == '') ? '' : '#'
+        
         // Actualitzar l'historial del navegador amb aquesta secció
         let url = `${document.location.href.split('#')[0]}${hash}${id}`
         window.history.pushState({ html: url }, '', url)
