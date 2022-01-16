@@ -1,0 +1,57 @@
+body { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+.autocenter { 
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .autocenter { 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+h1 {
+    font-family: "Dancing Script";
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Dancing Script";
+    font-size: 1.5em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu > .item {
+    border-bottom: solid 1px lightgray;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.selected {
+    border-bottom: solid 3px orange !important;
+}
+
+.seccions {
+    position: relative;
+    width: 100%;
+}
+
+.seccions > .seccio {
+    display: none;
+    padding: 16px 0;
+    position: absolute;
+}
