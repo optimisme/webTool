@@ -1,6 +1,8 @@
 window.addEventListener('load', (evt) => { init() })
 window.addEventListener('popstate', (evt) => { navegacio(evt); return false })
 
+let seccioDefault = 'seccioIngredients'
+
 function init () {
     let url = document.location.href
     let urlArr = url.split("#")
@@ -26,7 +28,7 @@ function navegacio (evt) {
 function canviaSeccio (id, fromNavigation) {
     
     if (id == "") {
-        id = 'seccioIngredients'
+        id = seccioDefault
     }
 
     // Mostrar la seccio sel·leccionada
