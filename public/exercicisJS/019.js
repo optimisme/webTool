@@ -1,4 +1,3 @@
-window.addEventListener('load', (evt) => { init() })
 window.addEventListener('popstate', (evt) => { navegacio(evt); return false })
 
 let seccioDefault = 'seccioIngredients'
@@ -49,11 +48,7 @@ function canviaSeccio (id, fromNavigation) {
 
     // Si no s'ha cridat 'canviaSeccio' des dels botons de navegacio
     if (!fromNavigation) {
-        let hash = '#'
-        if (id == '') {
-            hash = ''
-        }
-
+        let hash = (id == '') ? '' : '#'
         // Actualitzar l'historial del navegador amb aquesta secció
         let url = `${document.location.href.split('#')[0]}${hash}${id}`
         window.history.pushState({ html: url }, '', url)
