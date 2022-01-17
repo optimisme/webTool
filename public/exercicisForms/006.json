@@ -1,0 +1,347 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisForms/001.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "min-height": "100vh",
+              "padding-top": "32px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 30,
+                "tag": "p",
+                "description": "Paragraph of text",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 31,
+                    "tag": "text",
+                    "description": "",
+                    "text": "Escull una estació:",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 7,
+                "tag": "div",
+                "description": "Fila de formulari",
+                "text": "",
+                "style": {
+                  "padding-top": "8px",
+                  "padding-bottom": "8px",
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 6,
+                    "tag": "input",
+                    "description": "Form input",
+                    "text": "",
+                    "style": {
+                      "margin-left": "8px",
+                      "-attributes-input": "type=\"radio\":;name=\"estacio\":;value=\"primavera\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "type": "radio",
+                      "name": "estacio",
+                      "value": "primavera"
+                    },
+                    "childs": []
+                  },
+                  {
+                    "appId": 36,
+                    "tag": "label",
+                    "description": "Form label",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "for=\"primavera\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "for": "primavera"
+                    },
+                    "childs": [
+                      {
+                        "appId": 37,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Primavera",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "appId": 48,
+                "tag": "div",
+                "description": "Fila de formulari",
+                "text": "",
+                "style": {
+                  "padding-top": "8px",
+                  "padding-bottom": "8px",
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 49,
+                    "tag": "input",
+                    "description": "Form input",
+                    "text": "",
+                    "style": {
+                      "margin-left": "8px",
+                      "-attributes-input": "type=\"radio\":;name=\"estacio\":;value=\"estiu\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "type": "radio",
+                      "name": "estacio",
+                      "value": "estiu"
+                    },
+                    "childs": []
+                  },
+                  {
+                    "appId": 50,
+                    "tag": "label",
+                    "description": "Form label",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "for=\"estiu\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "for": "estiu"
+                    },
+                    "childs": [
+                      {
+                        "appId": 51,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Estiu",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "appId": 42,
+                "tag": "p",
+                "description": "Paragraph of text",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 43,
+                    "tag": "text",
+                    "description": "",
+                    "text": "Escull un moment del dia",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 38,
+                "tag": "div",
+                "description": "Fila de formulari",
+                "text": "",
+                "style": {
+                  "padding-top": "8px",
+                  "padding-bottom": "8px",
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 39,
+                    "tag": "input",
+                    "description": "Form input",
+                    "text": "",
+                    "style": {
+                      "margin-left": "8px",
+                      "-attributes-input": "type=\"radio\":;name=\"dia\":;value=\"mati\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "type": "radio",
+                      "name": "dia",
+                      "value": "mati"
+                    },
+                    "childs": []
+                  },
+                  {
+                    "appId": 40,
+                    "tag": "label",
+                    "description": "Form label",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "for=\"mati\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "for": "mati"
+                    },
+                    "childs": [
+                      {
+                        "appId": 41,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Mati",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "appId": 44,
+                "tag": "div",
+                "description": "Fila de formulari",
+                "text": "",
+                "style": {
+                  "padding-top": "8px",
+                  "padding-bottom": "8px",
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 45,
+                    "tag": "input",
+                    "description": "Form input",
+                    "text": "",
+                    "style": {
+                      "margin-left": "8px",
+                      "-attributes-input": "type=\"radio\":;name=\"dia\":;value=\"tarda\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "type": "radio",
+                      "name": "dia",
+                      "value": "tarda"
+                    },
+                    "childs": []
+                  },
+                  {
+                    "appId": 46,
+                    "tag": "label",
+                    "description": "Form label",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "for=\"tarda\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "for": "tarda"
+                    },
+                    "childs": [
+                      {
+                        "appId": 47,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Tarda",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

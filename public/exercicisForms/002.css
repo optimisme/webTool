@@ -1,0 +1,2 @@
+input:valid ~ span { visibility: hidden; }
+input:invalid ~ span { color: red; visibility: visible; }

@@ -1,0 +1,4 @@
+input:valid ~ span { visibility: hidden; }
+input:invalid ~ span { color: red; visibility: visible; }
+
+input:focus { background-color: lightsteelblue; }

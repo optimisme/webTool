@@ -1,0 +1,155 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "/exercicisForms/002.css"
+    ],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "min-height": "100vh",
+              "padding-top": "32px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 7,
+                "tag": "div",
+                "description": "Fila de formulari",
+                "text": "",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "padding-top": "8px",
+                  "padding-bottom": "8px",
+                  "-attributes-input": "class=\"formInputText\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "formInputText"
+                },
+                "childs": [
+                  {
+                    "appId": 4,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "min-width": "50%",
+                      "text-align": "right",
+                      "margin": "0"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 5,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Escriu el teu nom:",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 6,
+                    "tag": "input",
+                    "description": "Form input",
+                    "text": "",
+                    "style": {
+                      "margin-left": "8px",
+                      "-attributes-input": "type=\"text\":;placeholder=\"ex: Albert\":;pattern=\"[^0-9]*\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "type": "text",
+                      "placeholder": "ex: Albert",
+                      "pattern": "[^0-9]*"
+                    },
+                    "childs": []
+                  },
+                  {
+                    "appId": 30,
+                    "tag": "span",
+                    "description": "Span container",
+                    "text": "",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 31,
+                        "tag": "text",
+                        "description": "Text",
+                        "text": "No admet números",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

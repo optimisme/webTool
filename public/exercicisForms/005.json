@@ -1,0 +1,154 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "min-height": "100vh",
+              "padding-top": "32px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 24,
+                "tag": "div",
+                "description": "Fila de formulari",
+                "text": "",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "padding-top": "8px",
+                  "padding-bottom": "8px"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 25,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "min-width": "50%",
+                      "text-align": "right",
+                      "margin": "0"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 26,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Quina és la teva edat",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 27,
+                    "tag": "input",
+                    "description": "Form input",
+                    "text": "",
+                    "style": {
+                      "margin-left": "8px",
+                      "-attributes-input": "oninput=\"document.querySelector(\"#resultat\").innerHTML =  this.value\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "oninput": "document.querySelector(\"#resultat\").innerHTML =  this.value"
+                    },
+                    "childs": []
+                  },
+                  {
+                    "appId": 28,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "id=\"resultat\"",
+                      "margin": "0",
+                      "margin-left": "8px"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "id": "resultat"
+                    },
+                    "childs": [
+                      {
+                        "appId": 29,
+                        "tag": "text",
+                        "description": "",
+                        "text": "",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
