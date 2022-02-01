@@ -3,7 +3,6 @@ window.addEventListener('load', () => { formLoad() })
 async function formLoad () {
 
     let refNom = document.querySelector('#nom')
-    let refCognom = document.querySelector('#cognom')
 
     let obj = {
         type: 'fileRead',
@@ -14,7 +13,6 @@ async function formLoad () {
 
     if (usuari) {
         refNom.value = usuari.nom
-        refCognom.value = usuari.cognom
     }    
 }
 
@@ -27,8 +25,7 @@ async function formSave () {
         type: 'fileSave',
         file: 'usuari.json',
         data: {
-            nom: refNom.value,
-            cognom: refCognom.value
+            nom: refNom.value
         }
     }
 
