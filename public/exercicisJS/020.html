@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>020</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="./020.css" rel="stylesheet" />
+  <script src="./020.js"></script>
+</head>
+<body>
+  <div class="autocenter">
+    <div class="tableRow">
+      <div class="title">Escriu aquí:</div>
+      <div><input id="text" type="text" onchange="textChange()" oninput="textInput()"/></div>
+    </div>
+    <div class="tableRow">
+      <div class="subtitle">Event 'change':</div>
+      <div id="rst0" class="result"></div>
+    </div>
+    <div class="tableRow">
+      <div class="subtitle">Event 'input':</div>
+      <div id="rst1" class="result"></div>
+    </div>
+
+    <div class="tableRow">
+      <div class="title">Modifica el valor:</div>
+      <div><input id="range" type="range" min="0" max="10" /></div>
+    </div>
+    <div class="tableRow">
+      <div class="subtitle">Event 'change':</div>
+      <div id="rst2" class="result"></div>
+    </div>
+    <div class="tableRow">
+      <div class="subtitle">Event 'input':</div>
+      <div id="rst3" class="result"></div>
+    </div>
+
+  
+  </div>
+</body>
+</html>

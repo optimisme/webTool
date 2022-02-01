@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>022</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="./022.css" rel="stylesheet" />
+  <script src="./022.js"></script>
+</head>
+<body>
+  <div class="autocenter expand">
+    <div class="row">
+      <div class="column">
+        <div class="tableRow">
+          <div class="title">240:</div>
+          <div><input type="radio" name="quality" value="240" checked="true" onchange="updateQuality()"/></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">480p:</div>
+          <div><input type="radio" name="quality" value="480" onchange="updateQuality()"/></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">1080p:</div>
+          <div><input type="radio" name="quality" value="1080" onchange="updateQuality()"/></div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="tableRow">
+          <div class="title">unset:</div>
+          <div><input type="radio" name="filter" value="unset" checked="true" onchange="updateColor()"/></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">grayscale:</div>
+          <div><input type="radio" name="filter" value="grayscale" onchange="updateColor()"/></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">saturate:</div>
+          <div><input type="radio" name="filter" value="saturate" onchange="updateColor()"/></div>
+        </div>
+      </div>
+    </div>
+    <div class="stack">
+      <img id="img240" src="./022-240.jpg" />
+      <img id="img480" src="./022-480.jpg" />
+      <img id="img1080" src="./022-1080.jpg" />
+    </div>
+  </div>
+</body>
+</html>

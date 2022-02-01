@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>023</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="./023.css" rel="stylesheet" />
+  <script src="./023.js"></script>
+</head>
+<body>
+  <div class="autocenter">
+    <div class="row">
+      <div class="column">
+        <div class="tableRow">
+          <div class="title">Background red:</div>
+          <div><input type="checkbox" oninput="updateBackground()" name="background" value="red" /></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">Background green:</div>
+          <div><input type="checkbox" value="green" /></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">Background blue:</div>
+          <div><input type="checkbox" oninput="updateBackground()" value="blue" /></div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="tableRow">
+          <div class="title">Border red:</div>
+          <div><input type="checkbox" oninput="updateBorder()" name="border" value="red" /></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">Border green:</div>
+          <div><input type="checkbox" oninput="updateBorder()" name="border" value="green" /></div>
+        </div>
+        <div class="tableRow">
+          <div class="title">Border blue:</div>
+          <div><input type="checkbox" oninput="updateBorder()" name="border" value="blue" /></div>
+        </div>
+      </div>
+      <div class="center">
+        <div id="coloredBox"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

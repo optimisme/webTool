@@ -1,0 +1,44 @@
+body { 
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+.autocenter { 
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .autocenter { 
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tableRow {
+    display: table-row;
+}
+.tableRow > * {
+    display: table-cell;
+    padding: 8px;
+    min-width: 100px;
+}
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+}
+#coloredBox {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+}
