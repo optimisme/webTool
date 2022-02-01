@@ -67,7 +67,7 @@ async function serverFetch (obj) {
             }
         }
     } catch (err) {
-        console.error(`Server fetch error: ${err}`)
+        console.error('Server fetch error: ', err)
     }
     return data
 }
