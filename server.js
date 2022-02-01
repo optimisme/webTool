@@ -22,8 +22,7 @@ app.listen(port, () => {
 })
 
 async function ajaxCall (request, response) {
-    let url = request.url,
-    obj = null
+    let obj = null
 
     // Agafa les dades que ens han enviat des de la web
     try {
