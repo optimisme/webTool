@@ -10,17 +10,9 @@
 </head>
 <body>
   <div class="autocenter">
-    <table>
-      <tr>
-        <td><button onclick="mostraLlista('totes')">Totes</button></td>
-        <td><button onclick="mostraLlista('nintendo')">Nintendo</button></td>
-      </tr>
-      <tr>
-        <td id="totes"></td>
-        <td id="nintendo"></td>
-        <td id="blanques"></td>
-      </tr>
-    </table>
+    <button onclick="mostraLlista('totes')">Totes</button>
+    <button onclick="mostraLlista('nintendo')">Nintendo</button>
+    <div id="resultat"></div>
   </div>
   <template id="plantilla">
     <div class='flexRow'>
@@ -36,7 +28,7 @@
           Fabricant: <b>{{fabricant}}</b>
           <hr/>
       </div>
-  </div>
+    </div>
   </template>
 </body>
 </html>

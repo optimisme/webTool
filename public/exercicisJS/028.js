@@ -1,17 +1,18 @@
 async function mostraLlista (tipus) {
     let llistaDades = await publicJsonFetch('./consoles/llista-dades.json')
-    let ref = document.querySelector(`#${tipus}`)
+    let refResultat = document.querySelector("#resultat")
     let codiHTML = ''
 
     for (let cnt = 0; cnt < llistaDades.length; cnt = cnt + 1) {
         let consola = llistaDades[cnt]
         if (tipus == 'totes' 
-        || (tipus == 'nintendo' && consola.fabricant == 'Nintendo')) {
+        || (tipus == 'nintendo' && consola.fabricant == 'Nintendo')
+        ) {
             codiHTML = codiHTML + getHTMLFromTemplate("plantilla", consola)
         }
     }
 
-    ref.innerHTML = codiHTML
+    refResultat.innerHTML = codiHTML
 }
 
 function getHTMLFromTemplate(id, replacements) {
