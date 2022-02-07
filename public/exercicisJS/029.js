@@ -4,10 +4,8 @@ async function mostraLlista (tipus) {
     let refCarregant = document.querySelector("#carregant")
     let codiHTML = ''
 
-    console.log('a')
     refCarregant.style.display = 'block'
     await wait(2000)
-    console.log('b')
 
     for (let cnt = 0; cnt < llistaDades.length; cnt = cnt + 1) {
         let consola = llistaDades[cnt]
