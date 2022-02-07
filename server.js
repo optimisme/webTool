@@ -37,6 +37,7 @@ async function ajaxCall (request, response) {
             let data = JSON.parse(await fs.readFile(obj.file, "binary"))
             response.json({ status: "ok", data: data })
         } catch (err) {
+            console.log(err)
             response.json({ status: "ko", data: "Could not read file" })
             return
         }
@@ -46,7 +47,7 @@ async function ajaxCall (request, response) {
             await fs.writeFile(obj.file, JSON.stringify(obj.data, null, 2))
             response.json({ status: "ok", data: "File saved" })
         } catch (err) {
-            response.json({ status: "ko", data: "Could not read file" })
+            response.json({ status: "ko", data: "Could not write file" })
             return
         }
 
