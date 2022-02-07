@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>029</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="./029.css" rel="stylesheet" />
+  <script src="./029.js"></script>
+</head>
+<body>
+  <div class="autocenter">
+    <button onclick="mostraLlista('totes')">Totes</button>
+    <button onclick="mostraLlista('nintendo')">Nintendo</button>
+    <div id="carregant">Carregant ...</div>
+    <div id="resultat"></div>
+  </div>
+  <template id="plantilla">
+    <div class='flexRow'>
+      <div class='imatge'>
+          <img src='{{imatge}}' width='100%'/>
+      </div>
+      <div class='text'>
+          <h2>{{nom}}</h2>
+          Data de venda al públic: {{data}}
+          <br/>
+          Processador: {{processador}}
+          <br/>
+          Fabricant: <b>{{fabricant}}</b>
+          <hr/>
+      </div>
+    </div>
+  </template>
+</body>
+</html>
