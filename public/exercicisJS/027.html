@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>027</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="./027.css" rel="stylesheet" />
+  <script src="./027.js"></script>
+</head>
+<body>
+  <div class="autocenter">
+    <button onclick="mostraConsola('switch')">Mostra switch</button>
+    <button onclick="mostraConsola('gc')">Mostra Game Cube</button>
+    <div id="dades">Aquí es mostren les dades</div>
+  </div>
+  <template id="plantilla">
+    <div class='flexRow'>
+      <div class='imatge'>
+          <img src='{{imatge}}' width='100%'/>
+      </div>
+      <div class='text'>
+          <h2>{{nom}}</h2>
+          Data de venda al públic: {{data}}
+          <br/>
+          Processador: {{processador}}
+          <br/>
+          Fabricant: <b>{{fabricant}}</b>
+          <hr/>
+      </div>
+  </div>
+  </template>
+</body>
+</html>
