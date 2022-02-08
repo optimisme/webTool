@@ -1,5 +1,5 @@
 async function mostraLlista (tipus) {
-    let llistaDades = await fetchPublicJson('./consoles/llista-dades.json')
+    let llistaDades = await fetchServerJson('./consoles/llista-dades.json')
     let refResultat = document.querySelector("#resultat")
     let codiHTML = ''
 
@@ -29,7 +29,7 @@ function getHTMLFromTemplate(id, replacements) {
     return src
 }
 
-async function fetchPublicJson (url) {
+async function fetchServerJson (url) {
 
     let data = undefined
     try {
