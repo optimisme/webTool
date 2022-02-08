@@ -9,7 +9,7 @@ async function formLoad () {
         file: 'usuari.json'
     }
 
-    let usuari = await serverFetch(obj)
+    let usuari = await fetchPostCall(obj)
 
     if (usuari) {
         refNom.value = usuari.nom
@@ -29,7 +29,7 @@ async function formSave () {
         }
     }
 
-    await serverFetch(obj)
+    await fetchPostCall(obj)
 }
 
 function formClean () {
@@ -44,10 +44,10 @@ async function fileDelete () {
         file: 'usuari.json'
     }
 
-    await serverFetch(obj)
+    await fetchPostCall(obj)
 }
 
-async function serverFetch (obj) {
+async function fetchPostCall (obj) {
 
     let data = undefined
     try {
