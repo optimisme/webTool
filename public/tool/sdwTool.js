@@ -602,7 +602,7 @@ export class sdwTool extends HTMLElement {
             this.actions.redo()
         }
 
-        if (e.path && e.path[0] && e.path[0].tagName.toLowerCase() != 'input') {
+        if (e.path && e.path[0] && e.path[0].tagName && e.path[0].tagName.toLowerCase() != 'input') {
             if (e.code == "Delete" || e.code == "Backspace") {
                 e.preventDefault()
                 e.stopPropagation()
