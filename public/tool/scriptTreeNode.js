@@ -368,13 +368,7 @@ export class treeNode {
         }
 
         if (styleStr.length > 0) {
-            if (this.tag == 'body') {
-                styleStr = `body { ${styleStr}\n}\n`
-            } else if (this.attributes.id) {
-                styleStr = `#${this.attributes.id} { ${styleStr}\n}\n`
-            } else {
-                styleStr = `*[data-css="${cssName}"] { ${styleStr}\n}\n`
-            }
+            styleStr = `\n*[data-css="${cssName}"] { ${styleStr}\n}\n`
         }
 
         keysPhone = this.swapToLower(keysPhone, 'border-color', 'border-bottom-color')

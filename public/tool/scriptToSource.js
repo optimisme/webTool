@@ -1,6 +1,8 @@
 export class source {
 
-    constructor () {}
+    constructor () {
+        this.styles = ''
+    }
 
     async toSource () {
 
@@ -32,12 +34,12 @@ export class source {
             scriptFiles = scriptFiles.replaceAll("../examples/", "/examples/")
         }
 
-        let styles = (this.getStyles(app.elementsRoot)).replace("\n\n", "")
-        let bodyIdented = (this.getHTMLStrings(true, styles, app.elementsRoot.childs[1]))
-        let bodyClean = (this.getHTMLStrings(false, styles, app.elementsRoot.childs[1]))
+        this.styles = (this.getStyles(app.elementsRoot)).replace("\n\n", "")
+        let bodyIdented = (this.getHTMLStrings(true, app.elementsRoot.childs[1]))
+        let bodyClean = (this.getHTMLStrings(false, app.elementsRoot.childs[1]))
         let body = `<!-- \n Prevent unauthorized spaces and line jumps inside body:\n 🤦‍♂️ https://css-tricks.com/fighting-the-space-between-inline-block-elements/ \n${bodyIdented}\n-->\n${bodyClean}`
 
-        let html = (this.getHTML(title, fonts, stylesheets, scriptFiles, styles, body))
+        let html = (this.getHTML(title, fonts, stylesheets, scriptFiles, body))
 
         return html
     }
@@ -55,7 +57,7 @@ export class source {
         return (str.replaceAll("\n\n", ""))
     }
 
-    getHTMLStrings (idented, styles, ref) {
+    getHTMLStrings (idented, ref) {
         let str = ""
         let strCSS = "elm" + ref.appId
         let arrIdent = new Array(ref.refList.listIdent)
@@ -66,7 +68,11 @@ export class source {
         let styleAttr = `data-css="${strCSS}"`
         let strClass = ''
 
-        if (styles.indexOf(styleAttr) >= 0 && strAttr.indexOf('id') == -1 && ref.tag != "body") {
+        if (ref.tag == "body") {
+            this.styles = this.styles.replace(`*[data-css="${strCSS}"]`, '\nbody')
+        } else if (ref.attributes.id) {
+            this.styles = this.styles.replace(`*[data-css="${strCSS}"]`, `#${ref.attributes.id}`)
+        } else if (this.styles.indexOf(styleAttr) >= 0) {
             strClass = ' ' + styleAttr
         }
 
@@ -85,7 +91,7 @@ export class source {
         }
 
         for (let cnt = 0; cnt < ref.childs.length; cnt = cnt + 1) {
-            str = str + this.getHTMLStrings(idented, styles, ref.childs[cnt])
+            str = str + this.getHTMLStrings(idented, ref.childs[cnt])
             if (ref.childs[cnt].tag == "img") {
                 str = str.replaceAll("./images/", "/tool/images/")
             }
@@ -110,14 +116,14 @@ export class source {
         return str;
     }
 
-    getHTML (title, fonts, stylesheets, scriptFiles, styles, body) {
+    getHTML (title, fonts, stylesheets, scriptFiles, body) {
         return `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8"/>
   <title>${title}</title>
   <meta name="viewport" content="width=device-width, user-scalable=no">${fonts}${stylesheets}${scriptFiles}
-  <style>${styles}
+  <style>${this.styles}
   </style>
 </head>
 ${body}
