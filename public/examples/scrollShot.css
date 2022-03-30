@@ -1,0 +1,26 @@
+.scrollShot {
+    animation-name: scrollShotAnimation;
+    animation-duration: 2.5s;
+    animation-play-state: paused;
+    animation-timing-function: ease;
+
+    background-color: orange;
+    border-radius: 0px;
+    transform: rotate3d(0, 0, 1, 0deg);
+}
+@keyframes scrollShotAnimation {
+    0% {
+        background-color: orange;
+        border-radius: 0px;
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    50% {
+        border-radius: 100%;
+        background-color: orange;
+    }
+    100% {
+        background-color: lightgray;
+        border-radius: 16px;
+        transform: rotate3d(0, 0, 1, 180deg);
+    }
+}

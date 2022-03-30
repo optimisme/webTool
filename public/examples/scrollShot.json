@@ -7,10 +7,10 @@
       "Open Sans"
     ],
     "stylesheets": [
-      "../examples/scrollMovement.css"
+      "../examples/scrollShot.css"
     ],
     "scripts": [
-      "../examples/scrollMovement.js"
+      "../examples/scrollShot.js"
     ]
   },
   "elementsRoot": {
@@ -118,13 +118,13 @@
                   "align-items": "center",
                   "justify-content": "center",
                   "margin": "15px",
-                  "-attributes-input": "class=\"scrollMovement\":;data-scroll-safe-y=\"100\":;data-scroll=\"true\""
+                  "-attributes-input": "class=\"scrollShot\":;data-safeY=\"100\":;data-scroll=\"true\""
                 },
                 "phone": {},
                 "attributes": {
-                  "class": "scrollMovement",
-                  "data-scroll-movement": "true",
-                  "data-scroll-safe-y": "100"
+                  "class": "scrollShot",
+                  "data-scroll-shot": "true",
+                  "data-scroll-position": "50"
                 },
                 "childs": [
                   {
