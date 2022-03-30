@@ -98,8 +98,7 @@ export class sdwTool extends HTMLElement {
             heroBottomBox:                  "Hero with one box at bottom",
             googleMap:                      "Map from 'Google maps'",
             contactWithMap:                 "Contact information with a map",
-            lottieAnimation:                "Lottie animation",
-            alphabetList:                   "Alphabetic list"
+            lottieAnimation:                "Lottie animation"
         }
 
         this.examplesList = {
@@ -112,6 +111,7 @@ export class sdwTool extends HTMLElement {
             formStyled:                     "Form with material styles",
             scrollMovement:                 "Scroll movement sets animation %",
             scrollAction:                   "Enter scrollview sets an action",
+            alphabetList:                   "Alphabetic list"
         }
 
         // Replace '*' for allowed childs
