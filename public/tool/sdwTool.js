@@ -601,6 +601,14 @@ export class sdwTool extends HTMLElement {
             e.stopPropagation()
             this.actions.redo()
         }
+
+        if (e.code == "Delete" || e.code == "Backspace") {
+            e.preventDefault()
+            e.stopPropagation()
+            if (this.refSelected && ["html", "head", "body"].indexOf(this.refSelected.tag) == -1) { 
+                app.remove()
+            }
+        }
     }
 
     printStack () {
