@@ -44,6 +44,7 @@ async function main () {
         { path: "./settings/",  tag: "sdw-description" },
         { path: "./settings/",  tag: "sdw-display" },
         { path: "./settings/",  tag: "sdw-filter" },
+        { path: "./settings/",  tag: "sdw-fit" },
         { path: "./settings/",  tag: "sdw-flex-child" },
         { path: "./settings/",  tag: "sdw-float" },
         { path: "./settings/",  tag: "sdw-margin" },
