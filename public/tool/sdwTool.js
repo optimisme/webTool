@@ -99,6 +99,7 @@ export class sdwTool extends HTMLElement {
             googleMap:                      "Map from 'Google maps'",
             contactWithMap:                 "Contact information with a map",
             lottieAnimation:                "Lottie animation",
+            alphabetList:                   "Alphabetic list"
         }
 
         this.examplesList = {
