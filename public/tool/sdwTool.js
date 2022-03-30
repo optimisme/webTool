@@ -109,9 +109,10 @@ export class sdwTool extends HTMLElement {
             drawer:                         "Drawer from left side",
             actionSheet:                    "Action sheet with frozen background",
             formStyled:                     "Form with material styles",
+            alphabetList:                   "Alphabetic list",
+            scrollShot:                     "Scroll position plays animation",
             scrollMovement:                 "Scroll movement sets animation %",
-            scrollAction:                   "Enter scrollview sets an action",
-            alphabetList:                   "Alphabetic list"
+            scrollAction:                   "Enter scrollview sets an action"
         }
 
         // Replace '*' for allowed childs
