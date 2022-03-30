@@ -66,7 +66,7 @@ export class source {
         let styleAttr = `data-css="${strCSS}"`
         let strClass = ''
 
-        if (styles.indexOf(styleAttr) >= 0) {
+        if (styles.indexOf(styleAttr) >= 0 && strAttr.indexOf('id') == -1 && ref.tag != "body") {
             strClass = ' ' + styleAttr
         }
 

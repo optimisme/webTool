@@ -332,7 +332,7 @@ export class treeNode {
         return false 
     }
 
-    getStyleString (cssName, forSource) {
+    getStyleString (cssName) {
         let styleStr = ''
         let styleStrPhone = ''
         let keysStyle = Object.keys(this.style)
@@ -368,7 +368,13 @@ export class treeNode {
         }
 
         if (styleStr.length > 0) {
-            styleStr = `*[data-css="${cssName}"] { ${styleStr}\n}`
+            if (this.tag == 'body') {
+                styleStr = `body { ${styleStr}\n}\n`
+            } else if (this.attributes.id) {
+                styleStr = `#${this.attributes.id} { ${styleStr}\n}\n`
+            } else {
+                styleStr = `*[data-css="${cssName}"] { ${styleStr}\n}\n`
+            }
         }
 
         keysPhone = this.swapToLower(keysPhone, 'border-color', 'border-bottom-color')
