@@ -23,6 +23,7 @@ function scrollShot (evt) {
                 ref.style.animationPlayState = "running"
                 ref.style.animationFillMode = "forwards"
             }
+            // TODO: Play backwards otherwise
         }
     }
 }
