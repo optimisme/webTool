@@ -89,50 +89,56 @@
                     "childs": [
                       {
                         "appId": 5,
-                        "tag": "div",
-                        "description": "Background Image",
+                        "tag": "img",
+                        "description": "Image",
                         "text": "",
                         "style": {
                           "background-color": "lightgrey",
-                          "background": "center / cover url(\"./images/image0.jpg\")",
                           "box-sizing": "border-box",
                           "height": "100%",
-                          "min-width": "100%"
+                          "min-width": "100%",
+                          "object-fit": "cover"
                         },
                         "phone": {},
-                        "attributes": {},
+                        "attributes": {
+                          "src": "./images/image0.jpg"
+                        },
                         "childs": []
                       },
                       {
                         "appId": 6,
-                        "tag": "div",
-                        "description": "Background Image",
+                        "tag": "img",
+                        "description": "Image",
                         "text": "",
                         "style": {
                           "background-color": "lightgrey",
-                          "background": "center / cover url(\"./images/image5.jpg\")",
                           "box-sizing": "border-box",
                           "height": "100%",
-                          "min-width": "100%"
+                          "min-width": "100%",
+                          "object-fit": "cover"
                         },
                         "phone": {},
-                        "attributes": {},
+                        "attributes": {
+                          "src": "./images/image5.jpg"
+                        },
                         "childs": []
                       },
                       {
                         "appId": 7,
-                        "tag": "div",
-                        "description": "Background Image",
+                        "tag": "img",
+                        "description": "Image",
                         "text": "",
                         "style": {
                           "background-color": "lightgrey",
-                          "background": "center / cover url(\"./images/image7.jpg\")",
                           "box-sizing": "border-box",
                           "height": "100%",
-                          "min-width": "100%"
+                          "min-width": "100%",
+                          "object-fit": "cover"
                         },
                         "phone": {},
-                        "attributes": {},
+                        "attributes": {
+                          "src": "./images/image7.jpg"
+                        },
                         "childs": []
                       }
                     ]
