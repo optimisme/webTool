@@ -1,0 +1,13 @@
+@import url("./settings/common-site.css");
+.title {
+    margin-right: 8px;
+}
+.grow {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+}

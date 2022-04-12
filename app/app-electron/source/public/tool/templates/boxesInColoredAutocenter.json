@@ -1,0 +1,628 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "tag": "div",
+            "description": "Colored back",
+            "text": "",
+            "style": {
+              "background-color": "#174197",
+              "color": "#ffffff"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "div",
+                "description": "Autocenter",
+                "text": "",
+                "style": {
+                  "margin-right": "auto",
+                  "margin-left": "auto",
+                  "box-sizing": "border-box",
+                  "width": "100%",
+                  "max-width": "1264px",
+                  "padding-right": "32px",
+                  "padding-left": "32px",
+                  "display": "flex",
+                  "justify-content": "space-between",
+                  "flex-wrap": "wrap"
+                },
+                "phone": {
+                  "padding-right": "16px",
+                  "padding-left": "16px",
+                  "justify-content": "center"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "div",
+                    "description": "Vertical block",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "background-color": "#3a5b9c",
+                      "max-width": "250px",
+                      "border-radius": "16px",
+                      "padding": "24px",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "space-between",
+                      "min-width": "250px",
+                      "height": "200px",
+                      "margin-top": "16px",
+                      "margin-bottom": "16px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "font-size": "2em",
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "😀",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "h3",
+                        "description": "Header 3",
+                        "text": "",
+                        "style": {
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Smile",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "text-align": "center",
+                          "margin": "0",
+                          "box-sizing": "border-box",
+                          "padding-top": "16px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "When I see you",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "description": "Vertical block",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "background-color": "#3a5b9c",
+                      "max-width": "250px",
+                      "border-radius": "16px",
+                      "padding": "24px",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "space-between",
+                      "min-width": "250px",
+                      "height": "200px",
+                      "margin-top": "16px",
+                      "margin-bottom": "16px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "font-size": "2em",
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "😅",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "h3",
+                        "description": "Header 3",
+                        "text": "",
+                        "style": {
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Sweat",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "text-align": "center",
+                          "margin": "0",
+                          "box-sizing": "border-box",
+                          "padding-top": "16px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "After the exam",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "description": "Vertical block",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "background-color": "#3a5b9c",
+                      "max-width": "250px",
+                      "border-radius": "16px",
+                      "padding": "24px",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "space-between",
+                      "min-width": "250px",
+                      "height": "200px",
+                      "margin-top": "16px",
+                      "margin-bottom": "16px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "font-size": "2em",
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "😉",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "h3",
+                        "description": "Header 3",
+                        "text": "",
+                        "style": {
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Winking",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "text-align": "center",
+                          "margin": "0",
+                          "box-sizing": "border-box",
+                          "padding-top": "16px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Fun is just the way we talk",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "description": "Vertical block",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "height": "200px",
+                      "background-color": "#3a5b9c",
+                      "max-width": "250px",
+                      "border-radius": "16px",
+                      "padding": "24px",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "space-between",
+                      "min-width": "250px",
+                      "margin-top": "16px",
+                      "margin-bottom": "16px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "font-size": "2em",
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "😘",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "h3",
+                        "description": "Header 3",
+                        "text": "",
+                        "style": {
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Blowing kiss",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "text-align": "center",
+                          "margin": "0",
+                          "box-sizing": "border-box",
+                          "padding-top": "16px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "The fun in me",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "description": "Vertical block",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "height": "200px",
+                      "background-color": "#3a5b9c",
+                      "max-width": "250px",
+                      "border-radius": "16px",
+                      "padding": "24px",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "space-between",
+                      "min-width": "250px",
+                      "margin-top": "16px",
+                      "margin-bottom": "16px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "font-size": "2em",
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "😋",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "h3",
+                        "description": "Header 3",
+                        "text": "",
+                        "style": {
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Savoring food",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "text-align": "center",
+                          "margin": "0",
+                          "box-sizing": "border-box",
+                          "padding-top": "16px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "How cool it is",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "description": "Vertical block",
+                    "text": "",
+                    "style": {
+                      "box-sizing": "border-box",
+                      "height": "200px",
+                      "background-color": "#3a5b9c",
+                      "max-width": "250px",
+                      "border-radius": "16px",
+                      "padding": "24px",
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "align-items": "center",
+                      "justify-content": "space-between",
+                      "min-width": "250px",
+                      "margin-top": "16px",
+                      "margin-bottom": "16px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "font-size": "2em",
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "🤪",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "h3",
+                        "description": "Header 3",
+                        "text": "",
+                        "style": {
+                          "margin": "0"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Zany",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "text-align": "center",
+                          "margin": "0",
+                          "box-sizing": "border-box",
+                          "padding-top": "16px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "Me at high school",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

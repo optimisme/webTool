@@ -1,0 +1,44 @@
+:host {
+    margin-bottom: 8px;
+}
+.root {
+    display: flex;
+    border-bottom: solid 1px lightgray;
+    flex-direction: column;
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
+.root > .rowAction {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.rowAction > input {
+    width: 100%;
+}
+.rowText {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.rowText > div > .refreshIcon {
+    cursor: pointer;
+    font-size: 1.1em;
+}
+.itemText {
+    font-size: 0.8em !important;
+    margin-right: 10px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+img {
+    cursor: pointer;
+    font-size: 1.2em;
+    height: 16px;
+    width: 16px;
+}
+@keyframes refreshRotate { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }

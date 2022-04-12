@@ -1,0 +1,84 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": [
+      "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+    ]
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "div",
+            "description": "Lottie container",
+            "text": "",
+            "style": {
+              "box-sizing": "border-box",
+              "width": "100px",
+              "height": "100px",
+              "overflow": "hidden",
+              "border-radius": "16px"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "lottie-player",
+                "description": "Lottie animation",
+                "text": "",
+                "style": {
+                  "-attributes-input": "src=\"https://assets4.lottiefiles.com/packages/lf20_faetfrht.json\":;background=\"transparent\":;speed=\"1\":;autoplay=\"true\":;loop=\"true\""
+                },
+                "phone": {},
+                "attributes": {
+                  "src": "https://assets2.lottiefiles.com/private_files/lf30_lfmwjU.json",
+                  "background": "lightgray",
+                  "speed": "1",
+                  "autoplay": "true",
+                  "loop": "true"
+                },
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

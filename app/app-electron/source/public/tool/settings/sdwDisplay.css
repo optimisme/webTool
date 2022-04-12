@@ -1,0 +1,7 @@
+@import url("./settings/common-section.css");
+.imgAlignRow {
+    display: flex !important;
+}
+.imgAlignColumn {
+    display: none !important;
+}

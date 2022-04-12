@@ -1,0 +1,100 @@
+.autocenter { 
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1264px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .autocenter { 
+        padding-left: 16px;
+        padding-right: 16px;
+   }
+}
+
+h1 {
+    color: rgb(4, 85, 136);
+    font-size: 64px;
+    margin: 0;
+}
+
+#title0 {
+    animation-name: frames0;
+    animation-duration: 4s;
+    animation-play-state: paused;
+    animation-timing-function: ease;
+}
+
+@keyframes frames0 {
+    0%      { color: white;              transform: translate3d(150px, 0, 0);    opacity: 0;}
+    50%     { color: rgb(4, 85, 136);    transform: translate3d(0, 0, 0);        opacity: 1;}
+}
+
+#title1 {
+    animation-name: frames1;
+    animation-duration: 4s;
+    animation-play-state: paused;
+    animation-timing-function: ease;
+}
+
+@keyframes frames1 {
+    0%      { color: white;              transform: translate3d(-150px, 0, 0);    opacity: 0;}
+    50%     { color: rgb(4, 85, 136);    transform: translate3d(0, 0, 0);        opacity: 1;}
+}
+
+#title2 {
+    animation-name: frames2;
+    animation-duration: 4s;
+    animation-play-state: paused;
+    animation-timing-function: ease;
+}
+
+@keyframes frames2 {
+    0%      { color: white;              transform: translate3d(250px, 0, 0);    opacity: 0;}
+    50%     { color: rgb(4, 85, 136);    transform: translate3d(0, 0, 0);        opacity: 1;}
+}
+
+#title3 {
+    animation-name: frames3;
+    animation-duration: 4s;
+    animation-play-state: paused;
+    animation-timing-function: ease;
+}
+
+@keyframes frames3 {
+    0%      { color: white;             transform: translate3d(0, 50px, 0);}
+    50%     { color: black;             transform: translate3d(0, 0, 0);}
+}
+/*
+.scrollShot {
+    animation-name: scrollShotAnimation;
+    animation-duration: 2.5s;
+    animation-play-state: paused;
+    animation-timing-function: ease;
+
+    background-color: orange;
+    border-radius: 0px;
+    transform: rotate3d(0, 0, 1, 0deg);
+}
+@keyframes scrollShotAnimation {
+    0% {
+        background-color: orange;
+        border-radius: 0px;
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+    50% {
+        border-radius: 100%;
+        background-color: orange;
+    }
+    100% {
+        background-color: lightgray;
+        border-radius: 16px;
+        transform: rotate3d(0, 0, 1, 180deg);
+    }
+}
+*/

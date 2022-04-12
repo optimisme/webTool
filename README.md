@@ -6,7 +6,7 @@ The project is server agnostic, despite it uses NodeJS as a web server. You can 
 
 There is an online (and slow to load) version where you can test this tool at:
 
-[https://optimisme.github.io/webTool/public/tool/](https://optimisme.github.io/webTool/public/tool/)
+[https://optimisme.github.io/webTool/server/public/tool/](https://optimisme.github.io/webTool/server/public/tool/)
 
 Obviously, with the online version, all the paths and URLs must be from Internet. 
 
@@ -17,10 +17,9 @@ Obviously, with the online version, all the paths and URLs must be from Internet
 
 # webTool from an Electron App
 
-You can use this tool as an app with the compiled electron apps at:
-
+You can use this tool as an app with the compiled electron apps at: ...app/app-distribution
 ```
-...app/app-distribution
+Unrar with: rar x webtool-linux-x86.part1.rar
 ```
 
 Download and run it, remember that the server files are located at:

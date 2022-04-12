@@ -1,0 +1,111 @@
+.formButton             { background-color: rgb(0, 125, 255); border: none; border-radius: 4px; box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12); color: white; cursor: pointer; font-weight: 800; height: 36px; margin: 0; min-width: 64px; outline: none; padding: 0 16px; position: relative; text-align: center; text-transform: uppercase; transition: box-shadow 0.2s; }
+.formButton:hover,
+.formButton:focus       { background-color: rgb(50, 150, 255); box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12); }
+.formButton:active      { box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
+.formButton:disabled    { color: #eee; background-color: #aaa; box-shadow: none; cursor: initial; }
+
+.formCheckbox { color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 1.5; position: relative; z-index: 0; }
+.formCheckbox > input { appearance: none; background-color: rgba(0, 0, 0, 0.6); border-radius: 50%; box-shadow: none; display: block; height: 40px; left: -10px; margin: 0; opacity: 0; outline: none; pointer-events: none; position: absolute; top: -8px; transition: opacity 0.3s, transform 0.2s; transform: scale(1); width: 40px; z-index: -1; }
+.formCheckbox > span { cursor: pointer; display: inline-block; width: 100%; }
+.formCheckbox > span::before { border: solid 2px; border-color: rgba(0, 0, 0, 0.6); border-radius: 2px; box-sizing: border-box; content: ""; display: inline-block; height: 18px; margin: 3px 11px 3px 1px; transition: border-color 0.2s, background-color 0.2s; vertical-align: top; width: 18px; }
+.formCheckbox > span::after { border: solid 2px transparent; border-right: none; border-top: none; content: ""; display: block; height: 5px; left: 1px; position: absolute; top: 3px; transform: translate(3px, 4px) rotate(-45deg); width: 10px; }
+.formCheckbox > input:checked,
+.formCheckbox > input:indeterminate { background-color: rgb(33, 150, 243) }
+.formCheckbox > input:checked + span::before,
+.formCheckbox > input:indeterminate + span::before { background-color: rgb(33, 150, 243); border-color: rgb(33, 150, 243); }
+.formCheckbox > input:checked + span::after,
+.formCheckbox > input:indeterminate + span::after { border-color: rgb(255, 255, 255); }
+.formCheckbox > input:indeterminate + span::after { border-left: none; transform: translate(4px, 3px); }
+.formCheckbox:hover > input { opacity: 0.04; }
+.formCheckbox > input:focus {   opacity: 0.12;  }
+.formCheckbox:hover > input:focus { opacity: 0.16;  }
+.formCheckbox > input:active { opacity: 1; transform: scale(0); transition: transform 0s, opacity 0s; }
+.formCheckbox > input:active + span::before { border-color: rgb(33, 150, 243); }
+.formCheckbox > input:checked:active + span::before { background-color: rgba(0, 0, 0, 0.6); border-color: transparent; }
+.formCheckbox > input:disabled { opacity: 0; }
+.formCheckbox > input:disabled + span { color: rgba(0, 0, 0, 0.38); cursor: initial; }
+.formCheckbox > input:disabled + span::before { border-color: currentColor; }
+.formCheckbox > input:checked:disabled + span::before,
+.formCheckbox > input:indeterminate:disabled + span::before { background-color: currentColor; border-color: transparent; }
+
+.formInputText { padding: 15px 0 0; position: relative; width: 100%; }
+.formInputText > input { background: transparent; border: 0; border-bottom: 1px solid #d2d2d2; color: #212121; font-family: inherit; font-size: 16px; outline: 0; padding: 7px 0; transition: border-color 0.2s; width: 100%; }
+.formInputText > input::placeholder { color: transparent; }
+.formInputText > input:placeholder-shown ~ label { cursor: text; font-size: 16px; top: 20px; }
+.formInputText > label { pointer-events: none; }
+.formInputText > label, 
+.formInputText > input:focus ~ label { color: #9b9b9b; display: block; font-size: 12px; position: absolute; top: 0; transition: 0.2s; }
+.formInputText > input:focus ~ label { color: rgb(0, 125, 255); }
+.formInputText > input:focus { border-bottom: 2px solid rgb(0, 125, 255); padding-bottom: 6px; }
+.formInputText > input:valid ~ span { color: transparent; }
+.formInputText > input:invalid ~ span { color: red; }
+
+.formRadio { color: rgba(0, 0, 0, 0.87); display: block; font-size: 16px; line-height: 1.5; position: relative; z-index: 0; }
+.formRadio > input { appearance: none; background-color: rgba(0, 0, 0, 0.6); border-radius: 50%; display: block; height: 40px; left: -10px; margin: 0; opacity: 0; outline: none; pointer-events: none; position: absolute; top: -8px; transform: scale(1); transition: opacity 0.3s, transform 0.2s; width: 40px; z-index: -1; }
+.formRadio > span { cursor: pointer; display: inline-block; width: 100%; }
+.formRadio > span::before { border: solid 2px; border-color: rgba(0, 0, 0, 0, 0.6); border-radius: 50%; box-sizing: border-box; content: ""; display: inline-block; height: 20px; margin: 2px 10px 2px 0; transition: border-color 0.2s; vertical-align: top; width: 20px; }
+.formRadio > span::after { background-color: rgb(033, 150, 243); border-radius: 50%; content: ""; display: block; height: 10px; left: 0; position: absolute; top: 2px; transform: translate(5px, 5px) scale(0); transition: transform 0.2s; width: 10px; }
+.formRadio > input:checked { background-color: rgb(0, 33, 150, 243); }
+.formRadio > input:checked + span::before { border-color: rgb(33, 150, 243); }
+.formRadio > input:checked + span::after { transform: translate(5px, 5px) scale(1); }
+.formRadio:hover > input { opacity: 0.04; }
+.formRadio > input:focus { opacity: 0.12; }
+.formRadio:hover > input:focus { opacity: 0.16; }
+.formRadio > input:active { opacity: 1; transform: scale(0); transition: transform 0s, opacity 0s; }
+.formRadio > input:active + span::before { border-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243)); }
+.formRadio > input:disabled { opacity: 0; }
+.formRadio > input:disabled + span { color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38); cursor: initial; }
+.formRadio > input:disabled + span::before { border-color: currentColor; }
+.formRadio > input:disabled + span::after { background-color: currentColor; }
+
+.formRange { display: inline-block; color: rgba(0, 0, 0, 0.87); font-family: inherit; font-size: 16px; line-height: 1.5; width: 100%; }
+.formRange > input { appearance: none; -webkit-appearance: none; background-color: transparent; cursor: pointer; display: block; height: 36px; margin: 0 0 -36px; position: relative; top: 24px; width: 100%; }
+.formRange > input:last-child { margin: 0; position: static; }
+.formRange > span { color: #9b9b9b; display: inline-block; font-size: 12px; margin-bottom: 36px; }
+.formRange > input:focus { outline: none; }
+.formRange > input:focus ~ span { color: rgb(33, 150, 243); }
+.formRange > input:disabled { cursor: default; opacity: 0.38; }
+.formRange > input:disabled + span { color: rgba(0, 0, 0, 0.38); }
+.formRange > input::-webkit-slider-runnable-track { background-color: rgba(33, 150, 243, 0.24); border-radius: 1px; height: 2px; margin: 17px 0; width: 100%; }
+.formRange > input::-webkit-slider-thumb { appearance: none; -webkit-appearance: none; background-color: rgb(33, 150, 243); border: none; border-radius: 50%; height: 2px; transform: scale(6, 6); transition: box-shadow 0.2s; width: 2px; }
+.formRange:hover > input::-webkit-slider-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.04); }
+.formRange > input:focus::-webkit-slider-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.12); }
+.formRange:hover > input:focus::-webkit-slider-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.16); }
+.formRange > input:active::-webkit-slider-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.24) !important; }
+.formRange > input:disabled::-webkit-slider-runnable-track { background-color: rgba(0, 0, 0, 0.38); }
+.formRange > input:disabled::-webkit-slider-thumb { background-color: rgb(var(--pure-material-onsurface-rgb, 0, 0, 0)); box-shadow: 0 0 0 1px rgb(var(--pure-material-surface-rgb, 255, 255, 255)) !important; color: rgb(var(--pure-material-surface-rgb, 255, 255, 255)); transform: scale(4, 4); }
+.formRange > input::-moz-range-track { background-color: rgba(33, 150, 243, 0.24); border-radius: 1px; margin: 17px 0; height: 2px; width: 100%; }
+.formRange > input::-moz-range-thumb { appearance: none; -moz-appearance: none; background-color: rgb(33, 150, 243); border: none; border-radius: 50%; height: 2px; transform: scale(6, 6); transition: box-shadow 0.2s; width: 2px; }
+.formRange > input::-moz-range-progress { background-color: rgb(33, 150, 243); border-radius: 1px; height: 2px; }
+.formRange:hover > input:hover::-moz-range-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.04); }
+.formRange > input:focus::-moz-range-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.12); }
+.formRange:hover > input:focus::-moz-range-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.16); }
+.formRange > input:active::-moz-range-thumb { box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.24) !important; }
+.formRange > input:disabled::-moz-range-track { background-color: rgba(0, 0, 0, 0.38); }
+.formRange > input:disabled::-moz-range-progress { background-color: rgba(0, 0, 0, 0.87); }
+.formRange > input:disabled::-moz-range-thumb { background-color: rgb(0, 0, 0); box-shadow: 0 0 0 1px rgb(255, 255, 255) !important; transform: scale(4, 4); }
+.formRange > input::-moz-focus-outer { border: none; }
+
+.formSelect { position: relative; width: 100%; }
+.formSelect:after { border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid rgba(0, 0, 0, 0.12); content: ''; height: 0; padding: 0; pointer-events: none; position: absolute; right: 10px; top: 22px; width: 0; }
+.formSelect > select { appearance: none; -webkit-appearance:none; background-color: transparent; border: none; border-bottom: 1px solid rgba(0,0,0, 0.12); border-radius: 0; font-family: inherit; padding: 15px 10px 10px 0; position: relative; font-size: 18px; width: 100%; }
+.formSelect > select:focus { border-bottom: 1px solid rgba(0,0,0, 0); outline: none; }
+.formSelect > label { color: rgba(0,0,0, 0.26); font-size: 18px; font-weight: normal; left: 0; position: absolute; pointer-events: none; top: 12px; transition: 0.2s ease all; }
+.formSelect > select:focus ~ label, .formSelect > select:valid ~ label {  color: #2F80ED; font-size: 12px; top: 0px; transition: 0.2s ease all; }
+.formSelect > span:nth-child(2) { height: 60%; left: 0; opacity: 0.5; pointer-events: none; position: absolute; top: 25%; width: 100px; }
+.formSelect > span:nth-child(3) { display: block; position: relative; width: 100%; }
+.formSelect > span:nth-child(3):before, .formSelect > span:nth-child(3):after { background: #2F80ED; bottom: 1px; content: ''; height: 2px; position: absolute; transition: 0.2s ease all; width: 0; }
+.formSelect > span:nth-child(3):before { left: 50%; }
+.formSelect > span:nth-child(3):after { right: 50%; }
+.formSelect > select:focus ~ span:nth-child(3):before, .formSelect > select:focus ~ span:nth-child(3):after { width: 50%; }
+
+.formTextarea { padding: 15px 0 0; position: relative; width: 100%; }
+.formTextarea > textarea { background: transparent; border: 0; border-bottom: 1px solid #d2d2d2; color: #212121; font-family: inherit; font-size: 16px; outline: 0; padding: 7px 0; resize: none; transition: border-color 0.2s; width: 100%; }
+.formTextarea > textarea::placeholder { color: transparent; }
+.formTextarea > textarea:placeholder-shown ~ label { cursor: text; font-size: 16px; top: 20px; }
+.formTextarea > label, 
+.formTextarea > textarea:focus ~ label { color: #9b9b9b; display: block; font-size: 12px; position: absolute; top: 0; transition: 0.2s; }
+.formTextarea > textarea:focus ~ label { color: rgb(0, 125, 255); }
+.formTextarea > textarea:focus { border-bottom: 2px solid rgb(0, 125, 255); padding-bottom: 6px; }
+.formTextarea > textarea:valid ~ span { color: transparent; }
+.formTextarea > textarea:invalid ~ span { color: red; }

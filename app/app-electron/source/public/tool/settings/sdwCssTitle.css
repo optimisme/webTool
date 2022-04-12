@@ -1,0 +1,16 @@
+@import url("./settings/common-section.css");
+.root {
+    padding-top: 8px;
+}
+.rowTitle {
+    display: flex;
+    justify-content: flex-end;
+}
+.rowTitle > div {
+    flex-grow: 1;
+}
+.rowTitle > img {
+    cursor: pointer;
+    padding: 4px;
+    width: 16px;
+}

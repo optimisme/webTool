@@ -1,0 +1,28 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/transform.svg"></div>
+    <div class="sectionTitle">Transforms</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-size data-attr="perspective"         data-ref="perspective"      data-img="./icons/transformPerspective.svg"></sdw-input-size>
+        <sdw-input-text class="hidden"                  data-attr="transform"       data-ref="transform"></sdw-input-text>
+        <div class="boxed">
+            <sdw-list data-ref="transform-list"         data-subtitle="Transforms"  data-add="Add Transform" data-default="translate3d(0, 0, 0)"></sdw-list>
+            <sdw-input-select data-attr="-ts-tr"        data-ref="-ts-tr"           data-options='["initial", "translate3d", "scale3d", "rotate3d", "skew"]'></sdw-input-select>
+            <sdw-input-size  data-attr="-ts-trans-x"    data-ref="-ts-trans-x"      data-img="./icons/transformX.svg"></sdw-input-size>
+            <sdw-input-size  data-attr="-ts-trans-y"    data-ref="-ts-trans-y"      data-img="./icons/transformY.svg"></sdw-input-size>
+            <sdw-input-size  data-attr="-ts-trans-z"    data-ref="-ts-trans-z"      data-img="./icons/transformZ.svg"></sdw-input-size>
+            <sdw-input-float data-attr="-ts-scale-x"    data-ref="-ts-scale-x"      data-img="./icons/transformX.svg"></sdw-input-float>
+            <sdw-input-float data-attr="-ts-scale-y"    data-ref="-ts-scale-y"      data-img="./icons/transformY.svg"></sdw-input-float>
+            <sdw-input-float data-attr="-ts-scale-z"    data-ref="-ts-scale-z"      data-img="./icons/transformZ.svg"></sdw-input-float>
+            <sdw-input-range data-attr="-ts-rotate-x"   data-ref="-ts-rotate-x"     data-img="./icons/transformX.svg" data-min="0" data-max="1" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-rotate-y"   data-ref="-ts-rotate-y"     data-img="./icons/transformY.svg" data-min="0" data-max="1" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-rotate-z"   data-ref="-ts-rotate-z"     data-img="./icons/transformZ.svg" data-min="0" data-max="1" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-rotate-a"   data-ref="-ts-rotate-a"     data-img="./icons/transformA.svg" data-min="0" data-max="359"></sdw-input-range>
+            <sdw-input-float data-attr="-ts-skew-x"     data-ref="-ts-skew-x"       data-img="./icons/transformX.svg"></sdw-input-float>
+            <sdw-input-float data-attr="-ts-skew-y"     data-ref="-ts-skew-y"       data-img="./icons/transformY.svg"></sdw-input-float>
+        </div>
+    </div>
+</div>

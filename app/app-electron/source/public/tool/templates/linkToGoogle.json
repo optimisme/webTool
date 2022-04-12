@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "tag": "a",
+            "description": "Link",
+            "text": "",
+            "style": {
+              "--attributes": "href=\"http://www.google.com\":;target=\"_blank\""
+            },
+            "phone": {},
+            "attributes": {
+              "href": "http://www.google.com",
+              "target": "_blank"
+            },
+            "childs": [
+              {
+                "tag": "text",
+                "description": "",
+                "text": "Link",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

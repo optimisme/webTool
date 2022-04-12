@@ -1,0 +1,43 @@
+<div data-ref="buttons">
+    <div data-ref="toggleAutoSave" class="toggle" data-tooltip="Auto save at local storage">
+        <span data-ref="toogleIndicator"></span>
+    </div>
+    <div data-ref="buttonSave" data-tooltip="Download structure in .json file format">
+        <img src="./icons/iconDownload.svg">
+    </div>
+    <div data-ref="buttonLoad" class="buttonDrag" data-tooltip="Upload structure from .json file format">
+        <img src="./icons/iconUpload.svg">
+    </div>
+    <div data-ref="buttonAppend" class="buttonDrag" data-tooltip="Append to this structure from another .json file">
+        <img src="./icons/iconAppend.svg">
+    </div>
+    <div data-ref="buttonCode">
+        <img src="./icons/iconDownloadSource.svg" data-tooltip="Download .html source file">
+    </div>
+    <div class="grow"></div>
+    <div data-ref="buttonPhone">
+        <img src="./icons/iconPhone.svg" data-tooltip="Phone styled view">
+    </div>
+    <div data-ref="buttonTablet" data-tooltip="Small desktop styled view">
+        <img src="./icons/iconTablet.svg">
+    </div>
+    <div data-ref="buttonDesktop" class="buttonSelected" data-tooltip="Large desktop styled view">
+        <img src="./icons/iconDesktop.svg">
+    </div>
+</div>
+<iframe data-ref="content" scrolling="true" src="./previewFrame.html"></iframe>
+<div class="bottom">
+    <div id="footer">
+        <div>License: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC, BY-NC-ND</a></div>
+        <div>Images from: <a href="https://www.pexels.com/" target="_blank">Pexels.com</a></div>
+    </div>
+    <div class="copyright">
+        © Albert Palacios, 2021
+    </div>
+    <div class="undoRedo">
+        <img data-ref="undo" class="disabled" src="./icons/actionUndo.svg">
+        <img data-ref="redo" class="disabled" src="./icons/actionRedo.svg">
+    </div>
+</div>
+<input data-ref="fileInputRefresh" accept=".json" type="file" style="display:none;" oninput="app.refs['preview'].uploadWebTemplate(true, this.files[0])">
+<input data-ref="fileInputAppend"  accept=".json" type="file" style="display:none;" oninput="app.refs['preview'].uploadWebTemplate(false, this.files[0])">

@@ -1,0 +1,231 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "googleFonts": [
+      "Open Sans",
+      "Pacifico",
+      "Architects Daughter"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "align-items": "center"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px",
+              "flex-direction": "column"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "div",
+                "description": "Picture block",
+                "text": "",
+                "style": {
+                  "box-sizing": "border-box",
+                  "width": "50%",
+                  "padding": "32px",
+                  "-ts-vertical": 8,
+                  "-ts-blur": 10,
+                  "-ts-spread": 10,
+                  "-ts-color": "rgba(0,0,0,0.20)"
+                },
+                "phone": {
+                  "width": "100%",
+                  "padding": "0px",
+                  "padding-top": "16px"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "div",
+                    "description": "Frame",
+                    "text": "",
+                    "style": {
+                      "padding": "16px",
+                      "box-shadow": "0px 5px 15px 2px rgba(0,0,0,0.20)",
+                      "-ts-vertical": 5,
+                      "-ts-blur": 15,
+                      "-ts-spread": 2,
+                      "-ts-color": "rgba(0,0,0,0.20)",
+                      "border-radius": "8px",
+                      "-ts-tr": "rotate3d",
+                      "transform": "rotate3d(0, 0, 1, 358deg)",
+                      "-ts-trans-x": "0",
+                      "-ts-trans-y": "0",
+                      "-ts-trans-z": "0",
+                      "-ts-rotate-y": "0",
+                      "-ts-rotate-x": "0",
+                      "-ts-rotate-a": "358",
+                      "-ts-rotate-z": "1"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "img",
+                        "description": "Image",
+                        "text": "",
+                        "style": {
+                          "box-sizing": "border-box",
+                          "width": "100%",
+                          "-ts-f": "saturate",
+                          "filter": "saturate(250%)",
+                          "-ts-f-size": "5px",
+                          "-ts-f-percent2": "250"
+                        },
+                        "phone": {},
+                        "attributes": {
+                          "src": "./images/image3.jpg"
+                        },
+                        "childs": []
+                      },
+                      {
+                        "tag": "p",
+                        "description": "Paragraph of text",
+                        "text": "",
+                        "style": {
+                          "display": "inline-block",
+                          "margin": "0",
+                          "box-sizing": "border-box",
+                          "max-width": "100%",
+                          "overflow": "hidden",
+                          "text-overflow": "ellipsis",
+                          "white-space": "nowrap",
+                          "font-family": "Architects Daughter",
+                          "color": "#646f8a",
+                          "padding-top": "4px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "tag": "text",
+                            "description": "",
+                            "text": "An eye for an eye will only make the whole world blind",
+                            "style": {},
+                            "phone": {},
+                            "attributes": {},
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "description": "Text block",
+                "text": "",
+                "style": {
+                  "box-sizing": "border-box",
+                  "width": "50%",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center"
+                },
+                "phone": {
+                  "width": "100%",
+                  "padding-top": "16px"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "h1",
+                    "description": "Header 1",
+                    "text": "",
+                    "style": {
+                      "font-family": "Pacifico",
+                      "margin": "0"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "text",
+                        "description": "",
+                        "text": "The magic inside",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "margin": "0",
+                      "padding-top": "16px",
+                      "text-align": "center"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "tag": "text",
+                        "description": "",
+                        "text": "Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma — which is living with the results of other people’s thinking. Don’t let the noise of others’ opinions drown out your own inner voice.",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

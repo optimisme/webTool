@@ -1,0 +1,5 @@
+@import url("./inputs/common-input.css");
+input[type="color"] {
+    margin-left: 4px;
+    height: 21px;
+}

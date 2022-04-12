@@ -1,0 +1,310 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": [
+      "../examples/carouselDots.js"
+    ]
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 1,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 2,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 3,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px",
+              "flex-direction": "column"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 4,
+                "tag": "div",
+                "description": "Picture block",
+                "text": "",
+                "style": {
+                  "box-sizing": "border-box",
+                  "width": "50%",
+                  "padding": "32px",
+                  "-ts-vertical": 8,
+                  "-ts-blur": 10,
+                  "-ts-spread": 10,
+                  "-ts-color": "rgba(0,0,0,0.20)"
+                },
+                "phone": {
+                  "width": "100%",
+                  "padding": "0px",
+                  "padding-top": "16px"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 5,
+                    "tag": "div",
+                    "description": "Frame",
+                    "text": "",
+                    "style": {
+                      "padding": "16px",
+                      "box-shadow": "0px 5px 15px 2px rgba(0,0,0,0.20)",
+                      "-ts-vertical": 5,
+                      "-ts-blur": 15,
+                      "-ts-spread": 2,
+                      "-ts-color": "rgba(0,0,0,0.20)",
+                      "border-radius": "16px",
+                      "-ts-tr": "rotate3d",
+                      "transform": "rotate3d(0, 0, 1, 358deg)",
+                      "-ts-trans-x": "0",
+                      "-ts-trans-y": "0",
+                      "-ts-trans-z": "0",
+                      "-ts-rotate-y": "0",
+                      "-ts-rotate-x": "0",
+                      "-ts-rotate-a": "358",
+                      "-ts-rotate-z": "1",
+                      "background": "linear-gradient(-15deg, #faf7e3, #d7ca99)"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 17,
+                        "tag": "div",
+                        "description": "Carousel",
+                        "text": "",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "appId": 18,
+                            "tag": "div",
+                            "description": "Carousel frame",
+                            "text": "",
+                            "style": {
+                              "overflow": "hidden"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 19,
+                                "tag": "div",
+                                "description": "Carousel images",
+                                "text": "",
+                                "style": {
+                                  "box-sizing": "border-box",
+                                  "height": "300px",
+                                  "display": "flex",
+                                  "-ts-tr": "translate3d",
+                                  "transform": "translate3d(0, 0, 0)",
+                                  "-ts-trans-x": "0",
+                                  "-ts-trans-y": "0",
+                                  "-ts-trans-z": "0",
+                                  "-ts-transition": "transform",
+                                  "transition": "transform 250ms 0ms ease",
+                                  "-ts-duration": "250",
+                                  "-ts-delay": "0",
+                                  "-ts-ease": "ease"
+                                },
+                                "phone": {},
+                                "attributes": {
+                                  "data-carousel": "images"
+                                },
+                                "childs": [
+                                  {
+                                    "appId": 20,
+                                    "tag": "img",
+                                    "description": "Image",
+                                    "text": "",
+                                    "style": {
+                                      "background-color": "lightgrey",
+                                      "box-sizing": "border-box",
+                                      "height": "100%",
+                                      "min-width": "100%",
+                                      "object-fit": "cover"
+                                    },
+                                    "phone": {},
+                                    "attributes": {
+                                      "src": "./images/image0.jpg"
+                                    },
+                                    "childs": []
+                                  },
+                                  {
+                                    "appId": 21,
+                                    "tag": "img",
+                                    "description": "Image",
+                                    "text": "",
+                                    "style": {
+                                      "background-color": "lightgrey",
+                                      "box-sizing": "border-box",
+                                      "height": "100%",
+                                      "min-width": "100%",
+                                      "object-fit": "cover"
+                                    },
+                                    "phone": {},
+                                    "attributes": {
+                                      "src": "./images/image5.jpg"
+                                    },
+                                    "childs": []
+                                  },
+                                  {
+                                    "appId": 22,
+                                    "tag": "img",
+                                    "description": "Image",
+                                    "text": "",
+                                    "style": {
+                                      "background-color": "lightgrey",
+                                      "box-sizing": "border-box",
+                                      "height": "100%",
+                                      "min-width": "100%",
+                                      "object-fit": "cover"
+                                    },
+                                    "phone": {},
+                                    "attributes": {
+                                      "src": "./images/image7.jpg"
+                                    },
+                                    "childs": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "appId": 23,
+                            "tag": "div",
+                            "description": "Carousel dots",
+                            "text": "",
+                            "style": {
+                              "box-sizing": "border-box",
+                              "height": "24px",
+                              "display": "flex",
+                              "align-items": "center",
+                              "justify-content": "center"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 24,
+                                "tag": "div",
+                                "description": "Carousel dot",
+                                "text": "",
+                                "style": {
+                                  "width": "16px",
+                                  "height": "16px",
+                                  "border-radius": "16px",
+                                  "cursor": "pointer",
+                                  "margin": "4px",
+                                  "border": "solid 2.5px gray",
+                                  "box-sizing": "border-box",
+                                  "background-color": "gray"
+                                },
+                                "phone": {},
+                                "attributes": {
+                                  "onclick": "setCarouselDots(this)"
+                                },
+                                "childs": []
+                              },
+                              {
+                                "appId": 25,
+                                "tag": "div",
+                                "description": "Carousel dot",
+                                "text": "",
+                                "style": {
+                                  "width": "16px",
+                                  "height": "16px",
+                                  "border-radius": "16px",
+                                  "cursor": "pointer",
+                                  "margin": "4px",
+                                  "border": "solid 2.5px gray",
+                                  "box-sizing": "border-box"
+                                },
+                                "phone": {},
+                                "attributes": {
+                                  "onclick": "setCarouselDots(this)"
+                                },
+                                "childs": []
+                              },
+                              {
+                                "appId": 26,
+                                "tag": "div",
+                                "description": "Carousel dot",
+                                "text": "",
+                                "style": {
+                                  "width": "16px",
+                                  "height": "16px",
+                                  "border-radius": "16px",
+                                  "cursor": "pointer",
+                                  "margin": "4px",
+                                  "border": "solid 2.5px gray",
+                                  "box-sizing": "border-box"
+                                },
+                                "phone": {},
+                                "attributes": {
+                                  "onclick": "setCarouselDots(this)"
+                                },
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

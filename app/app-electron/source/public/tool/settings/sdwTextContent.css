@@ -1,0 +1,22 @@
+.root {
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.rowTitle {
+    display: flex;
+    justify-content: flex-end;
+}
+.rowTitle > div {
+    flex-grow: 1;
+}
+.rowTitle > img {
+    cursor: pointer;
+    padding: 4px;
+    width: 16px;
+}
+.textContent {
+    min-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+}

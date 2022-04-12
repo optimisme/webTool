@@ -1,0 +1,15 @@
+.root {
+    background-color: #fafafa;
+    border-left: solid 1px gray;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 275px;
+}

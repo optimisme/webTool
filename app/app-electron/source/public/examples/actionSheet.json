@@ -1,0 +1,172 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": [
+      "../examples/actionSheet.js"
+    ]
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "button",
+            "description": "Button show",
+            "text": "",
+            "style": {
+              "attributes-input": "onclick=\"setDrawer(\"drawer0\", true)\"",
+              "-attributes-input": "onclick=\"setActionSheet(\"as0\", true)\""
+            },
+            "phone": {},
+            "attributes": {
+              "onclick": "setActionSheet(\"as0\", true)"
+            },
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "text",
+                "description": "",
+                "text": "Show",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": []
+              }
+            ]
+          },
+          {
+            "appId": 4,
+            "tag": "div",
+            "description": "Action sheet",
+            "text": "",
+            "style": {
+              "position": "fixed",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "z-index": "999",
+              "attributes-input": "data-drawer=\"drawer0\"",
+              "-ts-transition": "opacity",
+              "-ts-duration": "250",
+              "-ts-delay": "0",
+              "-ts-ease": "linear",
+              "transition": "opacity 250ms 0ms linear",
+              "-attributes-input": "data-actionsheet=\"as0\":;onclick=\"hideActionSheetFromLit(event)\"",
+              "-ts-f": "saturate",
+              "-ts-f-size": "10px",
+              "backdrop-filter": "blur(10px) saturate(180%)",
+              "-ts-f-percent2": "180",
+              "background-color": "rgba(255,255,255,0.7)",
+              "display": "none",
+              "opacity": "0",
+              "overflow": "hidden"
+            },
+            "phone": {},
+            "attributes": {
+              "data-actionsheet": "as0",
+              "onclick": "hideActionSheetFromLit(event)"
+            },
+            "childs": [
+              {
+                "appId": 5,
+                "tag": "div",
+                "description": "Action sheet contents",
+                "text": "",
+                "style": {
+                  "position": "absolute",
+                  "bottom": "15px",
+                  "max-width": "80%",
+                  "background-color": "white",
+                  "-ts-blur": 10,
+                  "-ts-color": "rgba(0,0,0,0.20)",
+                  "-ts-tr": "translate3d",
+                  "-ts-trans-x": "0",
+                  "-ts-transition": "transform",
+                  "-ts-duration": "250",
+                  "-ts-delay": "0",
+                  "-ts-ease": "ease",
+                  "transition": "transform 250ms 0ms ease",
+                  "margin-right": "10%",
+                  "margin-left": "10%",
+                  "min-width": "80%",
+                  "box-sizing": "border-box",
+                  "border-radius": "10px",
+                  "-ts-trans-y": "calc(100+25px",
+                  "transform": "translate3d(0, calc(100% + 25px), 0)",
+                  "-ts-vertical": 5,
+                  "border": "solid 1px #e7e7e7",
+                  "padding": "8px"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 6,
+                    "tag": "button",
+                    "description": "Button hide",
+                    "text": "",
+                    "style": {
+                      "attributes-input": "onclick=\"setDrawer(\"drawer0\", false)\"",
+                      "-attributes-input": "onclick=\"setActionSheet(\"as0\", false)\""
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "onclick": "setActionSheet(\"as0\", false)"
+                    },
+                    "childs": [
+                      {
+                        "appId": 7,
+                        "tag": "text",
+                        "description": "",
+                        "text": "Hide",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

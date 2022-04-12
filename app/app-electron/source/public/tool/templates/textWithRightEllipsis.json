@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "tag": "p",
+            "description": "Paragraph of text",
+            "text": "",
+            "style": {
+              "display": "inline-block",
+              "margin": "0",
+              "box-sizing": "border-box",
+              "max-width": "100%",
+              "overflow": "hidden",
+              "text-overflow": "ellipsis",
+              "white-space": "nowrap"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "text",
+                "description": "",
+                "text": "I have a dream that one day every valley shall be engulfed",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

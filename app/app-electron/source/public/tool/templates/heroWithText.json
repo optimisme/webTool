@@ -1,0 +1,124 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "div",
+            "description": "Background image",
+            "text": "",
+            "style": {
+              "box-sizing": "border-box",
+              "min-height": "400px",
+              "background": "center / cover url(\"./images/image9.jpg\")",
+              "position": "relative",
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 4,
+                "tag": "h1",
+                "description": "Header 1",
+                "text": "",
+                "style": {
+                  "margin": "0",
+                  "color": "#ffffff",
+                  "text-align": "center"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 5,
+                    "tag": "text",
+                    "description": "",
+                    "text": "This is our hope",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 6,
+                "tag": "p",
+                "description": "Paragraph of text",
+                "text": "",
+                "style": {
+                  "text-align": "center",
+                  "margin": "0",
+                  "margin-top": "16px",
+                  "box-sizing": "border-box",
+                  "max-width": "80%",
+                  "color": "#ffffff",
+                  "font-size": "1.5em",
+                  "font-weight": "100",
+                  "-ts-vertical": 2,
+                  "-ts-color": "black"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 7,
+                    "tag": "text",
+                    "description": "",
+                    "text": "A man is but the product of his thoughts",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

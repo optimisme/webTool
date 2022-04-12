@@ -1,0 +1,194 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans",
+      "Fredoka One"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px",
+              "display": "flex",
+              "align-items": "center"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px",
+              "flex-direction": "column"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "div",
+                "description": "Picture block",
+                "text": "",
+                "style": {
+                  "box-sizing": "border-box",
+                  "width": "50%",
+                  "padding": "32px",
+                  "-ts-vertical": 8,
+                  "-ts-blur": 10,
+                  "-ts-spread": 10,
+                  "-ts-color": "rgba(0,0,0,0.20)"
+                },
+                "phone": {
+                  "width": "100%",
+                  "padding": "0px",
+                  "padding-top": "16px"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 10,
+                    "tag": "img",
+                    "description": "Image",
+                    "text": "",
+                    "style": {
+                      "-attributes-input": "src=\"./images/image4.jpg\":;alt=\"Alternate text\"",
+                      "box-sizing": "border-box",
+                      "width": "100%",
+                      "border-radius": "15px",
+                      "-ts-vertical": 2,
+                      "-ts-blur": 17,
+                      "-ts-color": "rgba(0,0,0,0.20)",
+                      "box-shadow": "0 5px 10px 0 rgba(0,0,0,0.20) , 0px 2px 17px 0px rgba(0,0,0,0.20)",
+                      "-ts-f": "saturate",
+                      "-ts-f-size": "5px",
+                      "filter": "saturate(150%)",
+                      "-ts-f-percent2": "150"
+                    },
+                    "phone": {},
+                    "attributes": {
+                      "src": "./images/image4.jpg",
+                      "alt": "Alternate text"
+                    },
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 5,
+                "tag": "div",
+                "description": "Text block",
+                "text": "",
+                "style": {
+                  "box-sizing": "border-box",
+                  "width": "50%",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center"
+                },
+                "phone": {
+                  "width": "100%",
+                  "padding-top": "16px"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 6,
+                    "tag": "h1",
+                    "description": "Header 1",
+                    "text": "",
+                    "style": {
+                      "margin": "0",
+                      "font-family": "Fredoka One",
+                      "text-align": "center"
+                    },
+                    "phone": {
+                      "text-align": "center"
+                    },
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 7,
+                        "tag": "text",
+                        "description": "",
+                        "text": "There are no boundaries",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 8,
+                    "tag": "p",
+                    "description": "Paragraph of text",
+                    "text": "",
+                    "style": {
+                      "text-align": "center",
+                      "margin": "0",
+                      "padding-top": "8px"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 9,
+                        "tag": "text",
+                        "description": "",
+                        "text": "The exploration of space will go ahead, whether we join in it or not, and it is one of the great adventures of all time, and no nation which expects to be the leader of other nations can expect to stay behind in the race for space.",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

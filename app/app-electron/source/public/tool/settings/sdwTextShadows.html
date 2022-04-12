@@ -1,0 +1,18 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/textShadows.svg"></div>
+    <div class="sectionTitle">Text shadows</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-text  class="hidden"  data-attr="text-shadow"        data-ref="text-shadow"                  data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow"></sdw-input-text>
+        <div class="boxed">
+            <sdw-list data-ref="shadows-list"           data-subtitle="Text shadows"            data-add="Add Shadow" data-default="2px 2px 4px black"></sdw-list>
+            <sdw-input-range data-attr="-ts-horizontal" data-ref="-ts-horizontal"               data-img="./icons/shadowHorizontal.svg"    data-min="-25" data-max="25" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-vertical"   data-ref="-ts-vertical"                 data-img="./icons/shadowVertical.svg"      data-min="-25" data-max="25" data-step="1"></sdw-input-range>
+            <sdw-input-range data-attr="-ts-blur"       data-ref="-ts-blur"                     data-img="./icons/shadowBlur.svg"          data-min="-25" data-max="25" data-step="1"></sdw-input-range>
+            <sdw-input-color data-attr="-ts-color"      data-ref="-ts-color"                    data-img="./icons/shadowColor.svg"></sdw-input-color>
+        </div>
+    </div>
+</div>

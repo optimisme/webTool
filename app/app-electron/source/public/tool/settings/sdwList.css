@@ -1,0 +1,40 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+.subtitle {
+    font-size: 0.8em;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.row > div:first-child {
+    cursor: pointer;
+    font-size: 0.75em;
+    flex-grow: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+img {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    padding: 0 2px;
+    height: 14px;
+    width: 14px;
+}
+.selected {
+    background-color: rgba(194, 222, 248);
+}
+.add {
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/transition.svg"></div>
+    <div class="sectionTitle">Transitions</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-text class="hidden" data-attr="transition" data-ref="transition"></sdw-input-text>
+        <div class="boxed">
+            <sdw-list data-ref="transition-list"            data-subtitle="Transitions" data-add="Add Transition"  data-default="opacity 250ms 0ms linear"></sdw-list>
+            <sdw-input-text     data-attr="-ts-transition"  data-ref="-ts-transition"   placeholder="Ex: opacity, ..."></sdw-input-text>
+            <sdw-input-integer  data-attr="-ts-duration"    data-ref="-ts-duration"     placeholder="Ex: 250, ..."></sdw-input-integer>
+            <sdw-input-integer  data-attr="-ts-delay"       data-ref="-ts-delay"        placeholder="Ex: 100, ..."></sdw-input-integer>
+            <sdw-input-select   data-attr="-ts-ease"        data-ref="-ts-ease"         data-options='["initial", "linear", "ease", "ease-in", "ease-out", "ease-in-out"]'></sdw-input-select>
+        </div>
+    </div>
+</div>

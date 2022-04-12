@@ -1,0 +1,445 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "title": "siteTitle",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [
+      "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    ],
+    "scripts": [
+      "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ]
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "appId": 0,
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "appId": 1,
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "appId": 2,
+            "tag": "div",
+            "description": "Autocenter",
+            "text": "",
+            "style": {
+              "margin-right": "auto",
+              "margin-left": "auto",
+              "box-sizing": "border-box",
+              "width": "100%",
+              "max-width": "1264px",
+              "padding-right": "32px",
+              "padding-left": "32px"
+            },
+            "phone": {
+              "padding-right": "16px",
+              "padding-left": "16px"
+            },
+            "attributes": {},
+            "childs": [
+              {
+                "appId": 3,
+                "tag": "h1",
+                "description": "Header 1",
+                "text": "",
+                "style": {},
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 4,
+                    "tag": "text",
+                    "description": "",
+                    "text": "Contact with us",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "appId": 5,
+                "tag": "div",
+                "description": "Details box",
+                "text": "",
+                "style": {
+                  "display": "flex"
+                },
+                "phone": {
+                  "flex-direction": "column"
+                },
+                "attributes": {},
+                "childs": [
+                  {
+                    "appId": 6,
+                    "tag": "div",
+                    "description": "Texts",
+                    "text": "",
+                    "style": {
+                      "display": "flex",
+                      "flex-grow": "1"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 7,
+                        "tag": "div",
+                        "description": "Info names",
+                        "text": "",
+                        "style": {
+                          "display": "flex",
+                          "flex-direction": "column",
+                          "box-sizing": "border-box",
+                          "width": "100px"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "appId": 8,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "margin": "0"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 9,
+                                "tag": "text",
+                                "description": "",
+                                "text": "Phone",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          },
+                          {
+                            "appId": 10,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "margin": "0"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 11,
+                                "tag": "text",
+                                "description": "",
+                                "text": "eMail",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          },
+                          {
+                            "appId": 12,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "margin": "0"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 13,
+                                "tag": "text",
+                                "description": "",
+                                "text": "Address",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "appId": 14,
+                        "tag": "div",
+                        "description": "Info values",
+                        "text": "",
+                        "style": {
+                          "display": "flex",
+                          "flex-direction": "column"
+                        },
+                        "phone": {},
+                        "attributes": {},
+                        "childs": [
+                          {
+                            "appId": 15,
+                            "tag": "a",
+                            "description": "Link",
+                            "text": "",
+                            "style": {
+                              "-attributes-input": "href=\"tel:+00123456\"",
+                              "color": "#348cec"
+                            },
+                            "phone": {},
+                            "attributes": {
+                              "href": "tel:+00123456"
+                            },
+                            "childs": [
+                              {
+                                "appId": 16,
+                                "tag": "text",
+                                "description": "",
+                                "text": "+00123456\n",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          },
+                          {
+                            "appId": 17,
+                            "tag": "a",
+                            "description": "Link",
+                            "text": "",
+                            "style": {
+                              "-attributes-input": "href=\"mailto:mail@domain.com\"",
+                              "color": "#348cec"
+                            },
+                            "phone": {},
+                            "attributes": {
+                              "href": "mailto:mail@domain.com"
+                            },
+                            "childs": [
+                              {
+                                "appId": 18,
+                                "tag": "text",
+                                "description": "",
+                                "text": "mail@domain.com",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          },
+                          {
+                            "appId": 19,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "margin": "0"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 20,
+                                "tag": "text",
+                                "description": "",
+                                "text": "Pç Catalunya 1\n08002 Barcelona",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          },
+                          {
+                            "appId": 21,
+                            "tag": "p",
+                            "description": "Paragraph of text",
+                            "text": "",
+                            "style": {
+                              "margin": "0"
+                            },
+                            "phone": {},
+                            "attributes": {},
+                            "childs": [
+                              {
+                                "appId": 22,
+                                "tag": "text",
+                                "description": "",
+                                "text": "Address",
+                                "style": {},
+                                "phone": {},
+                                "attributes": {},
+                                "childs": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "appId": 23,
+                    "tag": "div",
+                    "description": "Social",
+                    "text": "",
+                    "style": {
+                      "color": "#348cec"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 24,
+                        "tag": "a",
+                        "description": "Link",
+                        "text": "",
+                        "style": {
+                          "-attributes-input": "href=\"http://www.facebook.com\":;target=\"_blank\"",
+                          "color": "#348cec"
+                        },
+                        "phone": {},
+                        "attributes": {
+                          "href": "http://www.facebook.com",
+                          "target": "_blank"
+                        },
+                        "childs": [
+                          {
+                            "appId": 25,
+                            "tag": "ion-icon",
+                            "description": "Ion icon Facebook",
+                            "text": "",
+                            "style": {
+                              "-attributes-input": "name=\"logo-facebook\""
+                            },
+                            "phone": {},
+                            "attributes": {
+                              "name": "logo-facebook"
+                            },
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "appId": 26,
+                        "tag": "a",
+                        "description": "Link",
+                        "text": "",
+                        "style": {
+                          "-attributes-input": "href=\"http://www.twitter.com\":;target=\"_blank\"",
+                          "color": "#348cec"
+                        },
+                        "phone": {},
+                        "attributes": {
+                          "href": "http://www.twitter.com",
+                          "target": "_blank"
+                        },
+                        "childs": [
+                          {
+                            "appId": 27,
+                            "tag": "ion-icon",
+                            "description": "Ion icon Twitter",
+                            "text": "",
+                            "style": {
+                              "-attributes-input": "name=\"logo-twitter\""
+                            },
+                            "phone": {},
+                            "attributes": {
+                              "name": "logo-twitter"
+                            },
+                            "childs": []
+                          }
+                        ]
+                      },
+                      {
+                        "appId": 28,
+                        "tag": "a",
+                        "description": "Link",
+                        "text": "",
+                        "style": {
+                          "-attributes-input": "href=\"http://www.tiktok.com\":;target=\"_blank\"",
+                          "color": "#348cec"
+                        },
+                        "phone": {},
+                        "attributes": {
+                          "href": "http://www.tiktok.com",
+                          "target": "_blank"
+                        },
+                        "childs": [
+                          {
+                            "appId": 29,
+                            "tag": "ion-icon",
+                            "description": "Ion icon Tiktok",
+                            "text": "",
+                            "style": {
+                              "-attributes-input": "name=\"logo-tiktok\""
+                            },
+                            "phone": {},
+                            "attributes": {
+                              "name": "logo-tiktok"
+                            },
+                            "childs": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "appId": 30,
+                "tag": "iframe",
+                "description": "Google map",
+                "text": "",
+                "style": {
+                  "-attributes-input": "src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.4493037886214!2d2.167108915743791!3d41.38604790404046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f3fecaf857%3A0x3ec5c68faba42d52!2sPla%C3%A7a%20de%20Catalunya%2C%201%2C%2008002%20Barcelona!5e0!3m2!1sca!2ses!4v1610619420858!5m2!1sca!2ses\":;frameborder=\"0\":;allowfullscreen=\"true\":;aria-hidden=\"false\":;tabindex=\"0\":;width=\"100%\""
+                },
+                "phone": {},
+                "attributes": {
+                  "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.4493037886214!2d2.167108915743791!3d41.38604790404046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f3fecaf857%3A0x3ec5c68faba42d52!2sPla%C3%A7a%20de%20Catalunya%2C%201%2C%2008002%20Barcelona!5e0!3m2!1sca!2ses!4v1610619420858!5m2!1sca!2ses",
+                  "frameborder": "0",
+                  "allowfullscreen": "true",
+                  "aria-hidden": "false",
+                  "tabindex": "0",
+                  "width": "100%"
+                },
+                "childs": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

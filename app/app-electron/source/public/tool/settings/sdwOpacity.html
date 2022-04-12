@@ -1,0 +1,16 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/opacity.svg"></div>
+    <div class="sectionTitle">Opacity</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-icons data-attr="visibility"     data-ref="visibility">
+            <item data-value="initial"              data-img="./icons/initial.svg"             data-tooltip="Initial, removes this property"></item>
+            <item data-value="visible"              data-img="./icons/visibilityVisible.svg"   data-tooltip="Visible, the element box is visible"></item>
+            <item data-value="hidden"               data-img="./icons/visibilityHidden.svg"    data-tooltip="Hidden, the element box is invisible (not drawn), but still affects layout as normal"></item>
+        </sdw-input-icons>
+        <sdw-input-range data-attr="opacity"        data-ref="opacity"                          data-min="0" data-max="1" data-step="0.05"></sdw-input-range>
+    </div>
+</div>

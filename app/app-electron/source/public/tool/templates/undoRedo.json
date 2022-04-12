@@ -1,0 +1,221 @@
+{
+  "settings": {
+    "appVersion": 1,
+    "name": "siteName",
+    "googleFonts": [
+      "Open Sans"
+    ],
+    "stylesheets": [],
+    "scripts": []
+  },
+  "elementsRoot": {
+    "tag": "html",
+    "description": "Html",
+    "text": "",
+    "style": {},
+    "phone": {},
+    "attributes": {},
+    "childs": [
+      {
+        "tag": "head",
+        "description": "Head",
+        "text": "",
+        "style": {},
+        "phone": {},
+        "attributes": {},
+        "childs": []
+      },
+      {
+        "tag": "body",
+        "description": "Body",
+        "text": "",
+        "style": {
+          "font-family": "Open Sans",
+          "margin": "0",
+          "padding": "0"
+        },
+        "phone": {},
+        "attributes": {},
+        "childs": [
+          {
+            "tag": "div",
+            "description": "Vertical flex 1",
+            "text": "",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "h1",
+                "description": "Title",
+                "text": "",
+                "style": {
+                  "margin": "0",
+                  "box-sizing": "border-box"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "text",
+                    "description": "",
+                    "text": "Investing in your clients 1",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "tag": "h2",
+                "description": "Subtitle",
+                "text": "",
+                "style": {
+                  "margin": "0",
+                  "box-sizing": "border-box",
+                  "font-weight": "100"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "text",
+                    "description": "",
+                    "text": "Enjoy teamworking A",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "description": "Vertical flex 2",
+            "text": "",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "h1",
+                "description": "Title",
+                "text": "",
+                "style": {
+                  "margin": "0",
+                  "box-sizing": "border-box"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "text",
+                    "description": "",
+                    "text": "Investing in your clients 2",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "tag": "h2",
+                "description": "Subtitle",
+                "text": "",
+                "style": {
+                  "margin": "0",
+                  "box-sizing": "border-box",
+                  "font-weight": "100"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "text",
+                    "description": "",
+                    "text": "Enjoy teamworking B",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "description": "Vertical flex 3",
+            "text": "",
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "center"
+            },
+            "phone": {},
+            "attributes": {},
+            "childs": [
+              {
+                "tag": "h1",
+                "description": "Title",
+                "text": "",
+                "style": {
+                  "margin": "0",
+                  "box-sizing": "border-box"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "text",
+                    "description": "",
+                    "text": "Investing in your clients 3",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              },
+              {
+                "tag": "h2",
+                "description": "Subtitle",
+                "text": "",
+                "style": {
+                  "margin": "0",
+                  "box-sizing": "border-box",
+                  "font-weight": "100"
+                },
+                "phone": {},
+                "attributes": {},
+                "childs": [
+                  {
+                    "tag": "text",
+                    "description": "",
+                    "text": "Enjoy teamworking C",
+                    "style": {},
+                    "phone": {},
+                    "attributes": {},
+                    "childs": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

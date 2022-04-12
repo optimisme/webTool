@@ -1,0 +1,91 @@
+<div class="rowSection" data-ref="rowSection">
+    <div data-ref="modified" class="sectionModified"><img src="./icons/modified.svg"></div>
+    <div data-ref="arrow" class="sectionArrow"><img src="./icons/iconForward.svg"></div>
+    <div class="sectionImage"><img src="./icons/display.svg"></div>
+    <div class="sectionTitle">Display</div>
+</div>
+<div data-ref="expandable">
+    <div data-ref="expandableBox">
+        <sdw-input-icons data-attr="display" data-ref="display"                         data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/display">
+            <item data-value="initial"      data-img="./icons/initial.svg"              data-tooltip="Initial, removes this property"></item>
+            <item data-value="block"        data-img="./icons/displayBlock.svg"         data-tooltip="Display block, starts on a new line and takes up all width"></item>
+            <item data-value="flex"         data-img="./icons/displayFlex.svg"          data-tooltip="Display flex, lays out its children horizontally or vertically"></item>
+            <item data-value="inline-block" data-img="./icons/displayInlineBlock.svg"   data-tooltip="Display inline-block, like inline with width and height"></item>
+            <item data-value="inline"       data-img="./icons/displayInline.svg"        data-tooltip="Display inline, inside contents determine its size"></item>
+            <item data-value="none"         data-img="./icons/displayNone.svg"          data-tooltip="Display none, hides this element"></item>
+        </sdw-input-icons>
+        <div data-ref="viewFlex">
+            <sdw-input-icons data-attr="flex-direction" data-ref="flex-direction"                       data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="row"                  data-img="./icons/directionRow.svg"             data-tooltip="Row, set childs horizontally"></item>
+                <item data-value="column"               data-img="./icons/directionColumn.svg"          data-tooltip="Column, set childs vertically"></item>
+                <item data-value="row-reverse"          data-img="./icons/directionRowReverse.svg"      data-tooltip="Row-reverse, set childs horizontally from last to first"></item>
+                <item data-value="column-reverse"       data-img="./icons/directionColumnReverse.svg"   data-tooltip="Column-reverse, set childs horizontally from last to first"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="align-items"    data-ref="align-items-row"                      class="imgAlignRow"         data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="flex-start"           data-img="./icons/alignRowStart.svg"            data-tooltip="Start"></item>
+                <item data-value="center"               data-img="./icons/alignRowCenter.svg"           data-tooltip="Center"></item>
+                <item data-value="flex-end"             data-img="./icons/alignRowEnd.svg"              data-tooltip="End"></item>
+                <item data-value="stretch"              data-img="./icons/alignRowStretch.svg"          data-tooltip="Stretch, expand items to equal sizes"></item>
+                <item data-value="baseline"             data-img="./icons/alignRowBaseline.svg"         data-tooltip="Baseline, centers to text base"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="align-items"    data-ref="align-items-column"                   class="imgAlignColumn"      data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="flex-start"           data-img="./icons/alignColumnStart.svg"         data-tooltip="Start"></item>
+                <item data-value="center"               data-img="./icons/alignColumnCenter.svg"        data-tooltip="Center"></item>
+                <item data-value="flex-end"             data-img="./icons/alignColumnEnd.svg"           data-tooltip="End"></item>
+                <item data-value="stretch"              data-img="./icons/alignColumnStretch.svg"       data-tooltip="Stretch, expand items to equal sizes"></item>
+                <item data-value="baseline"             data-img="./icons/alignColumnBaseline.svg"      data-tooltip="Baseline, centers to text base"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="justify-content"data-ref="justify-content-row"                  class="imgAlignRow"         data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="flex-start"           data-img="./icons/justifyRowStart.svg"          data-tooltip="Start"></item>
+                <item data-value="center"               data-img="./icons/justifyRowCenter.svg"         data-tooltip="Center"></item>
+                <item data-value="flex-end"             data-img="./icons/justifyRowEnd.svg"            data-tooltip="End"></item>
+                <item data-value="space-between"        data-img="./icons/justifyRowBetween.svg"        data-tooltip="Space between, distributes remaining space between items"></item>
+                <item data-value="space-around"         data-img="./icons/justifyRowAround.svg"         data-tooltip="Space around, distributes remaining space around items"></item>
+                <item data-value="space-evenly"         data-img="./icons/justifyRowEvenly.svg"         data-tooltip="Space evenly"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="justify-content"data-ref="justify-content-column"               class="imgAlignColumn"      data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content">
+                <item data-value="initial"              data-img="./icons/initial.svg"                 data-tooltip="Initial, removes this property"></item>
+                <item data-value="flex-start"           data-img="./icons/justifyColumnStart.svg"      data-tooltip="Start"></item>
+                <item data-value="center"               data-img="./icons/justifyColumnCenter.svg"     data-tooltip="Center"></item>
+                <item data-value="flex-end"             data-img="./icons/justifyColumnEnd.svg"        data-tooltip="End"></item>
+                <item data-value="space-between"        data-img="./icons/justifyColumnBetween.svg"    data-tooltip="Space between, distributes remaining space between items"></item>
+                <item data-value="space-around"         data-img="./icons/justifyColumnAround.svg"     data-tooltip="Space around, distributes remaining space around items"></item>
+                <item data-value="space-evenly"         data-img="./icons/justifyColumnEvenly.svg"     data-tooltip="Space evenly"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="flex-wrap"      data-ref="flex-wrap-row"                        class="imgAlignRow"         data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="nowrap"               data-img="./icons/wrapRowNowrap.svg"            data-tooltip="No wrap, all items are at the same line"></item>
+                <item data-value="wrap"                 data-img="./icons/wrapRowWrap.svg"              data-tooltip="Wrap, items flow if there is no space left"></item>
+                <item data-value="wrap-reverse"         data-img="./icons/wrapRowWrapReverse.svg"       data-tooltip="Wrap reverse, items flow in reverse if there is no space left"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="flex-wrap"      data-ref="flex-wrap-column"                     class="imgAlignColumn"      data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="nowrap"               data-img="./icons/wrapColumnNowrap.svg"         data-tooltip="No wrap, all items are at the same line"></item>
+                <item data-value="wrap"                 data-img="./icons/wrapColumnWrap.svg"           data-tooltip="Wrap, items flow if there is no space left"></item>
+                <item data-value="wrap-reverse"         data-img="./icons/wrapColumnWrapReverse.svg"    data-tooltip="Wrap reverse, items flow in reverse if there is no space left"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="align-content"  data-ref="align-content-row"                    class="imgAlignRow"         data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="flex-start"           data-img="./icons/contentRowStart.svg"          data-tooltip="Start"></item>
+                <item data-value="center"               data-img="./icons/contentRowCenter.svg"         data-tooltip="Center"></item>
+                <item data-value="flex-end"             data-img="./icons/contentRowEnd.svg"            data-tooltip="End"></item>
+                <item data-value="stretch"              data-img="./icons/contentRowStretch.svg"        data-tooltip="Stretch, expand items to equal sizes"></item>
+                <item data-value="space-between"        data-img="./icons/contentRowBetween.svg"        data-tooltip="Sapce between, distributes remaining space between items"></item>
+                <item data-value="space-around"         data-img="./icons/contentRowAround.svg"         data-tooltip="Space around, distributes remaining space around items"></item>
+            </sdw-input-icons>
+            <sdw-input-icons data-attr="align-content"  data-ref="align-content-column"                 class="imgAlignColumn"      data-help="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content">
+                <item data-value="initial"              data-img="./icons/initial.svg"                  data-tooltip="Initial, removes this property"></item>
+                <item data-value="flex-start"           data-img="./icons/contentColumnStart.svg"       data-tooltip="Start"></item>
+                <item data-value="center"               data-img="./icons/contentColumnCenter.svg"      data-tooltip="Center"></item>
+                <item data-value="flex-end"             data-img="./icons/contentColumnEnd.svg"         data-tooltip="End"></item>
+                <item data-value="stretch"              data-img="./icons/contentColumnStretch.svg"     data-tooltip="Stretch, expand items to equal sizes"></item>
+                <item data-value="space-between"        data-img="./icons/contentColumnBetween.svg"     data-tooltip="Sapce between, distributes remaining space between items"></item>
+                <item data-value="space-around"         data-img="./icons/contentColumnAround.svg"      data-tooltip="Space around, distributes remaining space around items"></item>
+            </sdw-input-icons>
+        </div>
+    </div>
+</div>
