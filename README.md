@@ -17,7 +17,26 @@ Obviously, with the online version, all the paths and URLs must be from Internet
 
 # webTool from an Electron App
 
-You can use this tool as an app with the compiled electron apps at: ...app/app-distribution
+You can use this tool as an app:
+
+### Windows:
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-win-x86.part1.rar](webtool-win-x86.part1.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-win-x86.part2.rar](webtool-win-x86.part2.rar)
+
+### Linux:
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part1.rar](webtool-linux-x86.part1.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part2.rar](webtool-linux-x86.part2.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part3.rar](webtool-linux-x86.part3.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part4.rar](webtool-linux-x86.part4.rar)
+
+### OSX:
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part1.rar](webtool-osx-arm64.part1.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part2.rar](webtool-osx-arm64.part2.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part3.rar](webtool-osx-arm64.part3.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part4.rar](webtool-osx-arm64.part4.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part5.rar](webtool-osx-arm64.part5.rar)
+[https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part6.rar](webtool-osx-arm64.part6.rar)
+
 ```
 Unrar with: rar x webtool-linux-x86.part1.rar
 ```
