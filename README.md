@@ -15,7 +15,25 @@ Obviously, with the online version, all the paths and URLs must be from Internet
 ![webTool](https://optimisme.github.io/webTool/screenCapture0.png)
 ![webTool mobile](https://optimisme.github.io/webTool/screenCapture1.png)
 
-# webTool and server
+# webTool from an Electron App
+
+You can use this tool as an app with the compiled electron apps at:
+
+```
+...app/app-distribution
+```
+
+Download and run it, remember that the server files are located at:
+
+```
+...resources/app/source/public
+```
+
+# webTool from a server
+
+This tool can be used from any server, for example the nodejs one provided at the 'server' folder. 
+
+The tool itself is at '...server/public/tool' and can be moved to any other server (the advanced examples also need the 'examples' folder to work)
 
 Download from this repo: 
 
@@ -23,6 +41,11 @@ Download from this repo:
 
 ```
 git clone https://github.com/optimisme/webTool.git
+```
+
+Get into the server
+```
+cd server
 ```
 
 Install project's dependencies:
