@@ -37,15 +37,12 @@ rm ../app-electron/docker-build.sh
 mv ../app-electron/webtool-win32-x64/ ../app-distribution
 mv ../app-electron/webtool-linux-x64/ ../app-distribution
 
-echo "Compress builds into splitted rar files:"
-rar a -v50M ../app-distribution/webtool-osx-arm64.rar ../app-distribution/webtool-darwin-arm64/*
+echo "Compress builds into zip files:"
+zip -r ../app-distribution/webtool-osx-arm64.zip ../app-distribution/webtool-darwin-arm64/
 rm -rf ../app-distribution/webtool-darwin-arm64
-echo "Unrar with: rar x webtool-osx-arm64.part1.rar"
 
-rar a -v50M ../app-distribution/webtool-win-x86.rar ../app-distribution/webtool-win32-x64/*
+zip -r ../app-distribution/webtool-win-x86.zip ../app-distribution/webtool-win32-x64/
 rm -rf ../app-distribution/webtool-win32-x64
-echo "Unrar with: rar x webtool-win-x86.part1.rar"
 
-rar a -v50M ../app-distribution/webtool-linux-x86.rar ../app-distribution/webtool-linux-x64/*
+zip -r ../app-distribution/webtool-linux-x86.zip ../app-distribution/webtool-linux-x64/
 rm -rf ../app-distribution/webtool-linux-x64
-echo "Unrar with: rar x webtool-linux-x86.part1.rar"
