@@ -13,6 +13,6 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron-packager": "^15.4.0"
+    "electron-packager": "^15.5.1"
   }
 }

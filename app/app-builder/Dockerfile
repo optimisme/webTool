@@ -32,7 +32,7 @@ RUN `echo "deb https://download.mono-project.com/repo/ubuntu stable-$UBUNTU_VERS
 RUN apt-get update
 RUN apt-get install -y mono-complete
 
-RUN apt-get upgrade
+RUN apt-get -y upgrade
 RUN PROJECT_DIR=/root/project
 
 WORKDIR $PROJECT_DIR
