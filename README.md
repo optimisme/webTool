@@ -21,38 +21,13 @@ You can use this tool as an app:
 
 
 ### Windows:
-[webtool-win-x86.part1.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-win-x86.part1.rar)
-
-[webtool-win-x86.part2.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-win-x86.part2.rar)
-
+[webtool-win-x86.zip](https://mega.nz/file/V6YhGbxA#RzNE9zvD04HJaNhxISsOUi5DmuifSxdwqTDsv0zNOgQ)
 
 ### Linux:
-[webtool-linux-x86.part1.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part1.rar)
-
-[webtool-linux-x86.part2.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part2.rar)
-
-[webtool-linux-x86.part3.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part3.rar)
-
-[webtool-linux-x86.part4.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-linux-x86.part4.rar)
-
+[webtool-linux-x86.zip](https://mega.nz/file/9jRUhI5T#WaY8wvjO7GSOZLU1rhKZtsPLRu_tSbRvVyJGkrgtyEc)
 
 ### OSX:
-[webtool-osx-arm64.part1.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part1.rar)
-
-[webtool-osx-arm64.part2.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part2.rar)
-
-[webtool-osx-arm64.part3.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part3.rar)
-
-[webtool-osx-arm64.part4.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part4.rar)
-
-[webtool-osx-arm64.part5.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part5.rar)
-
-[webtool-osx-arm64.part6.rar](https://github.com/optimisme/webTool/raw/main/app/app-distribution/webtool-osx-arm64.part6.rar)
-
-Unrar with:
-```
-rar x webtool-linux-x86.part1.rar
-```
+[webtool-osx-arm64.zip](https://mega.nz/file/krRXxLTK#FnLLz9Iplxxyb-fp9jYVIh5QB_-ArfsONsTYr5Yy3aI)
 
 Download and run it, remember that the server files are located at:
 

@@ -355,7 +355,7 @@ export class treeNode {
             let propertyName = propertyRealName.replace("-webkit-", "")
             let propertyValueDesktop = this.style[propertyName]
             let validProperty = true
-            if (propertyName.indexOf('-ts-') >= 0 || propertyName.indexOf('-attributes') >= 0) {
+            if (propertyName.indexOf('-ts-') >= 0 || propertyName.indexOf('attributes-input') >= 0) {
                 validProperty = false
             }
             if (validProperty) {
@@ -386,7 +386,7 @@ export class treeNode {
             let propertyValuePhone = this.phone[propertyName]
             let validProperty = true
             if (this.style[propertyName] != this.phone[propertyName]) {
-                if (propertyName.indexOf('-ts-') >= 0 || propertyName.indexOf('-attributes') >= 0) {
+                if (propertyName.indexOf('-ts-') >= 0 || propertyName.indexOf('attributes-input') >= 0) {
                     validProperty = false
                 }
             }

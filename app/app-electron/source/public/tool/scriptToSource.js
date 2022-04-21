@@ -110,7 +110,7 @@ export class source {
 
         for (let cnt = 0; cnt < keys.length; cnt = cnt + 1) {
             let key = keys[cnt]
-            str = str + ` ${key}="${(ref.attributes[key]).replaceAll('"', '&quot;')}"`
+            str = str + ` ${key}="${(ref.attributes[key]).replaceAll('"', '\'')}"`
         }
 
         return str;
