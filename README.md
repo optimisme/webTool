@@ -76,7 +76,7 @@ When running, to use the tool, navigate to:
 
 [http://localhost:3002/tool](http://localhost:3002/tool)
 
-Put your public files at "public" folder (like ".css", ".js" and images), and reference them with its base path from the tool. For example: 
+Place your public files at "public" folder (like ".css", ".js" and images), and reference them with its base path from the tool. For example: 
 
 ```
 "/file.png" is located at "./public/file.png"
