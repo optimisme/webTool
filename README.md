@@ -33,7 +33,7 @@ Download and run it, remember that the server files are located at:
 
 This tool can be used from any server, for example the nodejs one provided at the 'server' folder. 
 
-The tool itself is at '...server/public/tool' and can be moved to any other server (the advanced examples also need the 'examples' folder to work)
+The tool itself is at '...server/public/tool' and can be moved to any other server
 
 Download from this repo: 
 
