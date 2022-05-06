@@ -306,17 +306,83 @@ export class sdwToolPreview extends HTMLElement {
 
     async toSource () {
         let str = await (new source()).toSource()
-        let element = document.createElement('a')
 
+        if (str.indexOf('./examples/') == -1) {
+            await this.saveHtmlAs(str, app.site.name + '.html')
+        } else {
+            let files = this.getToolFilesFromHtml(str)
+            let zip = new JSZip();
+
+            var fls = zip.folder("files")
+            var img = zip.folder("images")
+
+            for (let cnt = 0; cnt < files.length; cnt = cnt + 1) {
+                let obj = files[cnt]
+                let res = (await fetch(obj.path))
+                let tmpBlob = await res.blob()
+                if (obj.search.indexOf('examples') != -1) {
+                    fls.file(obj.file, tmpBlob, {base64: true})
+                }
+                if (obj.search.indexOf('images') != -1) {
+                    img.file(obj.file, tmpBlob, {base64: true})
+                }
+            }
+
+            str = str.replaceAll("./examples/", "./files/")
+            zip.file('index.html', str);
+
+            let blob = await zip.generateAsync({type:"blob"})
+            await this.saveBlobAs(blob, app.site.name + '.zip')
+        }
+    }
+
+    async saveHtmlAs (str, file) {
+        let element = document.createElement('a')
         element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(str))
-        element.setAttribute('download', app.site.name + '.html')
-      
+        element.setAttribute('download', file)
         element.style.display = 'none'
-        document.body.appendChild(element)
-      
         element.click()
-      
-        document.body.removeChild(element)
+    }
+
+    async saveBlobAs (blob, file) {
+        var element = document.createElement('a')
+        element.setAttribute('href', window.URL.createObjectURL(blob))
+        element.setAttribute('download', file)
+        element.style.display = 'none'
+        element.click()
+    }
+
+    getToolFilesFromHtml (str) {
+        let rst = []
+        let prevIdx = 0
+        let idx = 0
+        let search = '"./examples/'
+
+        while ((idx = str.indexOf(search, prevIdx)) > -1) {
+            let fileEnd = str.indexOf('"', idx + 1)            
+            let file = str.substring(idx + search.length, fileEnd)
+            rst.push({
+                search: search,
+                file: file,
+                path: search.substring(1) + file
+            })
+            prevIdx = idx + 1
+        }
+
+        prevIdx = 0
+        search = '"./images/'
+        while ((idx = str.indexOf(search, prevIdx)) > -1) {
+            let fileEnd = str.indexOf('"', idx + 1)            
+            let file = str.substring(idx + search.length, fileEnd)
+            rst.push({
+                search: search,
+                file: file,
+                path: search.substring(1) + file
+            })
+            prevIdx = idx + 1
+        }
+
+        return rst.filter((item, pos) => { return rst.indexOf(item) == pos }) // remove duplicates
     }
 
     addChild (parent, child) {

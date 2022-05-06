@@ -7,7 +7,7 @@
       "Open Sans"
     ],
     "stylesheets": [
-      "../examples/alphabetList.css"
+      "./examples/alphabetList.css"
     ],
     "scripts": []
   },

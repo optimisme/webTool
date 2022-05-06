@@ -8,7 +8,7 @@
     ],
     "stylesheets": [],
     "scripts": [
-      "../examples/carouselDots.js"
+      "./examples/carouselDots.js"
     ]
   },
   "elementsRoot": {

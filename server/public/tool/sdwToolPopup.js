@@ -204,7 +204,7 @@ export class sdwToolPopup extends HTMLElement {
             if (this.type == "templates") {
                 divItemImage.setAttribute('src', `./templates/${key}.png`)
             } else {
-                divItemImage.setAttribute('src', `../examples/${key}.png`)
+                divItemImage.setAttribute('src', `./examples/${key}.png`)
             }
             divItemImage.setAttribute('width', `75`)
             divItem.appendChild(divItemImage)

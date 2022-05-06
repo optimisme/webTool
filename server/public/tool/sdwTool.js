@@ -578,7 +578,7 @@ export class sdwTool extends HTMLElement {
 
     async appendExample (template) {
 
-        let src = await (await fetch(`../examples/${template}.json`)).text()
+        let src = await (await fetch(`./examples/${template}.json`)).text()
 
         let obj = JSON.parse(src)
         await app.refs["preview"].addTemplate(false, obj)

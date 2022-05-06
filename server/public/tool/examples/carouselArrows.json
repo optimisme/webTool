@@ -8,9 +8,7 @@
     ],
     "stylesheets": [],
     "scripts": [
-      "../examples/carouselArrows.js",
-      "../examples/carouselDots.js"
-    ]
+      "./examples/carouselArrows.js"    ]
   },
   "elementsRoot": {
     "tag": "html",
