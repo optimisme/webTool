@@ -7,7 +7,7 @@
       "Open Sans"
     ],
     "stylesheets": [
-      "../examples/formStyled.css"
+      "./examples/formStyled.css"
     ],
     "scripts": []
   },

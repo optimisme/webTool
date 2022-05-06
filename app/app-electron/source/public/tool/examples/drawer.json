@@ -8,7 +8,7 @@
     ],
     "stylesheets": [],
     "scripts": [
-      "../examples/drawer.js"
+      "./examples/drawer.js"
     ]
   },
   "elementsRoot": {

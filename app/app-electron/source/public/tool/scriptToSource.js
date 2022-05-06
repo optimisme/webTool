@@ -25,13 +25,11 @@ export class source {
         let stylesheets = ""
         for (let cnt = 0; cnt < app.site.stylesheets.length; cnt = cnt + 1) {
             stylesheets = stylesheets + `\n  <link href="${app.site.stylesheets[cnt]}" rel="stylesheet" />`
-            stylesheets = stylesheets.replaceAll("../examples/", "/examples/")
         }
 
         let scriptFiles = ""
         for (let cnt = 0; cnt < app.site.scripts.length; cnt = cnt + 1) {
             scriptFiles = scriptFiles + `\n  <script src="${app.site.scripts[cnt]}"></script>`
-            scriptFiles = scriptFiles.replaceAll("../examples/", "/examples/")
         }
 
         this.styles = (this.getStyles(app.elementsRoot)).replace("\n\n", "")
@@ -53,7 +51,6 @@ export class source {
                 str = str + this.getStyles(ref.childs[cnt])
             }
         }
-        str = str.replaceAll("./images/", "/tool/images/")
         return (str.replaceAll("\n\n", ""))
     }
 
@@ -92,9 +89,6 @@ export class source {
 
         for (let cnt = 0; cnt < ref.childs.length; cnt = cnt + 1) {
             str = str + this.getHTMLStrings(idented, ref.childs[cnt])
-            if (ref.childs[cnt].tag == "img") {
-                str = str.replaceAll("./images/", "/tool/images/")
-            }
         }
 
         if (ref.tag != "text" && !selfContained && ref.childs.length != 0) {

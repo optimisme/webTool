@@ -7,10 +7,10 @@
       "Open Sans"
     ],
     "stylesheets": [
-      "../examples/scrollAction.css"
+      "./examples/scrollMovement.css"
     ],
     "scripts": [
-      "../examples/scrollAction.js"
+      "./examples/scrollMovement.js"
     ]
   },
   "elementsRoot": {
@@ -45,106 +45,104 @@
         "attributes": {},
         "childs": [
           {
-            "appId": 35,
+            "appId": 2,
             "tag": "div",
-            "description": "Top spacer",
+            "description": "Block container",
             "text": "",
             "style": {
-              "padding": "100px",
               "display": "flex",
               "flex-direction": "column",
               "align-items": "center",
-              "justify-content": "center",
-              "box-sizing": "border-box",
-              "height": "100vh",
-              "border": "dashed 5px gray"
+              "justify-content": "center"
             },
             "phone": {},
             "attributes": {},
             "childs": [
               {
-                "appId": 36,
-                "tag": "p",
-                "description": "Paragraph of text",
+                "appId": 3,
+                "tag": "div",
+                "description": "Top spacer",
                 "text": "",
                 "style": {
-                  "font-size": "5em"
+                  "padding": "100px",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "box-sizing": "border-box",
+                  "height": "100vh",
+                  "border": "dashed 5px gray"
                 },
                 "phone": {},
                 "attributes": {},
                 "childs": [
                   {
-                    "appId": 37,
-                    "tag": "text",
-                    "description": "",
-                    "text": "Scroll Down ⬇️",
-                    "style": {},
-                    "phone": {},
-                    "attributes": {},
-                    "childs": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "appId": 38,
-            "tag": "div",
-            "description": "Autocenter",
-            "text": "",
-            "style": {
-              "margin-right": "auto",
-              "margin-left": "auto",
-              "box-sizing": "border-box",
-              "width": "100%",
-              "padding-right": "32px",
-              "padding-left": "32px",
-              "display": "flex",
-              "justify-content": "space-evenly",
-              "max-width": "1264px"
-            },
-            "phone": {
-              "padding-right": "16px",
-              "padding-left": "16px"
-            },
-            "attributes": {},
-            "childs": [
-              {
-                "appId": 39,
-                "tag": "div",
-                "description": "Block container left",
-                "text": "",
-                "style": {
-                  "-attributes-input": "class=\"scrollAction\"",
-                  "box-sizing": "border-box",
-                  "width": "300px",
-                  "height": "300px",
-                  "background-color": "#24b6ff",
-                  "display": "flex",
-                  "flex-direction": "column",
-                  "align-items": "center",
-                  "justify-content": "center",
-                  "border-radius": "25px"
-                },
-                "phone": {},
-                "attributes": {
-                  "class": "scrollAction"
-                },
-                "childs": [
-                  {
-                    "appId": 41,
-                    "tag": "h2",
-                    "description": "Header 2",
+                    "appId": 4,
+                    "tag": "p",
+                    "description": "Paragraph of text",
                     "text": "",
-                    "style": {},
+                    "style": {
+                      "font-size": "5em"
+                    },
                     "phone": {},
                     "attributes": {},
                     "childs": [
                       {
-                        "appId": 42,
+                        "appId": 5,
                         "tag": "text",
                         "description": "",
-                        "text": "Left\n",
+                        "text": "Scroll Down ⬇️",
+                        "style": {},
+                        "phone": {},
+                        "attributes": {},
+                        "childs": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "appId": 6,
+                "tag": "div",
+                "description": "Scroll animated",
+                "text": "",
+                "style": {
+                  "box-sizing": "border-box",
+                  "padding": "25px",
+                  "width": "100px",
+                  "height": "100px",
+                  "background-color": "#eaad2a",
+                  "border-radius": "25px",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "margin": "15px",
+                  "-attributes-input": "class=\"scrollMovement\":;data-scroll-safe-y=\"100\":;data-scroll=\"true\""
+                },
+                "phone": {},
+                "attributes": {
+                  "class": "scrollMovement",
+                  "data-scroll-movement": "true",
+                  "data-scroll-safe-y": "100"
+                },
+                "childs": [
+                  {
+                    "appId": 7,
+                    "tag": "h1",
+                    "description": "Header 1",
+                    "text": "",
+                    "style": {
+                      "margin": "0"
+                    },
+                    "phone": {},
+                    "attributes": {},
+                    "childs": [
+                      {
+                        "appId": 8,
+                        "tag": "text",
+                        "description": "",
+                        "text": "H1",
                         "style": {},
                         "phone": {},
                         "attributes": {},
@@ -157,32 +155,29 @@
               {
                 "appId": 9,
                 "tag": "div",
-                "description": "Block container right",
+                "description": "Bottom spacer",
                 "text": "",
                 "style": {
-                  "-attributes-input": "class=\"scrollAction\"",
-                  "box-sizing": "border-box",
-                  "width": "300px",
-                  "height": "300px",
-                  "background-color": "#6ac71f",
+                  "padding": "100px",
                   "display": "flex",
                   "flex-direction": "column",
                   "align-items": "center",
                   "justify-content": "center",
-                  "border-radius": "25px",
-                  "margin-top": "100px"
+                  "box-sizing": "border-box",
+                  "height": "100vh",
+                  "border": "dashed 5px gray"
                 },
                 "phone": {},
-                "attributes": {
-                  "class": "scrollAction"
-                },
+                "attributes": {},
                 "childs": [
                   {
                     "appId": 10,
-                    "tag": "h2",
-                    "description": "Header 2",
+                    "tag": "p",
+                    "description": "Paragraph of text",
                     "text": "",
-                    "style": {},
+                    "style": {
+                      "font-size": "5em"
+                    },
                     "phone": {},
                     "attributes": {},
                     "childs": [
@@ -190,7 +185,7 @@
                         "appId": 11,
                         "tag": "text",
                         "description": "",
-                        "text": "right\n",
+                        "text": "Scroll up ⬆️",
                         "style": {},
                         "phone": {},
                         "attributes": {},

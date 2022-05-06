@@ -7,13 +7,9 @@
       "Open Sans"
     ],
     "stylesheets": [
-      "../examples/scrollShot.css",
-      "../examples/scrollMovement.css"
-    ],
+      "./examples/scrollShot.css"    ],
     "scripts": [
-      "../examples/scrollShot.js",
-      "../examples/scrollMovement.js"
-    ]
+      "./examples/scrollShot.js"    ]
   },
   "elementsRoot": {
     "tag": "html",
