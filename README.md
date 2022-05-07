@@ -26,7 +26,7 @@ You can use this tool as an app:
 Download and run it, remember that the server files are located at:
 
 ```
-...resources/app/source/public
+...resources/app/source/public/
 ```
 
 # webTool from a server

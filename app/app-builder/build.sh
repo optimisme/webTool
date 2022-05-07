@@ -10,6 +10,8 @@ echo "Copy source files from server:"
 rm -rf ../app-electron/source
 mkdir ../app-electron/source
 cp -r ../../server/public ../app-electron/source
+rm ../app-electron/source/public/index.html
+cp ./index_electron.html ../app-electron/source/public/index.html
 rm -rf ../app-electron/source/public/exercicis
 
 # echo "Get electron-packager:"

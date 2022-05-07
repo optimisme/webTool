@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    user-select: none;
+    min-height: 100vh;
+}
+
+#tabsBar {
+    align-items: stretch;
+    display: flex;
+    min-height: 32px;
+}
+
+.tab {
+    align-items: center;
+    border: solid 1px grey;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#tabTool {
+    flex-grow: 1;
+}
+
+#tabServer {
+    flex-grow: 1;
+}
+
+#buttonTools {
+    border-bottom: solid 1px gray;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+#buttonTools > span {
+    margin-top: 12px;
+}
+
+#contents {
+    position: relative;
+    flex-grow: 1;
+}
+
+.content {
+    border: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#contentTool {
+    border: 0;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#frameTool {
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+#contentServer {
+    display: none;
+    flex-direction: column;
+}
+
+#navigationBar {
+    align-items: center;
+    display: flex;
+    padding-left: 8px;
+}
+
+#navigationURL {
+    flex-grow: 1;
+    margin: 8px;
+    margin-right: 0;
+}
+
+#buttonRefresh {
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0 16px;
+    padding: 8px 0;
+}
+
+#buttonRefresh > span {
+    margin-top: 4px;
+}
+
+#frameServer {
+    background-color: white;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+/*
+        .tabsbar > div {
+            border: solid 1px grey;
+            border-bottom: none;
+            border-radius: 8px 8px 0 0;
+    
+            cursor: pointer;
+            text-align: center;
+            width: 50%;
+        }
+        #toolbar {
+            align-items: center;
+            background-color: white;
+            display: flex;
+        }
+        input {
+            flex-grow: 1;
+            margin: 8px;
+        }
+        span {
+            cursor: pointer;
+            margin: 8px;
+        }
+        .frames {
+            display: flex;
+            flex-grow: 1;
+            position: relative;
+        }
+        iframe {
+            border: 0;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        #frameTool {
+            border-top: solid 1px gray;
+        }
+        #frameNavigator {
+            background-color: white;
+        }
+
+*/

@@ -24,7 +24,7 @@ async function setModal (name, show) {
 
 function hideModalFromBack (e) {
     let ref = e.srcElement
-    if (ref.hasAttribute("id")) {
+    if (ref.hasAttribute("id") && ref.hasAttribute("class") && ref.getAttribute("class") == "modalBack") {
         e.stopPropagation()
         e.preventDefault()
         setModal(`#${ref.getAttribute("id")}`, false)

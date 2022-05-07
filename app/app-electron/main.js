@@ -2,21 +2,22 @@
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
+let mainWindow = undefined
+
 function createWindow () {
   // Create the browser window.
-  const mainWindow = new BrowserWindow({
+  mainWindow = new BrowserWindow({
     width: 1024,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      preload: path.join(__dirname, 'preload.js'),
+      nodeIntegration: true,
+      contextIsolation: false
     }
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('./source/public/tool/index.html')
-
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.loadFile('./app.html')
 }
 
 // This method will be called when Electron has finished
@@ -42,3 +43,16 @@ app.on('window-all-closed', function () {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+
+const {ipcMain} = require('electron');
+
+// Attach listener in the main process with the given ID
+ipcMain.on('request-mainprocess-action', (event, arg) => {
+    if (arg.call == 'openTools') {
+      if (mainWindow.webContents.isDevToolsOpened()) {
+        mainWindow.webContents.closeDevTools()
+      } else {
+        mainWindow.webContents.openDevTools()
+      }
+    }
+});

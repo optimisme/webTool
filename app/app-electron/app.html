@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+        <link href="./app.css" rel="stylesheet" />
+        <script src="./app.js"></script>
+        <title>Web Tool (desktop)</title>
+    </head>
+    <body>
+        <div id="tabsBar">
+            <div id="tabTool"       class="tab" onclick="selectTab('tool')">Tool</div>
+            <div id="tabServer"     class="tab" onclick="selectTab('server')">Server</div>
+            <div id="buttonTools"   onclick="openTools()"><span class="material-icons">construction</span></div>
+        </div>
+        <div id="contents">
+            <div id="contentTool" class="content">
+                <iframe id="frameTool" src="./source/public/tool/index.html"></iframe>
+            </div>
+            <div id="contentServer" class="content">
+                <div id="navigationBar">
+                    Path: <input id="navigationURL" type="text" onchange="navigateTo()" value="/index.html"/>
+                    <div id="buttonRefresh" onclick="refresh()"><span class="material-icons">refresh</span></div>
+                </div>
+                <iframe id="frameServer" src="./source/public/index.html"></iframe>
+            </div>
+        </div>
+
+    </body>
+</html>
