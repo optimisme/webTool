@@ -14,23 +14,27 @@
         <title>Web Tool (desktop)</title>
     </head>
     <body>
-        <div id="tabsBar">
-            <div id="tabTool"       class="tab" onclick="selectTab('tool')">Tool</div>
-            <div id="tabServer"     class="tab" onclick="selectTab('server')">Server</div>
-            <div id="buttonTools"   onclick="openTools()"><span class="material-icons">construction</span></div>
+        <div id="topBar">
+            <div class="option">
+                <span id="optionTool" class="optionSelected" onclick="selectTab('tool')">Tool</span>
+            </div>
+            <div class="option">
+                <span id="optionServer" onclick="selectTab('server')">Server</span>
+            </div>
+            <div id="navigationBar">
+                <span>Path: </span>
+                <input id="navigationURL" disabled="true" type="text" onchange="navigateTo()" value="/index.html"/>
+                <span id="buttonRefresh" class="material-icons" onclick="refresh()">refresh</span>
+                <span id="buttonTools" class="material-icons" onclick="openTools()">construction</span>
+            </div>
         </div>
         <div id="contents">
             <div id="contentTool" class="content">
                 <iframe id="frameTool" src="./source/public/tool/index.html"></iframe>
             </div>
             <div id="contentServer" class="content">
-                <div id="navigationBar">
-                    Path: <input id="navigationURL" type="text" onchange="navigateTo()" value="/index.html"/>
-                    <div id="buttonRefresh" onclick="refresh()"><span class="material-icons">refresh</span></div>
-                </div>
                 <iframe id="frameServer" src="./source/public/index.html"></iframe>
             </div>
         </div>
-
     </body>
 </html>

@@ -7,42 +7,66 @@ body {
     min-height: 100vh;
 }
 
-#tabsBar {
+#topBar {
     align-items: stretch;
+    background-color: #f0f0f0;
+    border-bottom: solid 1px gray;
     display: flex;
     min-height: 32px;
 }
 
-.tab {
+.option {
     align-items: center;
-    border: solid 1px grey;
-    border-bottom: none;
-    border-left: none;
-    border-radius: 8px 8px 0 0;
-    cursor: pointer;
+    color: gray;
     display: flex;
     justify-content: center;
-    margin-top: 8px;
+    padding: 0;
     text-align: center;
 }
 
-#tabTool {
-    flex-grow: 1;
+.option:first-child {
+    padding-left: 8px;
 }
 
-#tabServer {
+.option > span {
+    border-radius: 8px;
+    color: rgb(0, 125, 255);
+    cursor: pointer;
+    min-width: 75px;
+    padding: 4px 4px;
+}
+
+.optionSelected {
+    background-color: rgba(0, 125, 255, 0.2);
+}
+
+#navigationBar {
+    align-items: center;
+    color: gray;
+    display: flex;
     flex-grow: 1;
+    padding-left: 8px;
+}
+
+#navigationURL {
+    flex-grow: 1;
+    margin: 8px;
+    margin-right: 0;
+}
+
+#buttonRefresh {
+    margin-left: 8px;
+}
+
+.buttonRefreshActive {
+    color: rgb(0, 125, 255);
+    cursor: pointer;
 }
 
 #buttonTools {
-    border-bottom: solid 1px gray;
-    box-sizing: border-box;
+    color: rgb(0, 125, 255);
     cursor: pointer;
-    padding: 0 16px;
-}
-
-#buttonTools > span {
-    margin-top: 12px;
+    margin: 0 8px;
 }
 
 #contents {
@@ -77,75 +101,9 @@ body {
     flex-direction: column;
 }
 
-#navigationBar {
-    align-items: center;
-    display: flex;
-    padding-left: 8px;
-}
-
-#navigationURL {
-    flex-grow: 1;
-    margin: 8px;
-    margin-right: 0;
-}
-
-#buttonRefresh {
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 0 16px;
-    padding: 8px 0;
-}
-
-#buttonRefresh > span {
-    margin-top: 4px;
-}
-
 #frameServer {
     background-color: white;
     border: none;
     height: 100%;
     width: 100%;
 }
-
-/*
-        .tabsbar > div {
-            border: solid 1px grey;
-            border-bottom: none;
-            border-radius: 8px 8px 0 0;
-    
-            cursor: pointer;
-            text-align: center;
-            width: 50%;
-        }
-        #toolbar {
-            align-items: center;
-            background-color: white;
-            display: flex;
-        }
-        input {
-            flex-grow: 1;
-            margin: 8px;
-        }
-        span {
-            cursor: pointer;
-            margin: 8px;
-        }
-        .frames {
-            display: flex;
-            flex-grow: 1;
-            position: relative;
-        }
-        iframe {
-            border: 0;
-            position: absolute;
-            height: 100%;
-            width: 100%;
-        }
-        #frameTool {
-            border-top: solid 1px gray;
-        }
-        #frameNavigator {
-            background-color: white;
-        }
-
-*/
