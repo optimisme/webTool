@@ -1,17 +1,33 @@
-const { ipcRenderer } = require('electron');
+const { ipcRenderer } = require('electron')
+
+window.addEventListener('load', () => { init() })
+
+function init () {
+    let refFrame = document.querySelector('#frameServer')
+    refFrame.addEventListener('load', () => {
+        if (refFrame.contentDocument && refFrame.contentDocument.querySelector('title') == null) {
+            refFrame.src = './app-error.html'
+        }
+    })
+}
+
+function wait (time) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => { return resolve() }, time)
+    })
+}
 
 function openTools () {
     ipcRenderer.send('request-mainprocess-action', { call: "openTools" })
 }
 
-function navigateTo () {
+async function navigateTo () {
     let url = document.querySelector('#navigationURL').value
     if (url.substring(0, 1) == '/') {
         document.querySelector('#frameServer').src = "./source/public/" + url
     } else {
         document.querySelector('#frameServer').src = url
     }
-    // TODO: Check if 'iframe' loaded properly
 }
 
 function refresh () {
