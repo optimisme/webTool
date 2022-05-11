@@ -13,7 +13,7 @@ echo "Docker: Build linux app:"
 npx electron-packager /project webtool --platform=linux --arch=x64
 
 echo "Docker: Build windows app:"
-npx electron-packager /project webtool --platform=win32 --arch=x64 --icon=/project/source/public/favicon.ico
+npx electron-packager /project webtool --platform=win32 --arch=x64 --icon=/project/public/favicon.ico
 
 echo "Docker: Move builds out of docker:"
 rm webtool-linux-x64/resources/app/docker-build.sh

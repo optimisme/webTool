@@ -1,8 +1,10 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
+const server = require("./server")
 
 let mainWindow = undefined
+let port = process.env.PORT || 44444
 
 function createWindow () {
   // Create the browser window.

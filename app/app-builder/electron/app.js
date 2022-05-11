@@ -5,12 +5,21 @@ window.addEventListener('load', () => { init() })
 function init () {
     let refFrame = document.querySelector('#frameServer')
     refFrame.addEventListener('load', () => {
-        if (refFrame.contentDocument && refFrame.contentDocument.querySelector('title') == null) {
-            refFrame.src = './app-error.html'
+        let refFrame = document.querySelector('#frameServer')
+        let refURL = document.querySelector('#navigationURL')
+        let oldUrl = refURL.value
+        let newUrl = refFrame.contentDocument.location.href
+        if (oldUrl != newUrl) {
+            refURL.value = newUrl
         }
+       // if (refFrame.contentDocument && refFrame.contentDocument.querySelector('title') == null) {
+       //     refFrame.src = './app-error.html'
+       // } else {
+            
+       // }
     })
-    document.querySelector('#frameTool').src = `http://localhost:${port}/tool/index.html`
-    document.querySelector('#frameServer').src = `http://localhost:${port}/index.html`
+    document.querySelector('#frameTool').src = '../tool/index.html'
+    document.querySelector('#frameServer').src = '../index.html'
 }
 
 function wait (time) {
@@ -26,7 +35,7 @@ function openTools () {
 async function navigateTo () {
     let url = document.querySelector('#navigationURL').value
     if (url.substring(0, 1) == '/') {
-        document.querySelector('#frameServer').src = "./source/public/" + url
+        document.querySelector('#frameServer').src = "./public/" + url
     } else {
         document.querySelector('#frameServer').src = url
     }

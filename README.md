@@ -21,7 +21,7 @@ You can use this tool as an app:
 
 #### Windows: [webtool-win-x86.zip](https://mega.nz/file/YiBiVK7B#GvfLMkI-6uzKkU7HMNfwgny4beaBGh4zYz89G6yy_a8)
 
-#### Linux: [webtool-linux-x86.zip](https://mega.nz/file/AuZmlZgJ#1ZIa2NYteJIefstWNpxw-HTvpSpZb6u61IKh75Pe8Po)
+#### Linux: [webtool-linux-x86.zip](https://mega.nz/file/VyYVVZhI#T_EclCvXavSadhdKsUcVBz_4bC1iKrvCdesJ7T2q878)
 
 Download and run it, remember that the server files are located at:
 

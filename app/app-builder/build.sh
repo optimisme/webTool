@@ -7,12 +7,13 @@ rm -rf ../app-distribution
 mkdir ../app-distribution
 
 echo "Copy source files from server:"
-rm -rf ../app-electron/source
-mkdir ../app-electron/source
-cp -r ../../server/public ../app-electron/source
-rm ../app-electron/source/public/index.html
-cp ./index_electron.html ../app-electron/source/public/index.html
-rm -rf ../app-electron/source/public/exercicis
+rm -rf ../app-electron/public
+cp -r ../../server/public ../app-electron
+mkdir ../app-electron/public/electron
+cp -r ./electron/* ../app-electron/public/electron/
+rm -rf ../app-electron/public/exercicis
+rm ../app-electron/public/index.html
+cp ./electron/index-electron.html ../app-electron/public/index.html
 
 # echo "Get electron-packager:"
 # npm install electron-packager

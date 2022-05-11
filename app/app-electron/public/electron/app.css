@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    user-select: none;
+    min-height: 100vh;
+}
+
+#topBar {
+    align-items: stretch;
+    background-color: #f0f0f0;
+    border-bottom: solid 1px gray;
+    display: flex;
+    min-height: 32px;
+}
+
+.option {
+    align-items: center;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+}
+
+.option:first-child {
+    padding-left: 8px;
+}
+
+.option > span {
+    border-radius: 8px;
+    color: rgb(0, 125, 255);
+    cursor: pointer;
+    min-width: 75px;
+    padding: 4px 4px;
+}
+
+.optionSelected {
+    background-color: rgba(0, 125, 255, 0.2);
+}
+
+#navigationBar {
+    align-items: center;
+    color: gray;
+    display: flex;
+    flex-grow: 1;
+    padding-left: 8px;
+}
+
+#navigationURL {
+    flex-grow: 1;
+    margin: 8px;
+    margin-right: 0;
+}
+
+#buttonRefresh {
+    margin-left: 8px;
+}
+
+.buttonRefreshActive {
+    color: rgb(0, 125, 255);
+    cursor: pointer;
+}
+
+#buttonTools {
+    color: rgb(0, 125, 255);
+    cursor: pointer;
+    margin: 0 8px;
+}
+
+#contents {
+    position: relative;
+    flex-grow: 1;
+}
+
+.content {
+    border: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#contentTool {
+    border: 0;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#frameTool {
+    border: none;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+#contentServer {
+    display: none;
+    flex-direction: column;
+}
+
+#frameServer {
+    background-color: white;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
