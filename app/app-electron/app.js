@@ -9,6 +9,8 @@ function init () {
             refFrame.src = './app-error.html'
         }
     })
+    document.querySelector('#frameTool').src = `http://localhost:${port}/tool/index.html`
+    document.querySelector('#frameServer').src = `http://localhost:${port}/index.html`
 }
 
 function wait (time) {
