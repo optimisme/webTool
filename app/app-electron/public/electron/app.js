@@ -2,6 +2,12 @@ const { ipcRenderer } = require('electron')
 
 window.addEventListener('load', () => { init() })
 
+ipcRenderer.on('asynchronous-message', function (evt, message) {
+    if (message.call == 'refresh') {
+        refresh()
+    }
+})
+
 function init () {
     let refFrame = document.querySelector('#frameServer')
     refFrame.addEventListener('load', () => {

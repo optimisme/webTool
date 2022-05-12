@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, globalShortcut } = require('electron')
 const path = require('path')
 const server = require("./server")
 
@@ -42,6 +42,21 @@ app.on('window-all-closed', function () {
   // if (process.platform !== 'darwin') app.quit()
   app.quit()
 })
+
+app.on('browser-window-focus', function () {
+  globalShortcut.register("CommandOrControl+R", () => {
+    mainWindow.webContents.send('asynchronous-message', { call: 'refresh'})
+  })
+  globalShortcut.register("F5", () => {
+    mainWindow.webContents.send('asynchronous-message', { call: 'refresh'})
+  })
+})
+
+app.on('browser-window-blur', function () {
+  globalShortcut.unregister('CommandOrControl+R')
+  globalShortcut.unregister('F5')
+})
+
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
