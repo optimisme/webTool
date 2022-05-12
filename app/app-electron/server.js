@@ -1,9 +1,8 @@
 const express = require('express')
 const path = require('path')
 
-let app = express()
-var port = process.env.PORT || 44444
+this.app = express()
+this.port = process.env.PORT || 44444
+this.server = this.app.listen(this.port)
 
-let server = app.listen(port)
-
-app.use('/', express.static(path.join(__dirname + '/public')))
+this.app.use('/', express.static(path.join(__dirname + '/public')))

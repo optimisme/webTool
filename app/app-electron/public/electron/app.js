@@ -2,12 +2,6 @@ const { ipcRenderer } = require('electron')
 
 window.addEventListener('load', () => { init() })
 
-ipcRenderer.on('asynchronous-message', function (evt, message) {
-    if (message.call == 'refresh') {
-        refresh()
-    }
-});
-
 function init () {
     let refFrame = document.querySelector('#frameServer')
     refFrame.addEventListener('load', () => {
@@ -18,12 +12,8 @@ function init () {
         if (oldUrl != newUrl) {
             refURL.value = newUrl
         }
-       // if (refFrame.contentDocument && refFrame.contentDocument.querySelector('title') == null) {
-       //     refFrame.src = './app-error.html'
-       // } else {
-            
-       // }
     })
+    document.querySelector('#navigationURL').value = `http://localhost:${location.port}/index.html`
     document.querySelector('#frameTool').src = '../tool/index.html'
     document.querySelector('#frameServer').src = '../index.html'
 }

@@ -12,12 +12,8 @@ function init () {
         if (oldUrl != newUrl) {
             refURL.value = newUrl
         }
-       // if (refFrame.contentDocument && refFrame.contentDocument.querySelector('title') == null) {
-       //     refFrame.src = './app-error.html'
-       // } else {
-            
-       // }
     })
+    document.querySelector('#navigationURL').value = `http://localhost:${location.port}/index.html`
     document.querySelector('#frameTool').src = '../tool/index.html'
     document.querySelector('#frameServer').src = '../index.html'
 }

@@ -1,10 +1,9 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow, globalShortcut } = require('electron')
+const { app, BrowserWindow, globalShortcut, ipcMain } = require('electron')
 const path = require('path')
 const server = require("./server")
 
 let mainWindow = undefined
-let port = process.env.PORT || 44444
 
 function createWindow () {
   // Create the browser window.
@@ -20,6 +19,9 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadFile('./app.html')
+  mainWindow.webContents.once("dom-ready", () => {
+    mainWindow.webContents.executeJavaScript(`window.document.location.href = "http://localhost:${server.port}/electron/app.html"`)
+  })
 }
 
 // This method will be called when Electron has finished
@@ -59,11 +61,9 @@ app.on('browser-window-blur', function () {
   globalShortcut.unregister('F5')
 })
 
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
-
-const {ipcMain} = require('electron');
+ipcMain.on( "setMyGlobalVariable", ( event, myGlobalVariableValue ) => {
+  global.myGlobalVariable = myGlobalVariableValue;
+} )
 
 // Attach listener in the main process with the given ID
 ipcMain.on('request-mainprocess-action', (event, arg) => {
@@ -74,4 +74,4 @@ ipcMain.on('request-mainprocess-action', (event, arg) => {
         mainWindow.webContents.openDevTools()
       }
     }
-});
+})
