@@ -19,9 +19,9 @@ Obviously, with the online version, all the paths and URLs must be from Internet
 
 You can use this tool as an app:
 
-#### Windows: [webtool-win-x86.zip](https://mega.nz/file/VyYVVZhI#T_EclCvXavSadhdKsUcVBz_4bC1iKrvCdesJ7T2q878)
+#### Windows: [webtool-win-x86.zip](https://mega.nz/file/MiJ3wYAa#frCVXsdptUQKpHpECzeoBCKcHriwOSZQz74i5tvjbfc)
 
-#### Linux: [webtool-linux-x86.zip](https://mega.nz/file/w3QR0DoL#jW3_-mGnmtRA_WS2b7TJatqEWY7n9PEfVtcCyar6_7s)
+#### Linux: [webtool-linux-x86.zip](https://mega.nz/file/pqJ0EQJa#vcaNQ_dLx7fN54ky1yG5V2Viac8N-ds-sze6HKc83JI)
 
 Download and run it, remember that the server files are located at:
 
