@@ -79,7 +79,20 @@ function promiseGetPostData (request) {
                 return reject(error)
             } else {
                 try {
-                    return resolve(JSON.parse(body))
+                    let params = new URLSearchParams(body)
+                    let objPost = Object.fromEntries(params)
+                    let keys = Object.keys(objPost)
+                    for (let cnt = 0; cnt < keys.length; cnt = cnt + 1) {
+                        let value = objPost[keys[cnt]]
+                        let valueInt = parseInt(value)
+                        let valueFlt = parseFloat(value)
+                        if (valueInt && valueFlt) {
+                            if (valueInt == valueFlt) objPost[keys[cnt]] = valueInt
+                            else objPost[keys[cnt]] = valueFlt
+                        }
+                    }
+                    console.log(params)
+                    return resolve(objPost)
                 } catch (e) {
                     console.log('Error parsing data from post: ', error)
                     return reject(e)
