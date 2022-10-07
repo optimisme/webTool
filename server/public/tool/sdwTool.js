@@ -550,7 +550,10 @@ export class sdwTool extends HTMLElement {
         let childPosition = child.getPosition()
 
         if (newParent == child.parent && childPosition < parentPosition) {
-            fixedPosition = parentPosition - 1
+            // TODO: Revisar moure elements dins del mateix pare
+            // si només n'hi ha dos i el segon puja a dalt la següent linia falla
+            // comento la linia pq no recordo perquè serveix
+            // fixedPosition = parentPosition - 1
         }
         
         child.parent.childs.splice(childPosition, 1) // Remove chid
