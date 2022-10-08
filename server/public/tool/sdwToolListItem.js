@@ -79,19 +79,17 @@ export class sdwToolListItem extends HTMLElement {
             e.stopPropagation()
             if (app.drag.allowed) {
                 let position = app.drag.position
-                /*
-                if (this.refApp == app.drag.refDragElement) {
-                    position = position - 1
-                } else if (position == 2 && app.drag.refDragElement.getPosition() == 0) {
-                    position = 1
-                } else if (app.drag.refDropElement == this.refApp) {
-                    position = 0
-                }*/
 
                 let parentOrigin = app.drag.refDragElement.parent
-                let positionOrigin = app.drag.refDragElement.getPosition()
-                let ref = app.moveAt(app.drag.refDropElement, app.drag.refDragElement , position)
                 let parentDestination = app.drag.refDropElement
+
+                let positionOrigin = app.drag.refDragElement.getPosition()
+                if (parentOrigin == parentDestination && position > positionOrigin) {
+                    // Moving to the same parent but bigger possition, array will be sliced
+                    position = position - 1;
+                }
+
+                let ref = app.moveAt(app.drag.refDropElement, app.drag.refDragElement , position)
                 let positionDestination = ref.getPosition()
 
                 app.actions.push( { 

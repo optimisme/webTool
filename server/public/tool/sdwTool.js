@@ -549,12 +549,14 @@ export class sdwTool extends HTMLElement {
         let fixedPosition = parentPosition
         let childPosition = child.getPosition()
 
+        /* Intentava arreglar un bug de 'moveAt' de 'sdwToolListItem.js'
         if (newParent == child.parent && childPosition < parentPosition) {
             // TODO: Revisar moure elements dins del mateix pare
             // si només n'hi ha dos i el segon puja a dalt la següent linia falla
             // comento la linia pq no recordo perquè serveix
-            // fixedPosition = parentPosition - 1
+            //fixedPosition = parentPosition - 1
         }
+        */
         
         child.parent.childs.splice(childPosition, 1) // Remove chid
         newParent.childs.splice(fixedPosition, 0, child) // Add to newParent
