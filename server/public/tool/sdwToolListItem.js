@@ -85,7 +85,7 @@ export class sdwToolListItem extends HTMLElement {
 
                 let positionOrigin = app.drag.refDragElement.getPosition()
                 if (parentOrigin == parentDestination && position > positionOrigin) {
-                    // Moving to the same parent but bigger possition, array will be sliced
+                    // Moving bigger possition of the same parent, array will be sliced
                     position = position - 1;
                 }
 
