@@ -624,4 +624,8 @@ export class sdwTool extends HTMLElement {
     printTree () {
         this.elementsRoot.printTree("")
     }
+
+    printActions () {
+        console.log(app.actions)
+    }
 }

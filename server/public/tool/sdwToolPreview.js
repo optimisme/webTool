@@ -225,6 +225,11 @@ export class sdwToolPreview extends HTMLElement {
             for (let cnt = 0; cnt < refBody.childs.length; cnt = cnt + 1) {
                 let tmpRef = refBody.childs[cnt]
                 tmpRef.refList.collapse()
+                childs.push({
+                    child: tmpRef.appId,
+                    position: tmpRef.getPosition(),
+                    obj: tmpRef.toString()
+                })
             }
             app.refs["list"].setChildsPositions()
 
