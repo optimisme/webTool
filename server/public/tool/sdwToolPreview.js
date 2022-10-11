@@ -9,6 +9,8 @@ export class sdwToolPreview extends HTMLElement {
         this.refs = {}
         this.previewHead = undefined
         this.visualization = "desktop"
+        this.showingList = true
+        this.showingSettings = true
         this.autoSaveData = {
             active: false,
             stackSize: 0,
@@ -126,6 +128,14 @@ export class sdwToolPreview extends HTMLElement {
                 } )
             }
             this.setVisualization('desktop')
+        })
+
+        this.refs["buttonSidebarList"].addEventListener('click', () => {
+            this.setSidebar('list')
+        })
+
+        this.refs["buttonSidebarSettings"].addEventListener('click', () => {
+            this.setSidebar('settings')
         })
 
         this.refs["undo"].addEventListener('click', () => {
@@ -507,6 +517,56 @@ export class sdwToolPreview extends HTMLElement {
             await app.wait(250)
             app.refs["preview"].refs["content"].contentWindow.select(app.refSelected.refPreview)
         }
+    }
+
+    setSidebar (type) {
+        if (type == "list") {
+            if (this.showingList) {
+                this.refs["buttonSidebarList"].classList.remove('buttonSelected')
+            } else {
+                this.refs["buttonSidebarList"].classList.add('buttonSelected')
+            }
+            this.showingList = !this.showingList
+        } 
+        if (type == "settings") {
+            if (this.showingSettings) {
+                this.refs["buttonSidebarSettings"].classList.remove('buttonSelected')
+            } else {
+                this.refs["buttonSidebarSettings"].classList.add('buttonSelected')
+            }
+            this.showingSettings = !this.showingSettings
+        }
+        let previewWidth = ""
+        let listRight = ""
+        let settingsRight = ""
+
+        if (this.showingList && this.showingSettings) {
+            previewWidth = "calc(100% - 550px)"
+            listRight = "275px"
+            settingsRight = "0"
+        }
+
+        if (!this.showingList && this.showingSettings) {
+            previewWidth = "calc(100% - 275px)"
+            listRight = "-275px"
+            settingsRight = "0"
+        }
+
+        if (this.showingList && !this.showingSettings) {
+            previewWidth = "calc(100% - 275px)"
+            listRight = "0"
+            settingsRight = "-275px"
+        }
+
+        if (!this.showingList && !this.showingSettings) {
+            previewWidth = "100%"
+            listRight = "-275px"
+            settingsRight = "-275px"
+        }
+
+        app.refs.preview.elmRoot.style.width = previewWidth;
+        app.refs.list.elmRoot.style.right = listRight;
+        app.refs.settings.elmRoot.style.right = settingsRight;
     }
 
     setScript (value) {

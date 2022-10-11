@@ -56,7 +56,7 @@
                   "margin-left": "auto",
                   "box-sizing": "border-box",
                   "width": "100%",
-                  "max-width": "1264px",
+                  "max-width": "800px",
                   "padding-right": "32px",
                   "padding-left": "32px"
                 },

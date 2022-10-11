@@ -10,9 +10,10 @@
   "bundleDependencies": [],
   "main": "./server.js",
   "scripts": {
-    "start": "node ./server.js",
-    "watch": "npm run app",
-    "app": "supervisor --extensions node,js,html,css --ignore .git,node_modules --ignore-symlinks node -- ./server.js",
+    "app": "forever ./server.js",
+    "start": "forever ./server.js",
+    "dev": "nodemon ./server.js",
+    "watch": "nodemon ./server.js",
     "postinstall": ""
   },
   "dependencies": {

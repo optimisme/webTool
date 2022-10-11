@@ -9,6 +9,7 @@
     overflow-y: auto;
     position: absolute;
     top: 0;
+    transition: width 0.5s ease;
     user-select: none;
     -webkit-user-select: none;
     width: calc(100% - 550px);
@@ -27,6 +28,13 @@
     margin: 0 4px;
 }
 .root > div[data-ref="buttons"] > div[data-ref="buttonTablet"] {
+    margin: 0;
+}
+.root > div[data-ref="buttons"] > div[data-ref="buttonSidebarList"] {
+    margin: 0;
+    margin-right: 4px;
+}
+.root > div[data-ref="buttons"] > div[data-ref="buttonSidebarSettings"] {
     margin: 0;
 }
 .root > div[data-ref="buttons"] > div {
@@ -103,7 +111,7 @@ img {
     justify-content: center;
     text-shadow: -1px 0px 0px #efefef;
 }
- .undoRedo {
+.undoRedo {
     align-items: center;
     display: flex;
 }
