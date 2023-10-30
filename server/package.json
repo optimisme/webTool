@@ -14,7 +14,6 @@
     "app": "pm2 start ./server.js",
     "pm2List": "pm2 list",
     "pm2Delete": "pm2 delete server",
-    "watch": "nodemon ./server.js",
     "postinstall": ""
   },
   "dependencies": {
